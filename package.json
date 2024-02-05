@@ -1,0 +1,30 @@
+{
+  "name": "ids-foundation",
+  "version": "1.0.0",
+  "description": "Base tokens, font files and foundational assets for IDS",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx eslint scripts/*.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:tokens": "node scripts/generate-tokens.mjs",
+    "build:icons": "node scripts/generate-icons.mjs",
+    "build": "npm run build:tokens && npm run build:icons && node scripts/build-release.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infor-design/ids-foundation.git"
+  },
+  "author": "Infor Design",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/infor-design/ids-foundation/issues"
+  },
+  "homepage": "https://github.com/infor-design/ids-foundation#readme",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
