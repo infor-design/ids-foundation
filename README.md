@@ -34,9 +34,8 @@ Tokens are categorized by whichever foundational style that’s applied.
 
 ## Designs with Tokens
 
+This file contains the components and shows the mapping
 https://www.figma.com/file/7Fl52jRJUDVJawJB8IXQri/IDS-Variables-component-library?node-id=21%3A3517&mode=dev
-vs
-https://www.figma.com/file/7Fl52jRJUDVJawJB8IXQri/IDS-Variables-component-library?type=design&node-id=90-20227&mode=design&t=lbm2t7JlvSDDA6OB-0#663330517
 
 ## Icon Fonts
 
