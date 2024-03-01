@@ -15,6 +15,7 @@ Tokens are categorized by whichever foundational style that’s applied.
 |**color**    |Defines fills for backgrounds, text, icons, and borders |`$color-surface-secondary`| Included |
 |**radius**   |Defines border radii for surfaced  for backgrounds, text, icons, and borders |`$border-radius-02`| Included |
 |**spacing**  |Defines scalable padding and margin units for grids and layouts  |`$space-05`| Included |
+|**surface**  |Defines layers such as background color and drop shadows  |`$color-surface-default`| Included |
 |**font**     |Defines typography attributes like font families, weights, sizes, and line height |`$font-size-label`| Future |
 |**border**   |Defines stroke widths, styles, and radiuses  |`$border-style-dashed`| Future |
 |**size**     |Defines other reusable values for heights, widths, and breakpoints  |`$size-70`| Future |
@@ -23,10 +24,10 @@ Tokens are categorized by whichever foundational style that’s applied.
 
 ## Generating Tokens
 
-1. Open file https://www.figma.com/file/LzcXsS59nyn2N1bSP3qotu/%F0%9F%9A%A7-IDS-Tokens?type=design&node-id=0-1&mode=design&t=TJ5lvXnRcY9fcvAK-0
+1. Open file https://www.figma.com/file/vZbJ659UdOMYr7pm86qT0r/Design-System%3A-V5?node-id=16%3A646
 2. On the Design tab on the right panel, click "Local Variables" to see the tokens
 3. On the bottom of that panel Click "Variables Pro"
-4. Click Export then check all 3 collections
+4. Click Export then check all collections
 5. Click Export 
 6. Copy the JSON file to the tokens/theme-soho folder and call it figma-export-tokens.json (name used in the scripts)
 7. Select all text and format the JSON
@@ -34,9 +35,18 @@ Tokens are categorized by whichever foundational style that’s applied.
 
 ## Designs with Tokens
 
+Newest
+https://www.figma.com/file/vZbJ659UdOMYr7pm86qT0r/Design-System%3A-V5?node-id=16%3A646&mode=dev
+
+Older:
 https://www.figma.com/file/7Fl52jRJUDVJawJB8IXQri/IDS-Variables-component-library?node-id=21%3A3517&mode=dev
-vs
-https://www.figma.com/file/7Fl52jRJUDVJawJB8IXQri/IDS-Variables-component-library?type=design&node-id=90-20227&mode=design&t=lbm2t7JlvSDDA6OB-0#663330517
+
+## Generating Icons
+
+1. Go to https://pages.workers.design.infor.com/
+2. Run Job `design-system-dry-run` as a dry run (as if releasing that)
+3. Copy the zip from (example) https://infor-design-assets-downloads.s3.amazonaws.com/archives/dry-run-dist-4.16.2.zip
+4. Take the theme-new/icons/default part and copy it to the icons folder
 
 ## Icon Fonts
 
@@ -56,4 +66,4 @@ Alternative formats:
     url('fonts/IDS-V5.ttf?m5pnz1') format('truetype'),
     url('fonts/IDS-V5.woff?m5pnz1') format('woff'),
     url('fonts/IDS-V5.svg?m5pnz1#IDS-V5') format('svg');
-``` 
+```
