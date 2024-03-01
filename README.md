@@ -66,5 +66,4 @@ Alternative formats:
   src:  url('fonts/IDS-V5.eot?m5pnz1#iefix') format('embedded-opentype'),
     url('fonts/IDS-V5.ttf?m5pnz1') format('truetype'),
     url('fonts/IDS-V5.woff?m5pnz1') format('woff'),
-    url('fonts/IDS-V5.svg?m5pnz1#IDS-V5') format('svg');
 ```
