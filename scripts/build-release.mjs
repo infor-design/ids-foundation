@@ -15,12 +15,12 @@ fs.copyFileSync('tokens/theme-soho/theme-colors.scss', `${distDir}/theme-soho/th
 fs.copyFileSync('tokens/theme-soho/semantic-contrast.scss', `${distDir}/theme-soho/semantic-contrast.scss`);
 fs.copyFileSync('tokens/theme-soho/semantic-dark.scss', `${distDir}/theme-soho/semantic-dark.scss`);
 fs.copyFileSync('tokens/theme-soho/semantic-light.scss', `${distDir}/theme-soho/semantic-light.scss`);
+fs.copyFileSync('tokens/theme-terrazzo/core.scss', `${distDir}/theme-terrazzo/core.scss`);
+
+// Icon Fonts
+fs.mkdirSync(`${distDir}/icon-fonts`);
+fs.cpSync('icon-fonts', `${distDir}/icon-fonts`, { recursive: true });
 
 // Icons
 fs.mkdirSync(`${distDir}/icons`);
-fs.copyFileSync('icon-fonts/v5/fonts/ids-icons.woff', `${distDir}/icons/ids-icons.woff`);
-fs.copyFileSync('icon-fonts/v5/icon-styles.css', `${distDir}/icons/icon-styles.css`);
-fs.copyFileSync('icon-fonts/v5/icon-list.json', `${distDir}/icons/icon-list.json`);
-
-// Future
-// fs.copyFileSync('tokens/theme-terrazzo/*.scss', `${distDir}/theme-terrazzo/`);
+fs.cpSync('icons', 'dist/icons', { recursive: true });

@@ -11,7 +11,7 @@ console.log('Generating icon list ...');
 //   ]
 // }
 
-const file = fs.readFileSync('icon-fonts/v5/selection.json');
+const file = fs.readFileSync('icon-fonts/selection.json');
 const json = JSON.parse(file);
 const iconList = [];
 let iconListFileContents = '{\n  "icons": [\n';
@@ -30,7 +30,7 @@ for (let index = 0; index < iconList.length; index++) {
 }
 iconListFileContents += '  ]\n}';
 
-fs.writeFile('icon-fonts/v5/icon-list.json', iconListFileContents, (err) => {
+fs.writeFile('icon-fonts/icon-list.json', iconListFileContents, (err) => {
   if (err) console.log(err);
   else console.log(`Created icon-list.json with ${cnt} icons`);
 });

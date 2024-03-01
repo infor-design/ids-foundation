@@ -8,7 +8,7 @@ Design tokens are pieces of data that represent foundational styles in the desig
 
 ### Types
 
-Tokens are categorized by whichever foundational style that’s applied. 
+Tokens are categorized by whichever foundational style that’s applied.
 
 | Token       |                               |Example         |Status         |
 |-------------|-------------------------------|----------------|----------------|
@@ -28,10 +28,10 @@ Tokens are categorized by whichever foundational style that’s applied.
 2. On the Design tab on the right panel, click "Local Variables" to see the tokens
 3. On the bottom of that panel Click "Variables Pro"
 4. Click Export then check all collections
-5. Click Export 
+5. Click Export
 6. Copy the JSON file to the tokens/theme-soho folder and call it figma-export-tokens.json (name used in the scripts)
 7. Select all text and format the JSON
-8. Run `node scripts/generate-tokens.mjs` and use output 
+8. Run `node scripts/generate-tokens.mjs` and use output
 
 ## Designs with Tokens
 
@@ -46,7 +46,8 @@ https://www.figma.com/file/7Fl52jRJUDVJawJB8IXQri/IDS-Variables-component-librar
 1. Go to https://pages.workers.design.infor.com/
 2. Run Job `design-system-dry-run` as a dry run (as if releasing that)
 3. Copy the zip from (example) https://infor-design-assets-downloads.s3.amazonaws.com/archives/dry-run-dist-4.16.2.zip
-4. Take the theme-new/icons/default part and copy it to the icons folder
+4. Take the theme-new/icons/default part and copy it to the icons standard folder
+5. Take the theme-new/icons/old/empty part and copy it to the icons empty folder
 
 ## Icon Fonts
 

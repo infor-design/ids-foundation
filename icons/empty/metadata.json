@@ -1,0 +1,66 @@
+{
+    "categories": [
+        {
+            "name": "empty states",
+            "icons": [
+                "empty-error-loading",
+                "empty-generic",
+                "empty-new-project",
+                "empty-no-alerts",
+                "empty-no-analytics",
+                "empty-no-budget",
+                "empty-no-data",
+                "empty-no-events",
+                "empty-no-notes",
+                "empty-no-orders",
+                "empty-no-tasks",
+                "empty-no-users",
+                "empty-search-data"
+            ]
+        },
+        {
+            "name": "new empty states",
+            "icons": [
+                "empty-error-loading-new",
+                "empty-generic-alt",
+                "empty-generic-new",
+                "empty-new-project-new",
+                "empty-no-alerts-new",
+                "empty-no-analytics-new",
+                "empty-no-budget-new",
+                "empty-no-data-new",
+                "empty-no-events-new",
+                "empty-no-image",
+                "empty-no-notes-new",
+                "empty-no-orders-new",
+                "empty-no-search-result",
+                "empty-no-tasks-new",
+                "empty-no-users-new",
+                "empty-search-data-new"
+            ]
+        },
+        {
+            "name": "new empty states - 150x150",
+            "icons": [
+                "configure-150x150",
+                "ideas-150x150",
+                "no-source-150x150",
+                "set-up-150x150"
+            ]
+        },
+        {
+            "name": "new empty states - 300x300",
+            "icons": [
+                "search-unavailable-300x300",
+                "set-up-300x300",
+                "success-message-300x300"
+            ]
+        },
+        {
+            "name": "new empty states - 500x500",
+            "icons": [
+                "service-unavailable"
+            ]
+        }
+    ]
+}
