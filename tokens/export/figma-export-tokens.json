@@ -4,6 +4,72 @@
       "modes": {
         "Light": {
           "color": {
+            "error": {
+              "on": {
+                "$scopes": [
+                  "ALL_SCOPES"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.white.100}"
+              },
+              "strongest": {
+                "$scopes": [
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.red.100}"
+              },
+              "stronger": {
+                "$scopes": [
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.red.80}"
+              },
+              "strong": {
+                "$scopes": [
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.red.60}"
+              },
+              "weaker": {
+                "$scopes": [
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.red.20}"
+              },
+              "weakest": {
+                "$scopes": [
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.red.10}"
+              }
+            },
             "icon": {
               "action": {
                 "secondary": {
@@ -713,108 +779,6 @@
               }
             },
             "charts": {
-              "density": {
-                "10": {
-                  "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
-                  ],
-                  "$type": "color",
-                  "$libraryName": "",
-                  "$collectionName": "_Core",
-                  "$value": "{color.blue.10}"
-                },
-                "20": {
-                  "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
-                  ],
-                  "$type": "color",
-                  "$libraryName": "",
-                  "$collectionName": "_Core",
-                  "$value": "{color.blue.20}"
-                },
-                "30": {
-                  "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
-                  ],
-                  "$type": "color",
-                  "$libraryName": "",
-                  "$collectionName": "_Core",
-                  "$value": "{color.blue.30}"
-                },
-                "40": {
-                  "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
-                  ],
-                  "$type": "color",
-                  "$libraryName": "",
-                  "$collectionName": "_Core",
-                  "$value": "{color.blue.40}"
-                },
-                "50": {
-                  "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
-                  ],
-                  "$type": "color",
-                  "$libraryName": "",
-                  "$collectionName": "_Core",
-                  "$value": "{color.blue.50}"
-                },
-                "60": {
-                  "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
-                  ],
-                  "$type": "color",
-                  "$libraryName": "",
-                  "$collectionName": "_Core",
-                  "$value": "{color.blue.60}"
-                },
-                "70": {
-                  "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
-                  ],
-                  "$type": "color",
-                  "$libraryName": "",
-                  "$collectionName": "_Core",
-                  "$value": "{color.blue.70}"
-                },
-                "80": {
-                  "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
-                  ],
-                  "$type": "color",
-                  "$libraryName": "",
-                  "$collectionName": "_Core",
-                  "$value": "{color.blue.80}"
-                },
-                "90": {
-                  "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
-                  ],
-                  "$type": "color",
-                  "$libraryName": "",
-                  "$collectionName": "_Core",
-                  "$value": "{color.blue.90}"
-                },
-                "100": {
-                  "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
-                  ],
-                  "$type": "color",
-                  "$libraryName": "",
-                  "$collectionName": "_Core",
-                  "$value": "{color.blue.100}"
-                }
-              },
               "qualitative": {
                 "10": {
                   "$scopes": [
@@ -1169,6 +1133,108 @@
                   "$value": "{color.blue.80}"
                 }
               },
+              "density": {
+                "10": {
+                  "$scopes": [
+                    "SHAPE_FILL",
+                    "FRAME_FILL"
+                  ],
+                  "$type": "color",
+                  "$libraryName": "",
+                  "$collectionName": "_Core",
+                  "$value": "{color.blue.10}"
+                },
+                "20": {
+                  "$scopes": [
+                    "SHAPE_FILL",
+                    "FRAME_FILL"
+                  ],
+                  "$type": "color",
+                  "$libraryName": "",
+                  "$collectionName": "_Core",
+                  "$value": "{color.blue.20}"
+                },
+                "30": {
+                  "$scopes": [
+                    "SHAPE_FILL",
+                    "FRAME_FILL"
+                  ],
+                  "$type": "color",
+                  "$libraryName": "",
+                  "$collectionName": "_Core",
+                  "$value": "{color.blue.30}"
+                },
+                "40": {
+                  "$scopes": [
+                    "SHAPE_FILL",
+                    "FRAME_FILL"
+                  ],
+                  "$type": "color",
+                  "$libraryName": "",
+                  "$collectionName": "_Core",
+                  "$value": "{color.blue.40}"
+                },
+                "50": {
+                  "$scopes": [
+                    "SHAPE_FILL",
+                    "FRAME_FILL"
+                  ],
+                  "$type": "color",
+                  "$libraryName": "",
+                  "$collectionName": "_Core",
+                  "$value": "{color.blue.50}"
+                },
+                "60": {
+                  "$scopes": [
+                    "SHAPE_FILL",
+                    "FRAME_FILL"
+                  ],
+                  "$type": "color",
+                  "$libraryName": "",
+                  "$collectionName": "_Core",
+                  "$value": "{color.blue.60}"
+                },
+                "70": {
+                  "$scopes": [
+                    "SHAPE_FILL",
+                    "FRAME_FILL"
+                  ],
+                  "$type": "color",
+                  "$libraryName": "",
+                  "$collectionName": "_Core",
+                  "$value": "{color.blue.70}"
+                },
+                "80": {
+                  "$scopes": [
+                    "SHAPE_FILL",
+                    "FRAME_FILL"
+                  ],
+                  "$type": "color",
+                  "$libraryName": "",
+                  "$collectionName": "_Core",
+                  "$value": "{color.blue.80}"
+                },
+                "90": {
+                  "$scopes": [
+                    "SHAPE_FILL",
+                    "FRAME_FILL"
+                  ],
+                  "$type": "color",
+                  "$libraryName": "",
+                  "$collectionName": "_Core",
+                  "$value": "{color.blue.90}"
+                },
+                "100": {
+                  "$scopes": [
+                    "SHAPE_FILL",
+                    "FRAME_FILL"
+                  ],
+                  "$type": "color",
+                  "$libraryName": "",
+                  "$collectionName": "_Core",
+                  "$value": "{color.blue.100}"
+                }
+              },
               "status": {
                 "neutral": {
                   "$scopes": [
@@ -1236,7 +1302,7 @@
                     "$collectionName": "_Core",
                     "$value": "{color.purple.80}"
                   },
-                  "hover": {
+                  "selected": {
                     "$scopes": [
                       "TEXT_FILL"
                     ],
@@ -1245,7 +1311,7 @@
                     "$collectionName": "_Core",
                     "$value": "{color.blue.70}"
                   },
-                  "selected": {
+                  "hover": {
                     "$scopes": [
                       "TEXT_FILL"
                     ],
@@ -1265,7 +1331,7 @@
                   }
                 },
                 "error": {
-                  "hover": {
+                  "selected": {
                     "$scopes": [
                       "TEXT_FILL"
                     ],
@@ -1274,7 +1340,7 @@
                     "$collectionName": "_Core",
                     "$value": "{color.red.80}"
                   },
-                  "selected": {
+                  "hover": {
                     "$scopes": [
                       "TEXT_FILL"
                     ],
@@ -1584,7 +1650,7 @@
             },
             "surface": {
               "action": {
-                "danger": {
+                "error": {
                   "disabled": {
                     "$scopes": [
                       "EFFECT_COLOR",
@@ -1680,16 +1746,7 @@
                   }
                 },
                 "tertiary": {
-                  "gen-ai": {
-                    "$scopes": [
-                      "ALL_SCOPES"
-                    ],
-                    "$type": "color",
-                    "$libraryName": "",
-                    "$collectionName": "Semantic",
-                    "$value": "{color.surface.default}"
-                  },
-                  "destructive-hover": {
+                  "error-hover": {
                     "$scopes": [
                       "ALL_SCOPES"
                     ],
@@ -2067,7 +2124,9 @@
             "neutral": {
               "strongest": {
                 "$scopes": [
-                  "FRAME_FILL"
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -2076,7 +2135,9 @@
               },
               "stronger": {
                 "$scopes": [
-                  "FRAME_FILL"
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -2085,7 +2146,9 @@
               },
               "strong": {
                 "$scopes": [
-                  "FRAME_FILL"
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -2094,7 +2157,9 @@
               },
               "weak": {
                 "$scopes": [
-                  "FRAME_FILL"
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -2103,7 +2168,9 @@
               },
               "weaker": {
                 "$scopes": [
-                  "FRAME_FILL"
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -2112,7 +2179,9 @@
               },
               "weakest": {
                 "$scopes": [
-                  "FRAME_FILL"
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -2431,53 +2500,6 @@
                 "$value": "{color.gray.30}"
               }
             },
-            "error": {
-              "strongest": {
-                "$scopes": [
-                  "FRAME_FILL"
-                ],
-                "$type": "color",
-                "$libraryName": "",
-                "$collectionName": "_Core",
-                "$value": "{color.red.100}"
-              },
-              "stronger": {
-                "$scopes": [
-                  "FRAME_FILL"
-                ],
-                "$type": "color",
-                "$libraryName": "",
-                "$collectionName": "_Core",
-                "$value": "{color.red.80}"
-              },
-              "strong": {
-                "$scopes": [
-                  "FRAME_FILL"
-                ],
-                "$type": "color",
-                "$libraryName": "",
-                "$collectionName": "_Core",
-                "$value": "{color.red.60}"
-              },
-              "weaker": {
-                "$scopes": [
-                  "FRAME_FILL"
-                ],
-                "$type": "color",
-                "$libraryName": "",
-                "$collectionName": "_Core",
-                "$value": "{color.red.20}"
-              },
-              "weakest": {
-                "$scopes": [
-                  "FRAME_FILL"
-                ],
-                "$type": "color",
-                "$libraryName": "",
-                "$collectionName": "_Core",
-                "$value": "{color.red.10}"
-              }
-            },
             "info": {
               "strongest": {
                 "$scopes": [
@@ -2528,7 +2550,9 @@
             "success": {
               "strongest": {
                 "$scopes": [
-                  "FRAME_FILL"
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -2537,7 +2561,9 @@
               },
               "stronger": {
                 "$scopes": [
-                  "FRAME_FILL"
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -2546,7 +2572,9 @@
               },
               "strong": {
                 "$scopes": [
-                  "FRAME_FILL"
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -2555,7 +2583,9 @@
               },
               "weaker": {
                 "$scopes": [
-                  "FRAME_FILL"
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -2564,12 +2594,70 @@
               },
               "weakest": {
                 "$scopes": [
-                  "FRAME_FILL"
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
                 ],
                 "$type": "color",
                 "$libraryName": "",
                 "$collectionName": "_Core",
                 "$value": "{color.green.10}"
+              }
+            },
+            "action (TBD)": {
+              "on": {
+                "$scopes": [
+                  "ALL_SCOPES"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.white.100}"
+              },
+              "strongest": {
+                "$scopes": [
+                  "ALL_SCOPES"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.blue.100}"
+              },
+              "stronger": {
+                "$scopes": [
+                  "ALL_SCOPES"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.blue.80}"
+              },
+              "strong": {
+                "$scopes": [
+                  "ALL_SCOPES"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.blue.60}"
+              },
+              "weaker": {
+                "$scopes": [
+                  "ALL_SCOPES"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.blue.20}"
+              },
+              "weakest": {
+                "$scopes": [
+                  "ALL_SCOPES"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.blue.10}"
               }
             }
           },
@@ -2738,6 +2826,15 @@
               "$collectionName": "_Core",
               "$value": "{spacing.02}"
             },
+            "xxxxs": {
+              "$scopes": [
+                "GAP"
+              ],
+              "$type": "float",
+              "$libraryName": "",
+              "$collectionName": "_Core",
+              "$value": "{spacing.01}"
+            },
             "none": {
               "$scopes": [
                 "GAP"
@@ -2751,6 +2848,72 @@
         },
         "Dark": {
           "color": {
+            "error": {
+              "on": {
+                "$scopes": [
+                  "ALL_SCOPES"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.gray.100}"
+              },
+              "strongest": {
+                "$scopes": [
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.red.10}"
+              },
+              "stronger": {
+                "$scopes": [
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.red.30}"
+              },
+              "strong": {
+                "$scopes": [
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.red.50}"
+              },
+              "weaker": {
+                "$scopes": [
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.red.90}"
+              },
+              "weakest": {
+                "$scopes": [
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.red.100}"
+              }
+            },
             "icon": {
               "action": {
                 "secondary": {
@@ -3460,108 +3623,6 @@
               }
             },
             "charts": {
-              "density": {
-                "10": {
-                  "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
-                  ],
-                  "$type": "color",
-                  "$libraryName": "",
-                  "$collectionName": "_Core",
-                  "$value": "{color.blue.100}"
-                },
-                "20": {
-                  "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
-                  ],
-                  "$type": "color",
-                  "$libraryName": "",
-                  "$collectionName": "_Core",
-                  "$value": "{color.blue.90}"
-                },
-                "30": {
-                  "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
-                  ],
-                  "$type": "color",
-                  "$libraryName": "",
-                  "$collectionName": "_Core",
-                  "$value": "{color.blue.80}"
-                },
-                "40": {
-                  "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
-                  ],
-                  "$type": "color",
-                  "$libraryName": "",
-                  "$collectionName": "_Core",
-                  "$value": "{color.blue.70}"
-                },
-                "50": {
-                  "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
-                  ],
-                  "$type": "color",
-                  "$libraryName": "",
-                  "$collectionName": "_Core",
-                  "$value": "{color.blue.60}"
-                },
-                "60": {
-                  "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
-                  ],
-                  "$type": "color",
-                  "$libraryName": "",
-                  "$collectionName": "_Core",
-                  "$value": "{color.blue.50}"
-                },
-                "70": {
-                  "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
-                  ],
-                  "$type": "color",
-                  "$libraryName": "",
-                  "$collectionName": "_Core",
-                  "$value": "{color.blue.40}"
-                },
-                "80": {
-                  "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
-                  ],
-                  "$type": "color",
-                  "$libraryName": "",
-                  "$collectionName": "_Core",
-                  "$value": "{color.blue.30}"
-                },
-                "90": {
-                  "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
-                  ],
-                  "$type": "color",
-                  "$libraryName": "",
-                  "$collectionName": "_Core",
-                  "$value": "{color.blue.20}"
-                },
-                "100": {
-                  "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
-                  ],
-                  "$type": "color",
-                  "$libraryName": "",
-                  "$collectionName": "_Core",
-                  "$value": "{color.blue.10}"
-                }
-              },
               "qualitative": {
                 "10": {
                   "$scopes": [
@@ -3916,6 +3977,108 @@
                   "$value": "{color.blue.30}"
                 }
               },
+              "density": {
+                "10": {
+                  "$scopes": [
+                    "SHAPE_FILL",
+                    "FRAME_FILL"
+                  ],
+                  "$type": "color",
+                  "$libraryName": "",
+                  "$collectionName": "_Core",
+                  "$value": "{color.blue.100}"
+                },
+                "20": {
+                  "$scopes": [
+                    "SHAPE_FILL",
+                    "FRAME_FILL"
+                  ],
+                  "$type": "color",
+                  "$libraryName": "",
+                  "$collectionName": "_Core",
+                  "$value": "{color.blue.90}"
+                },
+                "30": {
+                  "$scopes": [
+                    "SHAPE_FILL",
+                    "FRAME_FILL"
+                  ],
+                  "$type": "color",
+                  "$libraryName": "",
+                  "$collectionName": "_Core",
+                  "$value": "{color.blue.80}"
+                },
+                "40": {
+                  "$scopes": [
+                    "SHAPE_FILL",
+                    "FRAME_FILL"
+                  ],
+                  "$type": "color",
+                  "$libraryName": "",
+                  "$collectionName": "_Core",
+                  "$value": "{color.blue.70}"
+                },
+                "50": {
+                  "$scopes": [
+                    "SHAPE_FILL",
+                    "FRAME_FILL"
+                  ],
+                  "$type": "color",
+                  "$libraryName": "",
+                  "$collectionName": "_Core",
+                  "$value": "{color.blue.60}"
+                },
+                "60": {
+                  "$scopes": [
+                    "SHAPE_FILL",
+                    "FRAME_FILL"
+                  ],
+                  "$type": "color",
+                  "$libraryName": "",
+                  "$collectionName": "_Core",
+                  "$value": "{color.blue.50}"
+                },
+                "70": {
+                  "$scopes": [
+                    "SHAPE_FILL",
+                    "FRAME_FILL"
+                  ],
+                  "$type": "color",
+                  "$libraryName": "",
+                  "$collectionName": "_Core",
+                  "$value": "{color.blue.40}"
+                },
+                "80": {
+                  "$scopes": [
+                    "SHAPE_FILL",
+                    "FRAME_FILL"
+                  ],
+                  "$type": "color",
+                  "$libraryName": "",
+                  "$collectionName": "_Core",
+                  "$value": "{color.blue.30}"
+                },
+                "90": {
+                  "$scopes": [
+                    "SHAPE_FILL",
+                    "FRAME_FILL"
+                  ],
+                  "$type": "color",
+                  "$libraryName": "",
+                  "$collectionName": "_Core",
+                  "$value": "{color.blue.20}"
+                },
+                "100": {
+                  "$scopes": [
+                    "SHAPE_FILL",
+                    "FRAME_FILL"
+                  ],
+                  "$type": "color",
+                  "$libraryName": "",
+                  "$collectionName": "_Core",
+                  "$value": "{color.blue.10}"
+                }
+              },
               "status": {
                 "neutral": {
                   "$scopes": [
@@ -3983,7 +4146,7 @@
                     "$collectionName": "_Core",
                     "$value": "{color.purple.30}"
                   },
-                  "hover": {
+                  "selected": {
                     "$scopes": [
                       "TEXT_FILL"
                     ],
@@ -3992,7 +4155,7 @@
                     "$collectionName": "_Core",
                     "$value": "{color.blue.70}"
                   },
-                  "selected": {
+                  "hover": {
                     "$scopes": [
                       "TEXT_FILL"
                     ],
@@ -4012,7 +4175,7 @@
                   }
                 },
                 "error": {
-                  "hover": {
+                  "selected": {
                     "$scopes": [
                       "TEXT_FILL"
                     ],
@@ -4021,7 +4184,7 @@
                     "$collectionName": "_Core",
                     "$value": "{color.red.30}"
                   },
-                  "selected": {
+                  "hover": {
                     "$scopes": [
                       "TEXT_FILL"
                     ],
@@ -4331,7 +4494,7 @@
             },
             "surface": {
               "action": {
-                "danger": {
+                "error": {
                   "disabled": {
                     "$scopes": [
                       "EFFECT_COLOR",
@@ -4427,16 +4590,7 @@
                   }
                 },
                 "tertiary": {
-                  "gen-ai": {
-                    "$scopes": [
-                      "ALL_SCOPES"
-                    ],
-                    "$type": "color",
-                    "$libraryName": "",
-                    "$collectionName": "Semantic",
-                    "$value": "{color.surface.default}"
-                  },
-                  "destructive-hover": {
+                  "error-hover": {
                     "$scopes": [
                       "ALL_SCOPES"
                     ],
@@ -4814,7 +4968,9 @@
             "neutral": {
               "strongest": {
                 "$scopes": [
-                  "FRAME_FILL"
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -4823,7 +4979,9 @@
               },
               "stronger": {
                 "$scopes": [
-                  "FRAME_FILL"
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -4832,7 +4990,9 @@
               },
               "strong": {
                 "$scopes": [
-                  "FRAME_FILL"
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -4841,7 +5001,9 @@
               },
               "weak": {
                 "$scopes": [
-                  "FRAME_FILL"
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -4850,7 +5012,9 @@
               },
               "weaker": {
                 "$scopes": [
-                  "FRAME_FILL"
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -4859,7 +5023,9 @@
               },
               "weakest": {
                 "$scopes": [
-                  "FRAME_FILL"
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -5178,53 +5344,6 @@
                 "$value": "{color.gray.70}"
               }
             },
-            "error": {
-              "strongest": {
-                "$scopes": [
-                  "FRAME_FILL"
-                ],
-                "$type": "color",
-                "$libraryName": "",
-                "$collectionName": "_Core",
-                "$value": "{color.red.10}"
-              },
-              "stronger": {
-                "$scopes": [
-                  "FRAME_FILL"
-                ],
-                "$type": "color",
-                "$libraryName": "",
-                "$collectionName": "_Core",
-                "$value": "{color.red.30}"
-              },
-              "strong": {
-                "$scopes": [
-                  "FRAME_FILL"
-                ],
-                "$type": "color",
-                "$libraryName": "",
-                "$collectionName": "_Core",
-                "$value": "{color.red.50}"
-              },
-              "weaker": {
-                "$scopes": [
-                  "FRAME_FILL"
-                ],
-                "$type": "color",
-                "$libraryName": "",
-                "$collectionName": "_Core",
-                "$value": "{color.red.90}"
-              },
-              "weakest": {
-                "$scopes": [
-                  "FRAME_FILL"
-                ],
-                "$type": "color",
-                "$libraryName": "",
-                "$collectionName": "_Core",
-                "$value": "{color.red.100}"
-              }
-            },
             "info": {
               "strongest": {
                 "$scopes": [
@@ -5275,7 +5394,9 @@
             "success": {
               "strongest": {
                 "$scopes": [
-                  "FRAME_FILL"
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -5284,7 +5405,9 @@
               },
               "stronger": {
                 "$scopes": [
-                  "FRAME_FILL"
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -5293,7 +5416,9 @@
               },
               "strong": {
                 "$scopes": [
-                  "FRAME_FILL"
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -5302,7 +5427,9 @@
               },
               "weaker": {
                 "$scopes": [
-                  "FRAME_FILL"
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -5311,12 +5438,70 @@
               },
               "weakest": {
                 "$scopes": [
-                  "FRAME_FILL"
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
                 ],
                 "$type": "color",
                 "$libraryName": "",
                 "$collectionName": "_Core",
                 "$value": "{color.green.100}"
+              }
+            },
+            "action (TBD)": {
+              "on": {
+                "$scopes": [
+                  "ALL_SCOPES"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.gray.100}"
+              },
+              "strongest": {
+                "$scopes": [
+                  "ALL_SCOPES"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.blue.100}"
+              },
+              "stronger": {
+                "$scopes": [
+                  "ALL_SCOPES"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.blue.30}"
+              },
+              "strong": {
+                "$scopes": [
+                  "ALL_SCOPES"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.blue.50}"
+              },
+              "weaker": {
+                "$scopes": [
+                  "ALL_SCOPES"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.blue.90}"
+              },
+              "weakest": {
+                "$scopes": [
+                  "ALL_SCOPES"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.blue.100}"
               }
             }
           },
@@ -5485,6 +5670,15 @@
               "$collectionName": "_Core",
               "$value": "{spacing.02}"
             },
+            "xxxxs": {
+              "$scopes": [
+                "GAP"
+              ],
+              "$type": "float",
+              "$libraryName": "",
+              "$collectionName": "_Core",
+              "$value": "{spacing.01}"
+            },
             "none": {
               "$scopes": [
                 "GAP"
@@ -5498,6 +5692,72 @@
         },
         "High Contrast": {
           "color": {
+            "error": {
+              "on": {
+                "$scopes": [
+                  "ALL_SCOPES"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.white.100}"
+              },
+              "strongest": {
+                "$scopes": [
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.red.100}"
+              },
+              "stronger": {
+                "$scopes": [
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.red.90}"
+              },
+              "strong": {
+                "$scopes": [
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.red.80}"
+              },
+              "weaker": {
+                "$scopes": [
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.red.40}"
+              },
+              "weakest": {
+                "$scopes": [
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.red.10}"
+              }
+            },
             "icon": {
               "action": {
                 "secondary": {
@@ -6207,108 +6467,6 @@
               }
             },
             "charts": {
-              "density": {
-                "10": {
-                  "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
-                  ],
-                  "$type": "color",
-                  "$libraryName": "",
-                  "$collectionName": "_Core",
-                  "$value": "{color.blue.10}"
-                },
-                "20": {
-                  "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
-                  ],
-                  "$type": "color",
-                  "$libraryName": "",
-                  "$collectionName": "_Core",
-                  "$value": "{color.blue.20}"
-                },
-                "30": {
-                  "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
-                  ],
-                  "$type": "color",
-                  "$libraryName": "",
-                  "$collectionName": "_Core",
-                  "$value": "{color.blue.30}"
-                },
-                "40": {
-                  "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
-                  ],
-                  "$type": "color",
-                  "$libraryName": "",
-                  "$collectionName": "_Core",
-                  "$value": "{color.blue.40}"
-                },
-                "50": {
-                  "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
-                  ],
-                  "$type": "color",
-                  "$libraryName": "",
-                  "$collectionName": "_Core",
-                  "$value": "{color.blue.50}"
-                },
-                "60": {
-                  "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
-                  ],
-                  "$type": "color",
-                  "$libraryName": "",
-                  "$collectionName": "_Core",
-                  "$value": "{color.blue.60}"
-                },
-                "70": {
-                  "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
-                  ],
-                  "$type": "color",
-                  "$libraryName": "",
-                  "$collectionName": "_Core",
-                  "$value": "{color.blue.70}"
-                },
-                "80": {
-                  "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
-                  ],
-                  "$type": "color",
-                  "$libraryName": "",
-                  "$collectionName": "_Core",
-                  "$value": "{color.blue.80}"
-                },
-                "90": {
-                  "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
-                  ],
-                  "$type": "color",
-                  "$libraryName": "",
-                  "$collectionName": "_Core",
-                  "$value": "{color.blue.90}"
-                },
-                "100": {
-                  "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
-                  ],
-                  "$type": "color",
-                  "$libraryName": "",
-                  "$collectionName": "_Core",
-                  "$value": "{color.blue.100}"
-                }
-              },
               "qualitative": {
                 "10": {
                   "$scopes": [
@@ -6663,6 +6821,108 @@
                   "$value": "{color.blue.100}"
                 }
               },
+              "density": {
+                "10": {
+                  "$scopes": [
+                    "SHAPE_FILL",
+                    "FRAME_FILL"
+                  ],
+                  "$type": "color",
+                  "$libraryName": "",
+                  "$collectionName": "_Core",
+                  "$value": "{color.blue.10}"
+                },
+                "20": {
+                  "$scopes": [
+                    "SHAPE_FILL",
+                    "FRAME_FILL"
+                  ],
+                  "$type": "color",
+                  "$libraryName": "",
+                  "$collectionName": "_Core",
+                  "$value": "{color.blue.20}"
+                },
+                "30": {
+                  "$scopes": [
+                    "SHAPE_FILL",
+                    "FRAME_FILL"
+                  ],
+                  "$type": "color",
+                  "$libraryName": "",
+                  "$collectionName": "_Core",
+                  "$value": "{color.blue.30}"
+                },
+                "40": {
+                  "$scopes": [
+                    "SHAPE_FILL",
+                    "FRAME_FILL"
+                  ],
+                  "$type": "color",
+                  "$libraryName": "",
+                  "$collectionName": "_Core",
+                  "$value": "{color.blue.40}"
+                },
+                "50": {
+                  "$scopes": [
+                    "SHAPE_FILL",
+                    "FRAME_FILL"
+                  ],
+                  "$type": "color",
+                  "$libraryName": "",
+                  "$collectionName": "_Core",
+                  "$value": "{color.blue.50}"
+                },
+                "60": {
+                  "$scopes": [
+                    "SHAPE_FILL",
+                    "FRAME_FILL"
+                  ],
+                  "$type": "color",
+                  "$libraryName": "",
+                  "$collectionName": "_Core",
+                  "$value": "{color.blue.60}"
+                },
+                "70": {
+                  "$scopes": [
+                    "SHAPE_FILL",
+                    "FRAME_FILL"
+                  ],
+                  "$type": "color",
+                  "$libraryName": "",
+                  "$collectionName": "_Core",
+                  "$value": "{color.blue.70}"
+                },
+                "80": {
+                  "$scopes": [
+                    "SHAPE_FILL",
+                    "FRAME_FILL"
+                  ],
+                  "$type": "color",
+                  "$libraryName": "",
+                  "$collectionName": "_Core",
+                  "$value": "{color.blue.80}"
+                },
+                "90": {
+                  "$scopes": [
+                    "SHAPE_FILL",
+                    "FRAME_FILL"
+                  ],
+                  "$type": "color",
+                  "$libraryName": "",
+                  "$collectionName": "_Core",
+                  "$value": "{color.blue.90}"
+                },
+                "100": {
+                  "$scopes": [
+                    "SHAPE_FILL",
+                    "FRAME_FILL"
+                  ],
+                  "$type": "color",
+                  "$libraryName": "",
+                  "$collectionName": "_Core",
+                  "$value": "{color.blue.100}"
+                }
+              },
               "status": {
                 "neutral": {
                   "$scopes": [
@@ -6730,7 +6990,7 @@
                     "$collectionName": "_Core",
                     "$value": "{color.purple.100}"
                   },
-                  "hover": {
+                  "selected": {
                     "$scopes": [
                       "TEXT_FILL"
                     ],
@@ -6739,7 +6999,7 @@
                     "$collectionName": "_Core",
                     "$value": "{color.blue.90}"
                   },
-                  "selected": {
+                  "hover": {
                     "$scopes": [
                       "TEXT_FILL"
                     ],
@@ -6759,7 +7019,7 @@
                   }
                 },
                 "error": {
-                  "hover": {
+                  "selected": {
                     "$scopes": [
                       "TEXT_FILL"
                     ],
@@ -6768,7 +7028,7 @@
                     "$collectionName": "_Core",
                     "$value": "{color.red.100}"
                   },
-                  "selected": {
+                  "hover": {
                     "$scopes": [
                       "TEXT_FILL"
                     ],
@@ -7078,7 +7338,7 @@
             },
             "surface": {
               "action": {
-                "danger": {
+                "error": {
                   "disabled": {
                     "$scopes": [
                       "EFFECT_COLOR",
@@ -7174,16 +7434,7 @@
                   }
                 },
                 "tertiary": {
-                  "gen-ai": {
-                    "$scopes": [
-                      "ALL_SCOPES"
-                    ],
-                    "$type": "color",
-                    "$libraryName": "",
-                    "$collectionName": "Semantic",
-                    "$value": "{color.surface.default}"
-                  },
-                  "destructive-hover": {
+                  "error-hover": {
                     "$scopes": [
                       "ALL_SCOPES"
                     ],
@@ -7561,7 +7812,9 @@
             "neutral": {
               "strongest": {
                 "$scopes": [
-                  "FRAME_FILL"
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -7570,7 +7823,9 @@
               },
               "stronger": {
                 "$scopes": [
-                  "FRAME_FILL"
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -7579,7 +7834,9 @@
               },
               "strong": {
                 "$scopes": [
-                  "FRAME_FILL"
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -7588,7 +7845,9 @@
               },
               "weak": {
                 "$scopes": [
-                  "FRAME_FILL"
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -7597,7 +7856,9 @@
               },
               "weaker": {
                 "$scopes": [
-                  "FRAME_FILL"
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -7606,7 +7867,9 @@
               },
               "weakest": {
                 "$scopes": [
-                  "FRAME_FILL"
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -7925,53 +8188,6 @@
                 "$value": "{color.gray.40}"
               }
             },
-            "error": {
-              "strongest": {
-                "$scopes": [
-                  "FRAME_FILL"
-                ],
-                "$type": "color",
-                "$libraryName": "",
-                "$collectionName": "_Core",
-                "$value": "{color.red.100}"
-              },
-              "stronger": {
-                "$scopes": [
-                  "FRAME_FILL"
-                ],
-                "$type": "color",
-                "$libraryName": "",
-                "$collectionName": "_Core",
-                "$value": "{color.red.90}"
-              },
-              "strong": {
-                "$scopes": [
-                  "FRAME_FILL"
-                ],
-                "$type": "color",
-                "$libraryName": "",
-                "$collectionName": "_Core",
-                "$value": "{color.red.80}"
-              },
-              "weaker": {
-                "$scopes": [
-                  "FRAME_FILL"
-                ],
-                "$type": "color",
-                "$libraryName": "",
-                "$collectionName": "_Core",
-                "$value": "{color.red.40}"
-              },
-              "weakest": {
-                "$scopes": [
-                  "FRAME_FILL"
-                ],
-                "$type": "color",
-                "$libraryName": "",
-                "$collectionName": "_Core",
-                "$value": "{color.red.10}"
-              }
-            },
             "info": {
               "strongest": {
                 "$scopes": [
@@ -8022,7 +8238,9 @@
             "success": {
               "strongest": {
                 "$scopes": [
-                  "FRAME_FILL"
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -8031,7 +8249,9 @@
               },
               "stronger": {
                 "$scopes": [
-                  "FRAME_FILL"
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -8040,7 +8260,9 @@
               },
               "strong": {
                 "$scopes": [
-                  "FRAME_FILL"
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -8049,7 +8271,9 @@
               },
               "weaker": {
                 "$scopes": [
-                  "FRAME_FILL"
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -8058,12 +8282,70 @@
               },
               "weakest": {
                 "$scopes": [
-                  "FRAME_FILL"
+                  "EFFECT_COLOR",
+                  "STROKE_COLOR",
+                  "ALL_FILLS"
                 ],
                 "$type": "color",
                 "$libraryName": "",
                 "$collectionName": "_Core",
                 "$value": "{color.green.10}"
+              }
+            },
+            "action (TBD)": {
+              "on": {
+                "$scopes": [
+                  "ALL_SCOPES"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.white.100}"
+              },
+              "strongest": {
+                "$scopes": [
+                  "ALL_SCOPES"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.blue.100}"
+              },
+              "stronger": {
+                "$scopes": [
+                  "ALL_SCOPES"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.blue.90}"
+              },
+              "strong": {
+                "$scopes": [
+                  "ALL_SCOPES"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.blue.80}"
+              },
+              "weaker": {
+                "$scopes": [
+                  "ALL_SCOPES"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.blue.40}"
+              },
+              "weakest": {
+                "$scopes": [
+                  "ALL_SCOPES"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.blue.10}"
               }
             }
           },
@@ -8232,6 +8514,15 @@
               "$collectionName": "_Core",
               "$value": "{spacing.02}"
             },
+            "xxxxs": {
+              "$scopes": [
+                "GAP"
+              ],
+              "$type": "float",
+              "$libraryName": "",
+              "$collectionName": "_Core",
+              "$value": "{spacing.01}"
+            },
             "none": {
               "$scopes": [
                 "GAP"
@@ -8249,7 +8540,7 @@
   {
     "_Theme": {
       "modes": {
-        "Soho": {
+        "Manufacturing": {
           "color": {
             "theme": {
               "10": {
@@ -8380,6 +8671,72 @@
               }
             }
           }
+        },
+        "Soho": {
+          "color": {
+            "theme": {
+              "10": {
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.blue.10}"
+              },
+              "20": {
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.blue.20}"
+              },
+              "30": {
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.blue.30}"
+              },
+              "40": {
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.blue.40}"
+              },
+              "50": {
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.blue.50}"
+              },
+              "60": {
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.blue.60}"
+              },
+              "70": {
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.blue.70}"
+              },
+              "80": {
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.blue.80}"
+              },
+              "90": {
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.blue.90}"
+              },
+              "100": {
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.blue.100}"
+              }
+            }
+          }
         }
       }
     }
@@ -8390,12 +8747,26 @@
         "Soho": {
           "border": {
             "radius": {
+              "12": {
+                "$scopes": [
+                  "CORNER_RADIUS"
+                ],
+                "$type": "float",
+                "$value": 12
+              },
               "16": {
                 "$scopes": [
                   "CORNER_RADIUS"
                 ],
                 "$type": "float",
                 "$value": 16
+              },
+              "20": {
+                "$scopes": [
+                  "CORNER_RADIUS"
+                ],
+                "$type": "float",
+                "$value": 20
               },
               "24": {
                 "$scopes": [
@@ -8453,6 +8824,13 @@
                 "$type": "float",
                 "$value": 2
               },
+              "01": {
+                "$scopes": [
+                  "CORNER_RADIUS"
+                ],
+                "$type": "float",
+                "$value": 1
+              },
               "none": {
                 "$scopes": [
                   "CORNER_RADIUS"
@@ -8490,12 +8868,26 @@
               "$type": "float",
               "$value": 0
             },
+            "12": {
+              "$scopes": [
+                "GAP"
+              ],
+              "$type": "float",
+              "$value": 12
+            },
             "16": {
               "$scopes": [
                 "GAP"
               ],
               "$type": "float",
               "$value": 16
+            },
+            "20": {
+              "$scopes": [
+                "GAP"
+              ],
+              "$type": "float",
+              "$value": 20
             },
             "24": {
               "$scopes": [
@@ -8573,6 +8965,13 @@
               ],
               "$type": "float",
               "$value": 2
+            },
+            "01": {
+              "$scopes": [
+                "GAP"
+              ],
+              "$type": "float",
+              "$value": 1
             }
           },
           "color": {
@@ -9001,12 +9400,26 @@
         "Terrazzo": {
           "border": {
             "radius": {
+              "12": {
+                "$scopes": [
+                  "CORNER_RADIUS"
+                ],
+                "$type": "float",
+                "$value": 12
+              },
               "16": {
                 "$scopes": [
                   "CORNER_RADIUS"
                 ],
                 "$type": "float",
                 "$value": 16
+              },
+              "20": {
+                "$scopes": [
+                  "CORNER_RADIUS"
+                ],
+                "$type": "float",
+                "$value": 20
               },
               "24": {
                 "$scopes": [
@@ -9064,6 +9477,13 @@
                 "$type": "float",
                 "$value": 2
               },
+              "01": {
+                "$scopes": [
+                  "CORNER_RADIUS"
+                ],
+                "$type": "float",
+                "$value": 1
+              },
               "none": {
                 "$scopes": [
                   "CORNER_RADIUS"
@@ -9101,12 +9521,26 @@
               "$type": "float",
               "$value": 0
             },
+            "12": {
+              "$scopes": [
+                "GAP"
+              ],
+              "$type": "float",
+              "$value": 12
+            },
             "16": {
               "$scopes": [
                 "GAP"
               ],
               "$type": "float",
               "$value": 16
+            },
+            "20": {
+              "$scopes": [
+                "GAP"
+              ],
+              "$type": "float",
+              "$value": 20
             },
             "24": {
               "$scopes": [
@@ -9184,6 +9618,13 @@
               ],
               "$type": "float",
               "$value": 2
+            },
+            "01": {
+              "$scopes": [
+                "GAP"
+              ],
+              "$type": "float",
+              "$value": 1
             }
           },
           "color": {

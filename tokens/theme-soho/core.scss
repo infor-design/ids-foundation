@@ -1,6 +1,8 @@
 :root { 
   // Border radii 
+  --ids-border-radius-12: 12px;
   --ids-border-radius-16: 16px;
+  --ids-border-radius-20: 20px;
   --ids-border-radius-24: 24px;
   --ids-border-radius-32: 32px;
   --ids-border-radius-40: 40px;
@@ -9,6 +11,7 @@
   --ids-border-radius-08: 8px;
   --ids-border-radius-04: 4px;
   --ids-border-radius-02: 2px;
+  --ids-border-radius-01: 1px;
   --ids-border-radius-none: 0px;
   // Border width 
   --ids-border-width-02: 2px;
@@ -16,7 +19,9 @@
   --ids-border-width-none: 0px;
   // Spacing 
   --ids-spacing-0: 0px;
+  --ids-spacing-12: 12px;
   --ids-spacing-16: 16px;
+  --ids-spacing-20: 20px;
   --ids-spacing-24: 24px;
   --ids-spacing-32: 32px;
   --ids-spacing-40: 40px;
@@ -28,6 +33,7 @@
   --ids-spacing-08: 8px;
   --ids-spacing-04: 4px;
   --ids-spacing-02: 2px;
+  --ids-spacing-01: 1px;
   // Colors 
   --ids-color-yellow-10: #fde7df;
   --ids-color-yellow-20: #f3daa1;

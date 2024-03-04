@@ -24,3 +24,6 @@ fs.cpSync('icon-fonts', `${distDir}/icon-fonts`, { recursive: true });
 // Icons
 fs.mkdirSync(`${distDir}/icons`);
 fs.cpSync('icons', 'dist/icons', { recursive: true });
+
+// Docs
+fs.copyFileSync('README.md', `${distDir}/README.md`);

@@ -127,11 +127,11 @@
   --ids-color-charts-binary-01: var(--ids-color-blue-100);
   // Icon colors
   --ids-color-text-action-primary-visited: var(--ids-color-purple-100);
-  --ids-color-text-action-primary-hover: var(--ids-color-blue-90);
   --ids-color-text-action-primary-selected: var(--ids-color-blue-90);
+  --ids-color-text-action-primary-hover: var(--ids-color-blue-90);
   --ids-color-text-action-primary-default: var(--ids-color-blue-80);
-  --ids-color-text-action-error-hover: var(--ids-color-red-100);
   --ids-color-text-action-error-selected: var(--ids-color-red-100);
+  --ids-color-text-action-error-hover: var(--ids-color-red-100);
   --ids-color-text-action-error-default: var(--ids-color-red-80);
   --ids-color-text-action-neutral-selected: var(--ids-color-black-90);
   --ids-color-text-action-neutral-hover: var(--ids-color-black-90);
@@ -167,17 +167,16 @@
   --ids-color-text-secondary: var(--ids-color-black-90);
   --ids-color-text-default: var(--ids-color-black-100);
   // Surface colors
-  --ids-color-surface-action-danger-disabled: var(--ids-color-error-strong);
-  --ids-color-surface-action-danger-selected: var(--ids-color-error-strongest);
-  --ids-color-surface-action-danger-pressed: var(--ids-color-error-strongest);
-  --ids-color-surface-action-danger-hover: var(--ids-color-error-strongest);
-  --ids-color-surface-action-danger-default: var(--ids-color-error-strong);
+  --ids-color-surface-action-error-disabled: var(--ids-color-error-strong);
+  --ids-color-surface-action-error-selected: var(--ids-color-error-strongest);
+  --ids-color-surface-action-error-pressed: var(--ids-color-error-strongest);
+  --ids-color-surface-action-error-hover: var(--ids-color-error-strongest);
+  --ids-color-surface-action-error-default: var(--ids-color-error-strong);
   --ids-color-surface-action-neutral-disabled: var(--ids-color-neutral-weak);
   --ids-color-surface-action-neutral-hover: var(--ids-color-neutral-weak);
   --ids-color-surface-action-neutral-read-only: var(--ids-color-neutral-weak);
   --ids-color-surface-action-neutral-default: var(--ids-color-neutral-weakest);
-  --ids-color-surface-action-tertiary-gen-ai: var(--ids-color-surface-default);
-  --ids-color-surface-action-tertiary-destructive-hover: var(--ids-color-error-weakest);
+  --ids-color-surface-action-tertiary-error-hover: var(--ids-color-error-weakest);
   --ids-color-surface-action-tertiary-disabled: var(--ids-color-surface-default);
   --ids-color-surface-action-tertiary-selected: var(--ids-color-surface-default);
   --ids-color-surface-action-tertiary-hover: var(--ids-color-black-10);
@@ -221,6 +220,7 @@
   --ids-color-neutral-weak: var(--ids-color-gray-40);
   --ids-color-neutral-weaker: var(--ids-color-gray-10);
   --ids-color-neutral-weakest: var(--ids-color-white-100);
+  --ids-color-error-on: var(--ids-color-white-100);
   --ids-color-error-strongest: var(--ids-color-red-100);
   --ids-color-error-stronger: var(--ids-color-red-90);
   --ids-color-error-strong: var(--ids-color-red-80);
@@ -290,5 +290,6 @@
   --ids-spacing-xs: var(--ids-spacing-08);
   --ids-spacing-xxs: var(--ids-spacing-04);
   --ids-spacing-xxxs: var(--ids-spacing-02);
+  --ids-spacing-xxxxs: var(--ids-spacing-01);
   --ids-spacing-none: var(--ids-spacing-0);
 } 

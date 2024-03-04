@@ -67,3 +67,8 @@ Alternative formats:
     url('fonts/IDS-V5.ttf?m5pnz1') format('truetype'),
     url('fonts/IDS-V5.woff?m5pnz1') format('woff'),
 ```
+
+## Publish Steps
+
+- `npm run build`
+-

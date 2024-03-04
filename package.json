@@ -1,6 +1,6 @@
 {
   "name": "ids-foundation",
-  "version": "1.0.0",
+  "version": "1.0.0-beta.0",
   "description": "Base tokens, font files and foundational assets for IDS",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:tokens": "node scripts/generate-tokens.mjs",
     "build:icons": "node scripts/generate-icons.mjs",
-    "build": "npm run build:tokens && npm run build:icons && node scripts/build-release.mjs"
+    "build": "npm run build:tokens && npm run build:icons && node scripts/build-release.mjs",
+    "publish:npm": "npm run build && cd dist && npm publish",
+    "publish:npm:dry-run": "npm run build && cd dist && npm publish --dry-run"
   },
   "repository": {
     "type": "git",
