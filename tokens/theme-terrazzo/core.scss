@@ -12,13 +12,8 @@
   --ids-border-radius-04: 4px;
   --ids-border-radius-02: 2px;
   --ids-border-radius-01: 1px;
-  --ids-border-radius-none: 0px;
-  // Border width 
-  --ids-border-width-02: 2px;
-  --ids-border-width-01: 1px;
-  --ids-border-width-none: 0px;
+  --ids-border-radius-00: 0px;
   // Spacing 
-  --ids-spacing-0: 0px;
   --ids-spacing-12: 12px;
   --ids-spacing-16: 16px;
   --ids-spacing-20: 20px;
@@ -34,6 +29,7 @@
   --ids-spacing-04: 4px;
   --ids-spacing-02: 2px;
   --ids-spacing-01: 1px;
+  --ids-spacing-00: 0px;
   // Colors 
   --ids-color-yellow-10: #fde7df;
   --ids-color-yellow-20: #f3daa1;
@@ -115,24 +111,24 @@
   --ids-color-gray-80: #484644;
   --ids-color-gray-90: #32302f;
   --ids-color-gray-100: #1d1d1c;
-  --ids-color-black-10: rgba(0, 0, 0, 10);
-  --ids-color-black-20: rgba(0, 0, 0, 20);
-  --ids-color-black-30: rgba(0, 0, 0, 30);
-  --ids-color-black-40: rgba(0, 0, 0, 40);
-  --ids-color-black-50: rgba(0, 0, 0, 50);
-  --ids-color-black-60: rgba(0, 0, 0, 60);
-  --ids-color-black-70: rgba(0, 0, 0, 70);
-  --ids-color-black-80: rgba(0, 0, 0, 80);
-  --ids-color-black-90: rgba(0, 0, 0, 90);
+  --ids-color-black-10: rgba(0, 0, 0, 0.1);
+  --ids-color-black-20: rgba(0, 0, 0, 0.2);
+  --ids-color-black-30: rgba(0, 0, 0, 0.3);
+  --ids-color-black-40: rgba(0, 0, 0, 0.4);
+  --ids-color-black-50: rgba(0, 0, 0, 0.5);
+  --ids-color-black-60: rgba(0, 0, 0, 0.6);
+  --ids-color-black-70: rgba(0, 0, 0, 0.7);
+  --ids-color-black-80: rgba(0, 0, 0, 0.8);
+  --ids-color-black-90: rgba(0, 0, 0, 0.9);
   --ids-color-black-100: #000000;
-  --ids-color-white-10: rgba(255, 255, 255, 10);
-  --ids-color-white-20: rgba(255, 255, 255, 20);
-  --ids-color-white-30: rgba(255, 255, 255, 30);
-  --ids-color-white-40: rgba(255, 255, 255, 40);
-  --ids-color-white-50: rgba(255, 255, 255, 50);
-  --ids-color-white-60: rgba(255, 255, 255, 60);
-  --ids-color-white-70: rgba(255, 255, 255, 70);
-  --ids-color-white-80: rgba(255, 255, 255, 80);
-  --ids-color-white-90: rgba(255, 255, 255, 90);
+  --ids-color-white-10: rgba(255, 255, 255, 0.1);
+  --ids-color-white-20: rgba(255, 255, 255, 0.2);
+  --ids-color-white-30: rgba(255, 255, 255, 0.3);
+  --ids-color-white-40: rgba(255, 255, 255, 0.4);
+  --ids-color-white-50: rgba(255, 255, 255, 0.5);
+  --ids-color-white-60: rgba(255, 255, 255, 0.6);
+  --ids-color-white-70: rgba(255, 255, 255, 0.7);
+  --ids-color-white-80: rgba(255, 255, 255, 0.8);
+  --ids-color-white-90: rgba(255, 255, 255, 0.9);
   --ids-color-white-100: #ffffff;
 } 

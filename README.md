@@ -41,6 +41,9 @@ https://www.figma.com/file/vZbJ659UdOMYr7pm86qT0r/Design-System%3A-V5?node-id=16
 Older:
 https://www.figma.com/file/7Fl52jRJUDVJawJB8IXQri/IDS-Variables-component-library?node-id=21%3A3517&mode=dev
 
+Older Diagram Version:
+https://www.figma.com/file/43QPfoE7ke2uCTnfGxrsAr/Token-Anatomy-Figma?type=design&node-id=0-1&mode=design&t=G9qyYHHZl0qSlNhK-0
+
 ## Generating Icons
 
 1. Go to https://pages.workers.design.infor.com/
