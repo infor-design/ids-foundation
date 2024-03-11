@@ -12,8 +12,8 @@
   --ids-color-foreground-default-secondary: var(--ids-color-white-80);
   --ids-color-foreground-default-default: var(--ids-color-white-100);
   --ids-color-border-strong: var(--ids-color-white-100);
-  --ids-color-border-default: var(--ids-color-gray-50);
-  --ids-color-border-weak: var(--ids-color-gray-70);
+  --ids-color-border-default: var(--ids-color-gray-40);
+  --ids-color-border-weak: var(--ids-color-gray-60);
   --ids-color-border-weaker: var(--ids-color-gray-80);
   --ids-color-border-light: var(--ids-color-white-100);
   --ids-color-action-stronger: var(--ids-color-blue-40);
@@ -147,7 +147,7 @@
   --ids-data-viz-color-status-negative: var(--ids-color-red-50);
   --ids-data-viz-color-status-positive: var(--ids-color-green-40);
   // Radii 
-  --ids-radius-circular: var(--ids-radius-circular);
+  --ids-radius-circular: var(--ids-radius-99);
   --ids-radius-xl: var(--ids-radius-40);
   --ids-radius-lg: var(--ids-radius-24);
   --ids-radius-md: var(--ids-radius-16);

@@ -55,7 +55,7 @@ const extractSection = (sectionName, sectionToken, title, addUnit, levels) => {
 // Core Tokens - Soho
 cnt = 0;
 let coreTokenContents = ':root { \n';
-coreTokenContents += extractSection(json[2]._Core.modes.Soho.radius, '--ids-border-radius', 'Border radii', 'px', 1);
+coreTokenContents += extractSection(json[2]._Core.modes.Soho.radius, '--ids-radius', 'Border radii', 'px', 1);
 coreTokenContents += extractSection(json[2]._Core.modes.Soho.spacing, '--ids-spacing', 'Spacing', 'px', 1);
 coreTokenContents += extractSection(json[2]._Core.modes.Soho.color, '--ids-color', 'Colors', '', 2);
 coreTokenContents += '} \n';
@@ -66,7 +66,7 @@ fs.writeFileSync('tokens/theme-soho/core.scss', coreTokenContents);
 // Core Tokens - Terrazzo
 cnt = 0;
 coreTokenContents = ':root { \n';
-coreTokenContents += extractSection(json[2]._Core.modes.Terrazzo.radius, '--ids-border-radius', 'Border radii', 'px', 1);
+coreTokenContents += extractSection(json[2]._Core.modes.Terrazzo.radius, '--ids-radius', 'Border radii', 'px', 1);
 coreTokenContents += extractSection(json[2]._Core.modes.Terrazzo.spacing, '--ids-spacing', 'Spacing', 'px', 1);
 coreTokenContents += extractSection(json[2]._Core.modes.Terrazzo.color, '--ids-color', 'Colors', '', 2);
 coreTokenContents += '} \n';

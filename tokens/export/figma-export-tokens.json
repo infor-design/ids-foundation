@@ -11,7 +11,7 @@
               "$type": "float",
               "$libraryName": "",
               "$collectionName": "_Core",
-              "$value": "{radius.circular}"
+              "$value": "{radius.99}"
             },
             "xl": {
               "$scopes": [
@@ -945,7 +945,7 @@
                 "$type": "color",
                 "$libraryName": "",
                 "$collectionName": "_Core",
-                "$value": "{color.gray.60}"
+                "$value": "{color.gray.70}"
               },
               "default": {
                 "$scopes": [
@@ -954,7 +954,7 @@
                 "$type": "color",
                 "$libraryName": "",
                 "$collectionName": "_Core",
-                "$value": "{color.gray.50}"
+                "$value": "{color.gray.60}"
               },
               "weak": {
                 "$scopes": [
@@ -963,7 +963,7 @@
                 "$type": "color",
                 "$libraryName": "",
                 "$collectionName": "_Core",
-                "$value": "{color.gray.30}"
+                "$value": "{color.gray.40}"
               },
               "weaker": {
                 "$scopes": [
@@ -1105,7 +1105,7 @@
               "$type": "float",
               "$libraryName": "",
               "$collectionName": "_Core",
-              "$value": "{radius.circular}"
+              "$value": "{radius.99}"
             },
             "xl": {
               "$scopes": [
@@ -2048,7 +2048,7 @@
                 "$type": "color",
                 "$libraryName": "",
                 "$collectionName": "_Core",
-                "$value": "{color.gray.50}"
+                "$value": "{color.gray.40}"
               },
               "weak": {
                 "$scopes": [
@@ -2057,7 +2057,7 @@
                 "$type": "color",
                 "$libraryName": "",
                 "$collectionName": "_Core",
-                "$value": "{color.gray.70}"
+                "$value": "{color.gray.60}"
               },
               "weaker": {
                 "$scopes": [
@@ -2199,7 +2199,7 @@
               "$type": "float",
               "$libraryName": "",
               "$collectionName": "_Core",
-              "$value": "{radius.circular}"
+              "$value": "{radius.99}"
             },
             "xl": {
               "$scopes": [
@@ -3133,7 +3133,7 @@
                 "$type": "color",
                 "$libraryName": "",
                 "$collectionName": "_Core",
-                "$value": "{color.gray.80}"
+                "$value": "{color.gray.90}"
               },
               "default": {
                 "$scopes": [
@@ -3142,7 +3142,7 @@
                 "$type": "color",
                 "$libraryName": "",
                 "$collectionName": "_Core",
-                "$value": "{color.gray.60}"
+                "$value": "{color.gray.70}"
               },
               "weak": {
                 "$scopes": [
@@ -3151,7 +3151,7 @@
                 "$type": "color",
                 "$libraryName": "",
                 "$collectionName": "_Core",
-                "$value": "{color.gray.40}"
+                "$value": "{color.gray.50}"
               },
               "weaker": {
                 "$scopes": [
@@ -3659,7 +3659,7 @@
               "$type": "float",
               "$value": 48
             },
-            "circular": {
+            "99": {
               "$scopes": [
                 "CORNER_RADIUS"
               ],
@@ -4290,7 +4290,7 @@
               "$type": "float",
               "$value": 48
             },
-            "circular": {
+            "99": {
               "$scopes": [
                 "CORNER_RADIUS"
               ],
