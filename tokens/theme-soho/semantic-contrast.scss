@@ -3,6 +3,7 @@
   --ids-color-background-dark: var(--ids-color-gray-100);
   --ids-color-background-elevated: var(--ids-color-white-100);
   --ids-color-background-default: var(--ids-color-white-100);
+  --ids-color-foreground-dark-default: var(--ids-color-white-100);
   --ids-color-foreground-light-disabled: var(--ids-color-white-40);
   --ids-color-foreground-light-tertiary: var(--ids-color-white-60);
   --ids-color-foreground-light-secondary: var(--ids-color-white-80);
@@ -40,12 +41,16 @@
   --ids-color-info-strong: var(--ids-color-blue-90);
   --ids-color-info-default: var(--ids-color-blue-80);
   --ids-color-info-weak: var(--ids-color-blue-10);
+  --ids-color-action-stronger: var(--ids-color-blue-90);
+  --ids-color-action-default: var(--ids-color-blue-80);
+  --ids-color-action-weaker: var(--ids-color-blue-30);
+  --ids-color-action-weakest: var(--ids-color-blue-10);
+  --ids-color-theme-strongest: var(--ids-color-theme-100);
+  --ids-color-theme-stronger: var(--ids-color-theme-90);
+  --ids-color-theme-strong: var(--ids-color-theme-80);
+  --ids-color-theme-weaker: var(--ids-color-theme-30);
+  --ids-color-theme-weakest: var(--ids-color-theme-10);
   // Accent colors
-  --ids-color-accent-theme-strongest: var(--ids-color-theme-100);
-  --ids-color-accent-theme-stronger: var(--ids-color-theme-90);
-  --ids-color-accent-theme-strong: var(--ids-color-theme-80);
-  --ids-color-accent-theme-weaker: var(--ids-color-theme-30);
-  --ids-color-accent-theme-weakest: var(--ids-color-theme-10);
   --ids-color-accent-blue-strongest: var(--ids-color-blue-100);
   --ids-color-accent-blue-stronger: var(--ids-color-blue-90);
   --ids-color-accent-blue-strong: var(--ids-color-blue-80);
@@ -147,25 +152,25 @@
   --ids-data-viz-color-status-negative: var(--ids-color-red-60);
   --ids-data-viz-color-status-positive: var(--ids-color-green-70);
   // Radii 
-  --ids-radius-circular: var(--ids-radius-99);
-  --ids-radius-xl: var(--ids-radius-40);
-  --ids-radius-lg: var(--ids-radius-24);
-  --ids-radius-md: var(--ids-radius-16);
-  --ids-radius-sm: var(--ids-radius-08);
-  --ids-radius-xs: var(--ids-radius-04);
-  --ids-radius-xxs: var(--ids-radius-02);
-  --ids-radius-none: var(--ids-radius-00);
+  --ids-border-radius-circle: var(--ids-border-radius-99);
+  --ids-border-radius-xl: var(--ids-border-radius-40);
+  --ids-border-radius-lg: var(--ids-border-radius-24);
+  --ids-border-radius-md: var(--ids-border-radius-16);
+  --ids-border-radius-sm: var(--ids-border-radius-08);
+  --ids-border-radius-xs: var(--ids-border-radius-04);
+  --ids-border-radius-xxs: var(--ids-border-radius-02);
+  --ids-border-radius-none: var(--ids-border-radius-00);
   // Space 
-  --ids-spacing-xxxxl: var(--ids-spacing-72);
-  --ids-spacing-xxxl: var(--ids-spacing-56);
-  --ids-spacing-xxl: var(--ids-spacing-48);
-  --ids-spacing-xl: var(--ids-spacing-40);
-  --ids-spacing-lg: var(--ids-spacing-32);
-  --ids-spacing-md: var(--ids-spacing-24);
-  --ids-spacing-sm: var(--ids-spacing-16);
-  --ids-spacing-xs: var(--ids-spacing-08);
-  --ids-spacing-xxs: var(--ids-spacing-04);
-  --ids-spacing-xxxs: var(--ids-spacing-02);
-  --ids-spacing-xxxxs: var(--ids-spacing-01);
-  --ids-spacing-none: var(--ids-spacing-00);
+  --ids-space-xxxxl: var(--ids-space-72);
+  --ids-space-xxxl: var(--ids-space-56);
+  --ids-space-xxl: var(--ids-space-48);
+  --ids-space-xl: var(--ids-space-40);
+  --ids-space-lg: var(--ids-space-32);
+  --ids-space-md: var(--ids-space-24);
+  --ids-space-sm: var(--ids-space-16);
+  --ids-space-xs: var(--ids-space-08);
+  --ids-space-xxs: var(--ids-space-04);
+  --ids-space-xxxs: var(--ids-space-02);
+  --ids-space-xxxxs: var(--ids-space-01);
+  --ids-space-none: var(--ids-space-00);
 } 

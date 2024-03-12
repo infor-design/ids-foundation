@@ -22,6 +22,7 @@ const fixValue = (value) => {
   }
 
   if (String(value).includes('{spacing.')) value = value.replaceAll('{spacing.', 'var(--ids-spacing-').replaceAll('}', ')').replaceAll('.', '-');
+  if (String(value).includes('{space.')) value = value.replaceAll('{space.', 'var(--ids-space-').replaceAll('}', ')').replaceAll('.', '-');
   if (String(value).includes('{border.')) value = value.replaceAll('{border.', 'var(--ids-border-').replaceAll('}', ')').replaceAll('.', '-');
   if (String(value).includes('{radius.')) value = value.replaceAll('{radius.', 'var(--ids-radius-').replaceAll('}', ')').replaceAll('.', '-');
   return value;
@@ -55,8 +56,8 @@ const extractSection = (sectionName, sectionToken, title, addUnit, levels) => {
 // Core Tokens - Soho
 cnt = 0;
 let coreTokenContents = ':root { \n';
-coreTokenContents += extractSection(json[2]._Core.modes.Soho.radius, '--ids-radius', 'Border radii', 'px', 1);
-coreTokenContents += extractSection(json[2]._Core.modes.Soho.spacing, '--ids-spacing', 'Spacing', 'px', 1);
+coreTokenContents += extractSection(json[2]._Core.modes.Soho.border.radius, '--ids-border-radius', 'Border radii', 'px', 1);
+coreTokenContents += extractSection(json[2]._Core.modes.Soho.space, '--ids-space', 'Spacing', 'px', 1);
 coreTokenContents += extractSection(json[2]._Core.modes.Soho.color, '--ids-color', 'Colors', '', 2);
 coreTokenContents += '} \n';
 
@@ -66,8 +67,8 @@ fs.writeFileSync('tokens/theme-soho/core.scss', coreTokenContents);
 // Core Tokens - Terrazzo
 cnt = 0;
 coreTokenContents = ':root { \n';
-coreTokenContents += extractSection(json[2]._Core.modes.Terrazzo.radius, '--ids-radius', 'Border radii', 'px', 1);
-coreTokenContents += extractSection(json[2]._Core.modes.Terrazzo.spacing, '--ids-spacing', 'Spacing', 'px', 1);
+coreTokenContents += extractSection(json[2]._Core.modes.Terrazzo.border.radius, '--ids-radius', 'Border radii', 'px', 1);
+coreTokenContents += extractSection(json[2]._Core.modes.Terrazzo.space, '--ids-spacing', 'Spacing', 'px', 1);
 coreTokenContents += extractSection(json[2]._Core.modes.Terrazzo.color, '--ids-color', 'Colors', '', 2);
 coreTokenContents += '} \n';
 
@@ -98,9 +99,10 @@ let extraSemanticTokensByTheme = (themeName, fileName) => {
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.warning, '--ids-color-warning', '', '', 1);
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.error, '--ids-color-error', '', '', 1);
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.info, '--ids-color-info', '', '', 1);
+  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.action, '--ids-color-action', '', '', 1);
+  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.theme, '--ids-color-theme', '', '', 1);
 
   semanticTokenContents += '  // Accent colors\n';
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.theme, '--ids-color-accent-theme', '', '', 1);
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.blue, '--ids-color-accent-blue', '', '', 1);
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.green, '--ids-color-accent-green', '', '', 1);
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.gray, '--ids-color-accent-gray', '', '', 1);
@@ -117,8 +119,8 @@ let extraSemanticTokensByTheme = (themeName, fileName) => {
   semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color.status, '--ids-data-viz-color-status', '', '', 1);
 
   // Radius and Spacing
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].radius, '--ids-radius', 'Radii', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].spacing, '--ids-spacing', 'Space', '', 1);
+  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].border.radius, '--ids-border-radius', 'Radii', '', 1);
+  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].space, '--ids-spacing', 'Space', '', 1);
   semanticTokenContents += '} \n';
 
   console.log(`tokens/theme-soho/${fileName} ${cnt} tokens`);
@@ -145,9 +147,10 @@ extraSemanticTokensByTheme = (themeName, fileName) => {
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.warning, '--ids-color-warning', '', '', 1);
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.error, '--ids-color-error', '', '', 1);
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.info, '--ids-color-info', '', '', 1);
+  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.action, '--ids-color-action', '', '', 1);
+  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.theme, '--ids-color-theme', '', '', 1);
 
   semanticTokenContents += '  // Accent colors\n';
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.theme, '--ids-color-accent-theme', '', '', 1);
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.blue, '--ids-color-accent-blue', '', '', 1);
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.green, '--ids-color-accent-green', '', '', 1);
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.gray, '--ids-color-accent-gray', '', '', 1);
@@ -164,8 +167,8 @@ extraSemanticTokensByTheme = (themeName, fileName) => {
   semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color.status, '--ids-data-viz-color-status', '', '', 1);
 
   // Radius and Spacing
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].radius, '--ids-radius', 'Radii', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].spacing, '--ids-spacing', 'Space', '', 1);
+  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].border.radius, '--ids-border-radius', 'Radii', '', 1);
+  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].space, '--ids-space', 'Space', '', 1);
   semanticTokenContents += '} \n';
 
   console.log(`tokens/theme-soho/${fileName} ${cnt} tokens`);

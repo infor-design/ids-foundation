@@ -15,7 +15,6 @@ Tokens are categorized by whichever foundational style that’s applied.
 |**color**    |Defines fills for backgrounds, text, icons, and borders |`$color-surface-secondary`| Included |
 |**radius**   |Defines border radii for surfaced  for backgrounds, text, icons, and borders |`$radius-02`| Included |
 |**spacing**  |Defines scalable padding and margin units for grids and layouts  |`$space-05`| Included |
-|**surface**  |Defines layers such as background color and drop shadows  |`$color-surface-default`| Included |
 |**font**     |Defines typography attributes like font families, weights, sizes, and line height |`$font-size-label`| Future |
 |**border**   |Defines stroke widths, styles, and radiuses  |`$border-style-dashed`| Future |
 |**size**     |Defines other reusable values for heights, widths, and breakpoints  |`$size-70`| Future |
