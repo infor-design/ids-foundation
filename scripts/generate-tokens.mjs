@@ -112,11 +112,11 @@ let extraSemanticTokensByTheme = (themeName, fileName) => {
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.teal, '--ids-color-accent-teal', '', '', 1);
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.yellow, '--ids-color-accent-yellow', '', '', 1);
   semanticTokenContents += '  // Chart Colors\n';
-  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color.binary, '--ids-data-viz-color-binary', '', '', 1);
-  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color.sequential, '--ids-data-viz-color-sequential', '', '', 1);
-  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color.density, '--ids-data-viz-color-density', '', '', 1);
-  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color.qualitative, '--ids-data-viz-color-qualitative', '', '', 1);
-  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color.status, '--ids-data-viz-color-status', '', '', 1);
+  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color['data viz'].binary, '--ids-data-viz-color-binary', '', '', 1);
+  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color['data viz'].sequential, '--ids-data-viz-color-sequential', '', '', 1);
+  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color['data viz'].density, '--ids-data-viz-color-density', '', '', 1);
+  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color['data viz'].qualitative, '--ids-data-viz-color-qualitative', '', '', 1);
+  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color['data viz'].status, '--ids-data-viz-color-status', '', '', 1);
 
   // Radius and Spacing
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].border.radius, '--ids-border-radius', 'Radii', '', 1);
@@ -160,11 +160,11 @@ extraSemanticTokensByTheme = (themeName, fileName) => {
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.teal, '--ids-color-accent-teal', '', '', 1);
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.yellow, '--ids-color-accent-yellow', '', '', 1);
   semanticTokenContents += '  // Chart Colors\n';
-  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color.binary, '--ids-data-viz-color-binary', '', '', 1);
-  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color.sequential, '--ids-data-viz-color-sequential', '', '', 1);
-  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color.density, '--ids-data-viz-color-density', '', '', 1);
-  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color.qualitative, '--ids-data-viz-color-qualitative', '', '', 1);
-  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color.status, '--ids-data-viz-color-status', '', '', 1);
+  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color['data viz'].binary, '--ids-data-viz-color-binary', '', '', 1);
+  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color['data viz'].sequential, '--ids-data-viz-color-sequential', '', '', 1);
+  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color['data viz'].density, '--ids-data-viz-color-density', '', '', 1);
+  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color['data viz'].qualitative, '--ids-data-viz-color-qualitative', '', '', 1);
+  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color['data viz'].status, '--ids-data-viz-color-status', '', '', 1);
 
   // Radius and Spacing
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].border.radius, '--ids-border-radius', 'Radii', '', 1);
