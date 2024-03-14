@@ -564,44 +564,6 @@
                 }
               }
             },
-            "warning": {
-              "stronger": {
-                "$scopes": [
-                  "ALL_SCOPES"
-                ],
-                "$type": "color",
-                "$libraryName": "",
-                "$collectionName": "_Core",
-                "$value": "{color.orange.100}"
-              },
-              "strong": {
-                "$scopes": [
-                  "ALL_SCOPES"
-                ],
-                "$type": "color",
-                "$libraryName": "",
-                "$collectionName": "_Core",
-                "$value": "{color.orange.70}"
-              },
-              "default": {
-                "$scopes": [
-                  "ALL_SCOPES"
-                ],
-                "$type": "color",
-                "$libraryName": "",
-                "$collectionName": "_Core",
-                "$value": "{color.orange.60}"
-              },
-              "weak": {
-                "$scopes": [
-                  "ALL_SCOPES"
-                ],
-                "$type": "color",
-                "$libraryName": "",
-                "$collectionName": "_Core",
-                "$value": "{color.orange.10}"
-              }
-            },
             "caution": {
               "stronger": {
                 "$scopes": [
@@ -638,6 +600,44 @@
                 "$libraryName": "",
                 "$collectionName": "_Core",
                 "$value": "{color.yellow.10}"
+              }
+            },
+            "warning": {
+              "stronger": {
+                "$scopes": [
+                  "ALL_SCOPES"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.orange.100}"
+              },
+              "strong": {
+                "$scopes": [
+                  "ALL_SCOPES"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.orange.70}"
+              },
+              "default": {
+                "$scopes": [
+                  "ALL_SCOPES"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.orange.60}"
+              },
+              "weak": {
+                "$scopes": [
+                  "ALL_SCOPES"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.orange.10}"
               }
             },
             "theme": {
@@ -1669,44 +1669,6 @@
                 }
               }
             },
-            "warning": {
-              "stronger": {
-                "$scopes": [
-                  "ALL_SCOPES"
-                ],
-                "$type": "color",
-                "$libraryName": "",
-                "$collectionName": "_Core",
-                "$value": "{color.orange.10}"
-              },
-              "strong": {
-                "$scopes": [
-                  "ALL_SCOPES"
-                ],
-                "$type": "color",
-                "$libraryName": "",
-                "$collectionName": "_Core",
-                "$value": "{color.orange.40}"
-              },
-              "default": {
-                "$scopes": [
-                  "ALL_SCOPES"
-                ],
-                "$type": "color",
-                "$libraryName": "",
-                "$collectionName": "_Core",
-                "$value": "{color.orange.50}"
-              },
-              "weak": {
-                "$scopes": [
-                  "ALL_SCOPES"
-                ],
-                "$type": "color",
-                "$libraryName": "",
-                "$collectionName": "_Core",
-                "$value": "{color.orange.100}"
-              }
-            },
             "caution": {
               "stronger": {
                 "$scopes": [
@@ -1743,6 +1705,44 @@
                 "$libraryName": "",
                 "$collectionName": "_Core",
                 "$value": "{color.yellow.100}"
+              }
+            },
+            "warning": {
+              "stronger": {
+                "$scopes": [
+                  "ALL_SCOPES"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.orange.10}"
+              },
+              "strong": {
+                "$scopes": [
+                  "ALL_SCOPES"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.orange.40}"
+              },
+              "default": {
+                "$scopes": [
+                  "ALL_SCOPES"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.orange.50}"
+              },
+              "weak": {
+                "$scopes": [
+                  "ALL_SCOPES"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.orange.100}"
               }
             },
             "theme": {
@@ -2774,44 +2774,6 @@
                 }
               }
             },
-            "warning": {
-              "stronger": {
-                "$scopes": [
-                  "ALL_SCOPES"
-                ],
-                "$type": "color",
-                "$libraryName": "",
-                "$collectionName": "_Core",
-                "$value": "{color.orange.100}"
-              },
-              "strong": {
-                "$scopes": [
-                  "ALL_SCOPES"
-                ],
-                "$type": "color",
-                "$libraryName": "",
-                "$collectionName": "_Core",
-                "$value": "{color.orange.90}"
-              },
-              "default": {
-                "$scopes": [
-                  "ALL_SCOPES"
-                ],
-                "$type": "color",
-                "$libraryName": "",
-                "$collectionName": "_Core",
-                "$value": "{color.orange.80}"
-              },
-              "weak": {
-                "$scopes": [
-                  "ALL_SCOPES"
-                ],
-                "$type": "color",
-                "$libraryName": "",
-                "$collectionName": "_Core",
-                "$value": "{color.orange.10}"
-              }
-            },
             "caution": {
               "stronger": {
                 "$scopes": [
@@ -2848,6 +2810,44 @@
                 "$libraryName": "",
                 "$collectionName": "_Core",
                 "$value": "{color.yellow.10}"
+              }
+            },
+            "warning": {
+              "stronger": {
+                "$scopes": [
+                  "ALL_SCOPES"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.orange.100}"
+              },
+              "strong": {
+                "$scopes": [
+                  "ALL_SCOPES"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.orange.90}"
+              },
+              "default": {
+                "$scopes": [
+                  "ALL_SCOPES"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.orange.80}"
+              },
+              "weak": {
+                "$scopes": [
+                  "ALL_SCOPES"
+                ],
+                "$type": "color",
+                "$libraryName": "",
+                "$collectionName": "_Core",
+                "$value": "{color.orange.10}"
               }
             },
             "theme": {

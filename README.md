@@ -21,6 +21,13 @@ Tokens are categorized by whichever foundational style that’s applied.
 |**shadow**   |Defines box shadow properties like offsets, blur, and color |`$shadow-error`| Future |
 |**motion**   |Defines animations during certain interaction states  |`$motion-ease`| Future |
 
+### Mapped Components
+
+For color, radius and spacing (mostly)
+
+- Avatar (Images)
+-
+
 ## Generating Tokens
 
 1. Open file https://www.figma.com/file/vZbJ659UdOMYr7pm86qT0r/Design-System%3A-V5?node-id=16%3A646
