@@ -23,10 +23,28 @@ Tokens are categorized by whichever foundational style that’s applied.
 
 ### Mapped Components
 
-For color, radius and spacing (mostly)
+Only Atoms are mapped presently in the code and only for spacing, radius, and color
 
 - Avatar (Images)
--
+- Buttons
+- Badge
+- Card
+- Checkbox
+- Image
+- Input
+- Stats
+- Link
+- Popup
+- Progress Indicator
+- Radios
+- Separator
+- Splitter
+- Tab
+- Tag
+- Text Area
+- Toast
+- Tooltip
+
 
 ## Generating Tokens
 
