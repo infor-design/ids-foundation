@@ -2649,7 +2649,7 @@
                   "$type": "color",
                   "$libraryName": "",
                   "$collectionName": "_Core",
-                  "$value": "{color.gray.40}"
+                  "$value": "{color.gray.30}"
                 },
                 "weakest": {
                   "$scopes": [
