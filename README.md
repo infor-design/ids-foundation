@@ -97,6 +97,7 @@ Alternative formats:
 
 ## Publish Steps
 
-- bump version and change log
+- bump version (release.json and package.json)
+- check change log
 - `npm run build && npm run publish:npm:dry-run`
 - then `npm run build && npm run publish:npm`
