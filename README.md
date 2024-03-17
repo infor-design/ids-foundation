@@ -97,5 +97,6 @@ Alternative formats:
 
 ## Publish Steps
 
-- `npm run build`
--
+- bump version and change log
+- `npm run build && publish:npm:dry-run`
+- then `npm run build && publish:npm`
