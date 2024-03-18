@@ -1,4 +1,4 @@
-:root { 
+:root {
   // Surface colors
   --ids-color-background-dark: var(--ids-color-gray-100);
   --ids-color-background-elevated: var(--ids-color-white-100);
@@ -151,7 +151,7 @@
   --ids-data-viz-color-status-neutral: var(--ids-color-gray-20);
   --ids-data-viz-color-status-negative: var(--ids-color-red-60);
   --ids-data-viz-color-status-positive: var(--ids-color-green-70);
-  // Radii 
+  // Radii
   --ids-border-radius-circle: var(--ids-border-radius-99);
   --ids-border-radius-xl: var(--ids-border-radius-40);
   --ids-border-radius-lg: var(--ids-border-radius-24);
@@ -160,7 +160,7 @@
   --ids-border-radius-xs: var(--ids-border-radius-04);
   --ids-border-radius-xxs: var(--ids-border-radius-02);
   --ids-border-radius-none: var(--ids-border-radius-00);
-  // Space 
+  // Space
   --ids-space-xxxxl: var(--ids-space-72);
   --ids-space-xxxl: var(--ids-space-56);
   --ids-space-xxl: var(--ids-space-48);
@@ -173,4 +173,4 @@
   --ids-space-xxxs: var(--ids-space-02);
   --ids-space-xxxxs: var(--ids-space-01);
   --ids-space-none: var(--ids-space-00);
-} 
+}
