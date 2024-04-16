@@ -1,5 +1,11 @@
 # What's New with Ids Foundations
 
+## v1.0.2
+
+## v1.0.2 Features
+
+- `[General]` Added new separated file to the docs, added new updated dataviz tokens. ([1680](https://github.com/infor-design/enterprise/issues/1680))
+
 ## v1.0.1
 
 ## v1.0.1 Features

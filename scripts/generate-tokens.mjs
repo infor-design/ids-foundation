@@ -32,20 +32,20 @@ const level1Skips = ['$scopes', '$type', '$libraryName', '$collectionName'];
 const level2Skips = ['$scopes', '$type', '$libraryName', '$collectionName', '$value'];
 
 const extractSection = (sectionName, sectionToken, title, addUnit, levels) => {
-  let contents = title === '' ? '' : `  // ${title} \n`;
+  let contents = title === '' ? '' : `  // ${title}\r\n`;
   for (const core of Object.entries(sectionName)) {
     if (levels === 1) {
       if (level1Skips.includes(core[0])) continue;
       if (core[0] === '$value') {
-        contents += `  ${sectionToken}: ${fixValue(core[1])}${addUnit || ''};\n`;
+        contents += `  ${sectionToken}: ${fixValue(core[1])}${addUnit || ''};\r\n`;
         continue;
       }
-      contents += `  ${sectionToken}-${core[0]}: ${fixValue(core[1].$value)}${addUnit || ''};\n`;
+      contents += `  ${sectionToken}-${core[0]}: ${fixValue(core[1].$value)}${addUnit || ''};\r\n`;
       cnt++;
     } else {
       for (const inner of Object.entries(core[1])) {
         if (level2Skips.includes(inner[0])) continue;
-        contents += `  ${sectionToken}-${core[0]}-${inner[0]}: ${fixValue(inner[1].$value)}${addUnit || ''};\n`;
+        contents += `  ${sectionToken}-${core[0]}-${inner[0]}: ${fixValue(inner[1].$value)}${addUnit || ''};\r\n`;
         cnt++;
       }
     }
@@ -55,31 +55,31 @@ const extractSection = (sectionName, sectionToken, title, addUnit, levels) => {
 
 // Core Tokens - Soho
 cnt = 0;
-let coreTokenContents = ':root { \n';
+let coreTokenContents = ':root {\r\n';
 coreTokenContents += extractSection(json[2]._Core.modes.Soho.border.radius, '--ids-border-radius', 'Border radii', 'px', 1);
 coreTokenContents += extractSection(json[2]._Core.modes.Soho.space, '--ids-space', 'Spacing', 'px', 1);
 coreTokenContents += extractSection(json[2]._Core.modes.Soho.color, '--ids-color', 'Colors', '', 2);
-coreTokenContents += '} \n';
+coreTokenContents += '}\r\n';
 
 console.log(`tokens/theme-soho/core.scss ${cnt} tokens`);
 fs.writeFileSync('tokens/theme-soho/core.scss', coreTokenContents);
 
 // Core Tokens - Terrazzo
 cnt = 0;
-coreTokenContents = ':root { \n';
+coreTokenContents = ':root {\r\n';
 coreTokenContents += extractSection(json[2]._Core.modes.Terrazzo.border.radius, '--ids-radius', 'Border radii', 'px', 1);
 coreTokenContents += extractSection(json[2]._Core.modes.Terrazzo.space, '--ids-spacing', 'Spacing', 'px', 1);
 coreTokenContents += extractSection(json[2]._Core.modes.Terrazzo.color, '--ids-color', 'Colors', '', 2);
-coreTokenContents += '} \n';
+coreTokenContents += '}\r\n';
 
 console.log(`tokens/theme-terrazzo/core.scss ${cnt} tokens`);
 fs.writeFileSync('tokens/theme-terrazzo/core.scss', coreTokenContents);
 
 // Theme Tokens - Soho
 cnt = 0;
-let themeTokenContents = ':root { \n';
+let themeTokenContents = ':root {\r\n';
 themeTokenContents += extractSection(json[1]._Theme.modes.Soho.color, '--ids-color', 'Theme colors', '', 2);
-themeTokenContents += '} \n';
+themeTokenContents += '}\r\n';
 
 console.log(`tokens/theme-soho/theme-colors.scss ${cnt} tokens`);
 fs.writeFileSync('tokens/theme-soho/theme-colors.scss', themeTokenContents);
@@ -88,8 +88,8 @@ fs.writeFileSync('tokens/theme-soho/theme-colors.scss', themeTokenContents);
 let extraSemanticTokensByTheme = (themeName, fileName) => {
   cnt = 0;
   // Colors
-  let semanticTokenContents = ':root { \n';
-  semanticTokenContents += '  // Surface colors\n';
+  let semanticTokenContents = ':root {\r\n';
+  semanticTokenContents += '  // Surface colors\r\n';
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.background, '--ids-color-background', '', '', 1);
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.foreground, '--ids-color-foreground', '', '', 2);
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.border, '--ids-color-border', '', '', 1);
@@ -102,7 +102,7 @@ let extraSemanticTokensByTheme = (themeName, fileName) => {
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.action, '--ids-color-action', '', '', 1);
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.theme, '--ids-color-theme', '', '', 1);
 
-  semanticTokenContents += '  // Accent colors\n';
+  semanticTokenContents += '  // Accent colors\r\n';
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.blue, '--ids-color-accent-blue', '', '', 1);
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.green, '--ids-color-accent-green', '', '', 1);
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.gray, '--ids-color-accent-gray', '', '', 1);
@@ -111,17 +111,15 @@ let extraSemanticTokensByTheme = (themeName, fileName) => {
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.red, '--ids-color-accent-red', '', '', 1);
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.teal, '--ids-color-accent-teal', '', '', 1);
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.yellow, '--ids-color-accent-yellow', '', '', 1);
-  semanticTokenContents += '  // Chart Colors\n';
-  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color['data viz'].binary, '--ids-data-viz-color-binary', '', '', 1);
-  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color['data viz'].sequential, '--ids-data-viz-color-sequential', '', '', 1);
-  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color['data viz'].density, '--ids-data-viz-color-density', '', '', 1);
-  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color['data viz'].qualitative, '--ids-data-viz-color-qualitative', '', '', 1);
-  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color['data viz'].status, '--ids-data-viz-color-status', '', '', 1);
+  semanticTokenContents += '  // Chart Colors\r\n';
+  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color['dataviz'].accent, '--ids-dataviz-color-accent', '', '', 2);
+  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color['dataviz'].sequential, '--ids-dataviz-color-sequential', '', '', 1);
+  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color['dataviz'].density, '--ids-dataviz-color-density', '', '', 1);
 
   // Radius and Spacing
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].border.radius, '--ids-border-radius', 'Radii', '', 1);
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].space, '--ids-spacing', 'Space', '', 1);
-  semanticTokenContents += '} \n';
+  semanticTokenContents += '}\r\n';
 
   console.log(`tokens/theme-soho/${fileName} ${cnt} tokens`);
   fs.writeFileSync(`tokens/theme-soho/${fileName}`, semanticTokenContents);
@@ -135,9 +133,9 @@ extraSemanticTokensByTheme('High Contrast', 'semantic-contrast.scss');
 extraSemanticTokensByTheme = (themeName, fileName) => {
   cnt = 0;
   // Colors
-  let semanticTokenContents = ':root { \n';
+  let semanticTokenContents = ':root {\r\n';
 
-  semanticTokenContents += '  // Surface colors\n';
+  semanticTokenContents += '  // Surface colors\r\n';
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.background, '--ids-color-background', '', '', 1);
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.foreground, '--ids-color-foreground', '', '', 2);
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.border, '--ids-color-border', '', '', 1);
@@ -150,7 +148,7 @@ extraSemanticTokensByTheme = (themeName, fileName) => {
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.action, '--ids-color-action', '', '', 1);
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.theme, '--ids-color-theme', '', '', 1);
 
-  semanticTokenContents += '  // Accent colors\n';
+  semanticTokenContents += '  // Accent colors\r\n';
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.blue, '--ids-color-accent-blue', '', '', 1);
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.green, '--ids-color-accent-green', '', '', 1);
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.gray, '--ids-color-accent-gray', '', '', 1);
@@ -159,17 +157,15 @@ extraSemanticTokensByTheme = (themeName, fileName) => {
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.red, '--ids-color-accent-red', '', '', 1);
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.teal, '--ids-color-accent-teal', '', '', 1);
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.yellow, '--ids-color-accent-yellow', '', '', 1);
-  semanticTokenContents += '  // Chart Colors\n';
-  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color['data viz'].binary, '--ids-data-viz-color-binary', '', '', 1);
-  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color['data viz'].sequential, '--ids-data-viz-color-sequential', '', '', 1);
-  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color['data viz'].density, '--ids-data-viz-color-density', '', '', 1);
-  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color['data viz'].qualitative, '--ids-data-viz-color-qualitative', '', '', 1);
-  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color['data viz'].status, '--ids-data-viz-color-status', '', '', 1);
+  semanticTokenContents += '  // Chart Colors\r\n';
+  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color['dataviz'].accent, '--ids-dataviz-color-accent', '', '', 2);
+  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color['dataviz'].sequential, '--ids-dataviz-color-sequential', '', '', 1);
+  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color['dataviz'].density, '--ids-dataviz-color-density', '', '', 1);
 
   // Radius and Spacing
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].border.radius, '--ids-border-radius', 'Radii', '', 1);
   semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].space, '--ids-space', 'Space', '', 1);
-  semanticTokenContents += '} \n';
+  semanticTokenContents += '}\r\n';
 
   console.log(`tokens/theme-soho/${fileName} ${cnt} tokens`);
   fs.writeFileSync(`tokens/theme-soho/${fileName}`, semanticTokenContents);

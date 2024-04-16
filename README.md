@@ -48,7 +48,7 @@ Only Atoms are mapped presently in the code and only for spacing, radius, and co
 
 ## Generating Tokens
 
-1. Open file https://www.figma.com/file/vZbJ659UdOMYr7pm86qT0r/Design-System%3A-V5?node-id=16%3A646
+1. Open file https://www.figma.com/file/nUTwMUKctLzcJI8aOdTNj2/IDS-Design-Tokens?type=design&node-id=0-1&mode=design&t=sQqDGw58KqGjbksc-0
 2. On the Design tab on the right panel, click "Local Variables" to see the tokens
 3. On the bottom of that panel Click "Variables Pro"
 4. Click Export then check all collections
@@ -59,13 +59,16 @@ Only Atoms are mapped presently in the code and only for spacing, radius, and co
 
 ## Designs with Tokens
 
-Newest
+Newest:
+https://www.figma.com/file/nUTwMUKctLzcJI8aOdTNj2/IDS-Design-Tokens?type=design&node-id=0-1&mode=design&t=sQqDGw58KqGjbksc-0
+
+Explorations (Newer):
 https://www.figma.com/file/vZbJ659UdOMYr7pm86qT0r/Design-System%3A-V5?node-id=16%3A646&mode=dev
 
-Older:
+Older Version:
 https://www.figma.com/file/7Fl52jRJUDVJawJB8IXQri/IDS-Variables-component-library?node-id=21%3A3517&mode=dev
 
-Anatomy Diagram Version:
+Anatomy Diagram (a bit outdated):
 https://www.figma.com/file/43QPfoE7ke2uCTnfGxrsAr/Token-Anatomy-Figma?type=design&node-id=0-1&mode=design&t=G9qyYHHZl0qSlNhK-0
 
 ## Generating Icons
