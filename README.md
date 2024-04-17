@@ -48,7 +48,7 @@ Only Atoms are mapped presently in the code and only for spacing, radius, and co
 
 ## Generating Tokens
 
-1. Open file https://www.figma.com/file/nUTwMUKctLzcJI8aOdTNj2/IDS-Design-Tokens?type=design&node-id=0-1&mode=design&t=sQqDGw58KqGjbksc-0
+1. Open file https://www.figma.com/file/7xMSXwCpK3eq4uGqkDDDav/%5BIDS%5D-Design-Tokens?type=design&node-id=16-646&mode=design&t=HyMBBDpSqYNqIHGk-0
 2. On the Design tab on the right panel, click "Local Variables" to see the tokens
 3. On the bottom of that panel Click "Variables Pro"
 4. Click Export then check all collections
@@ -60,7 +60,7 @@ Only Atoms are mapped presently in the code and only for spacing, radius, and co
 ## Designs with Tokens
 
 Newest:
-https://www.figma.com/file/nUTwMUKctLzcJI8aOdTNj2/IDS-Design-Tokens?type=design&node-id=0-1&mode=design&t=sQqDGw58KqGjbksc-0
+https://www.figma.com/file/7xMSXwCpK3eq4uGqkDDDav/%5BIDS%5D-Design-Tokens?type=design&node-id=16-646&mode=design&t=HyMBBDpSqYNqIHGk-0
 
 Explorations (Newer):
 https://www.figma.com/file/vZbJ659UdOMYr7pm86qT0r/Design-System%3A-V5?node-id=16%3A646&mode=dev
