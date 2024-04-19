@@ -45,8 +45,16 @@ Only Atoms are mapped presently in the code and only for spacing, radius, and co
 - Toast
 - Tooltip
 
+## Using the tokens
 
-## Generating Tokens
+At the moment we have sass files for the tokens which are css variables. We may provide other formats as needed. To use the components either:
+
+1. Take the core, semantic files from https://github.com/infor-design/ids-foundation/tree/main/tokens/theme-soho (Component tokens https://github.com/infor-design/enterprise-wc/tree/main/src/themes/default in the source)
+2. Use the npm package https://www.npmjs.com/package/ids-foundation
+
+## Tasks for Developers in this repo
+
+### Generating Tokens
 
 1. Open file https://www.figma.com/file/7xMSXwCpK3eq4uGqkDDDav/%5BIDS%5D-Design-Tokens?type=design&node-id=16-646&mode=design&t=HyMBBDpSqYNqIHGk-0
 2. On the Design tab on the right panel, click "Local Variables" to see the tokens
@@ -57,7 +65,7 @@ Only Atoms are mapped presently in the code and only for spacing, radius, and co
 7. Select all text and format the JSON
 8. Run `node scripts/generate-tokens.mjs` and use output
 
-## Designs with Tokens
+### Designs with Tokens
 
 Newest:
 https://www.figma.com/file/7xMSXwCpK3eq4uGqkDDDav/%5BIDS%5D-Design-Tokens?type=design&node-id=16-646&mode=design&t=HyMBBDpSqYNqIHGk-0
@@ -71,7 +79,7 @@ https://www.figma.com/file/7Fl52jRJUDVJawJB8IXQri/IDS-Variables-component-librar
 Anatomy Diagram (a bit outdated):
 https://www.figma.com/file/43QPfoE7ke2uCTnfGxrsAr/Token-Anatomy-Figma?type=design&node-id=0-1&mode=design&t=G9qyYHHZl0qSlNhK-0
 
-## Generating Icons
+### Generating Icons
 
 1. Go to https://pages.workers.design.infor.com/
 2. Run Job `design-system-dry-run` as a dry run (as if releasing that)
@@ -79,7 +87,7 @@ https://www.figma.com/file/43QPfoE7ke2uCTnfGxrsAr/Token-Anatomy-Figma?type=desig
 4. Take the theme-new/icons/default part and copy it to the icons standard folder
 5. Take the theme-new/icons/old/empty part and copy it to the icons empty folder
 
-## Icon Fonts
+### Icon Fonts
 
 To generate the icon font:
 
@@ -98,7 +106,7 @@ Alternative formats:
     url('fonts/IDS-V5.woff?m5pnz1') format('woff'),
 ```
 
-## Publish Steps
+### Publish Steps
 
 - bump version (release.json and package.json)
 - check change log
