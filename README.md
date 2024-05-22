@@ -1,6 +1,6 @@
 # Overview
 
-Contains base tokens, font files and foundational assets for the Ids design system.
+Contains base tokens, semantic tokens, font files and foundational assets for IDS Design System.
 
 ## Design Tokens
 
@@ -12,18 +12,18 @@ Tokens are categorized by whichever foundational style that’s applied.
 
 | Token       |                               |Example         |Status         |
 |-------------|-------------------------------|----------------|----------------|
-|**color**    |Defines fills for backgrounds, text, icons, and borders |`$color-surface-secondary`| Included |
-|**radius**   |Defines border radii for surfaced  for backgrounds, text, icons, and borders |`$radius-02`| Included |
-|**spacing**  |Defines scalable padding and margin units for grids and layouts  |`$space-05`| Included |
-|**font**     |Defines typography attributes like font families, weights, sizes, and line height |`$font-size-label`| Future |
-|**border**   |Defines stroke widths, styles, and radiuses  |`$border-style-dashed`| Future |
-|**size**     |Defines other reusable values for heights, widths, and breakpoints  |`$size-70`| Future |
-|**shadow**   |Defines box shadow properties like offsets, blur, and color |`$shadow-error`| Future |
-|**motion**   |Defines animations during certain interaction states  |`$motion-ease`| Future |
+|**color**    |Defines fills for backgrounds, text, icons, and borders |`color-background-default`| Included |
+|**radius**   |Defines border radii for surfaced  for backgrounds, text, icons, and borders |`border-radius-xs`| Included |
+|**spacing**  |Defines scalable padding and margin units for grids and layouts  |`space-xl`| Included |
+|**font**     |Defines typography attributes like font families, weights, sizes, and line height |`font-size-label`| Future |
+|**border**   |Defines stroke widths, styles, and radiuses  |`border-style-dashed`| Future |
+|**size**     |Defines other reusable values for heights, widths, and breakpoints  |`size-70`| Future |
+|**shadow**   |Defines box shadow properties like offsets, blur, and color |`shadow-error`| Future |
+|**motion**   |Defines animations during certain interaction states  |`motion-ease`| Future |
 
 ### Mapped Components
 
-Only Atoms are mapped presently in the code and only for spacing, radius, and color
+Only Atoms are mapped presently in the code and only for spacing, radius, and color.
 
 - Avatar (Images)
 - Buttons
@@ -45,9 +45,11 @@ Only Atoms are mapped presently in the code and only for spacing, radius, and co
 - Toast
 - Tooltip
 
-## Using the tokens
+### Using the Tokens
 
-At the moment we have sass files for the tokens which are css variables. We may provide other formats as needed. To use the components either:
+At the moment, we have Sass files for the tokens, provided as CSS variables. We may provide other formats as needed. 
 
-1. Take the core, semantic files from https://github.com/infor-design/ids-foundation/tree/main/tokens/theme-soho (Component tokens https://github.com/infor-design/enterprise-wc/tree/main/src/themes/default in the source)
-2. Use the npm package https://www.npmjs.com/package/ids-foundation
+To use the components:
+
+1. Take the core and semantic tokens from [/ids-foundation](https://github.com/infor-design/ids-foundation/tree/main/tokens/theme-soho). View [component tokens](https://github.com/infor-design/enterprise-wc/tree/main/src/themes/default) in @infor-design/enterprise-wc.
+2. Use the [npm package](https://www.npmjs.com/package/ids-foundation).
