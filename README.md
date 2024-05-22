@@ -1,6 +1,6 @@
 # Overview
 
-Contains base tokens, semantic tokens, font files and foundational assets for IDS Design System.
+Contains base tokens, semantic tokens, font files and foundational assets for IDS.
 
 ## Design Tokens
 
