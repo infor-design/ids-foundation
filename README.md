@@ -8,7 +8,7 @@ Design tokens are pieces of data that represent foundational styles in the desig
 
 ### Types
 
-Tokens are categorized by whichever foundational style that’s applied.
+Tokens are categorized by the foundational style that’s applied.
 
 | Token       |                               |Example         |Status         |
 |-------------|-------------------------------|----------------|----------------|
@@ -47,9 +47,15 @@ Only Atoms are mapped presently in the code and only for spacing, radius, and co
 
 ### Using the Tokens
 
-At the moment, we have Sass files for the tokens, provided as CSS variables. We may provide other formats as needed. 
+#### Code
+
+Sass files for the tokens are provided as CSS variables. We may provide other formats as needed. 
 
 To use the components:
 
 1. Take the core and semantic tokens from [/ids-foundation](https://github.com/infor-design/ids-foundation/tree/main/tokens/theme-soho). View [component tokens](https://github.com/infor-design/enterprise-wc/tree/main/src/themes/default) in @infor-design/enterprise-wc.
 2. Use the [npm package](https://www.npmjs.com/package/ids-foundation).
+
+#### Design
+
+Semantic tokens can be manually applied in Figma by adding the [IDS Design Tokens](https://www.figma.com/design/7xMSXwCpK3eq4uGqkDDDav/IDS-Design-Tokens?m=auto&node-id=16%3A396&t=VDCzgpqVzBEcmjt5-1) library. Tokenized Figma components will available in the future.
