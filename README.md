@@ -53,9 +53,14 @@ Sass files for the tokens are provided as CSS variables. We may provide other fo
 
 To use the components:
 
-1. Take the core and semantic tokens from [/ids-foundation](https://github.com/infor-design/ids-foundation/tree/main/tokens/theme-soho). View [component tokens](https://github.com/infor-design/enterprise-wc/tree/main/src/themes/default) in @infor-design/enterprise-wc.
+1. Take the core and semantic tokens from [/ids-foundation](https://github.com/infor-design/ids-foundation/tree/main/tokens/theme-soho). View [component tokens](https://github.com/infor-design/enterprise-wc/tree/main/src/themes/default) in `@infor-design/enterprise-wc`.
 2. Use the [npm package](https://www.npmjs.com/package/ids-foundation).
+3. Or additionally note that the web component theme css files contain the tokens, so if you are using those you can just start using the tokens.
 
 #### Design
 
 Semantic tokens can be manually applied in Figma by adding the [IDS Design Tokens](https://www.figma.com/design/7xMSXwCpK3eq4uGqkDDDav/IDS-Design-Tokens?m=auto&node-id=16%3A396&t=VDCzgpqVzBEcmjt5-1) library. Tokenized Figma components will available in the future.
+
+### Using the System Fonts
+
+The system fonts are included in the `fonts` directory. They are used in the web components and can be used in your projects as well. See [./fonts](./fonts) for more information and readme. To get around GDPR issues we strongly recommend you serve this with your app.
