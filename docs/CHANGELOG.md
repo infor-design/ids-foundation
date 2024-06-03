@@ -1,5 +1,11 @@
 # What's New with Ids Foundations
 
+## v1.0.3
+
+## v1.0.3 Features
+
+- `[Fonts]` Added font files used for apps and css in the `fonts` folder for general use. ([2283](https://github.com/infor-design/enterprise/issues/2283))
+
 ## v1.0.2
 
 ## v1.0.2 Features

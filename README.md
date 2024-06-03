@@ -51,3 +51,8 @@ At the moment we have sass files for the tokens which are css variables. We may 
 
 1. Take the core, semantic files from https://github.com/infor-design/ids-foundation/tree/main/tokens/theme-soho (Component tokens https://github.com/infor-design/enterprise-wc/tree/main/src/themes/default in the source)
 2. Use the npm package https://www.npmjs.com/package/ids-foundation
+3. Additionally note that the web component theme css files contain the tokens, so if you are using those you can just start using the tokens.
+
+## Using the System Fonts
+
+The system fonts are included in the `fonts` directory. They are used in the web components and can be used in your projects as well. See [./fonts](./fonts) for more information. To get around GDPR issues we strongly recommend you serve this with your app.
