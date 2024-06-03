@@ -1,6 +1,6 @@
 {
   "name": "ids-foundation",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Base tokens, font files and foundational assets for IDS",
   "main": "index.js",
   "scripts": {},
