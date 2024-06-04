@@ -21,6 +21,10 @@ fs.copyFileSync('tokens/theme-terrazzo/core.scss', `${distDir}/theme-terrazzo/co
 fs.mkdirSync(`${distDir}/icon-fonts`);
 fs.cpSync('icon-fonts', `${distDir}/icon-fonts`, { recursive: true });
 
+// Fonts
+fs.mkdirSync(`${distDir}/fonts`);
+fs.cpSync('fonts', `${distDir}/fonts`, { recursive: true });
+
 // Icons
 fs.mkdirSync(`${distDir}/icons`);
 fs.cpSync('icons', 'dist/icons', { recursive: true });

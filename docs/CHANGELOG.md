@@ -1,10 +1,16 @@
 # What's New with Ids Foundations
 
+## v1.0.4
+
+## v1.0.4 Features
+
+- `[Fonts]` Actually included the fonts in the distribution. ([2283](https://github.com/infor-design/enterprise/issues/2283))
+
 ## v1.0.3
 
 ## v1.0.3 Features
 
-- `[Fonts]` Added font files used for apps and css in the `fonts` folder for general use. ([2283](https://github.com/infor-design/enterprise/issues/2283))
+- `[Fonts]` Added font files used for apps and css in the `fonts` folder. ([2283](https://github.com/infor-design/enterprise/issues/2283))
 
 ## v1.0.2
 
