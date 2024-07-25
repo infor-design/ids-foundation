@@ -16,6 +16,7 @@ fs.copyFileSync('tokens/theme-soho/semantic-contrast.scss', `${distDir}/theme-so
 fs.copyFileSync('tokens/theme-soho/semantic-dark.scss', `${distDir}/theme-soho/semantic-dark.scss`);
 fs.copyFileSync('tokens/theme-soho/semantic-light.scss', `${distDir}/theme-soho/semantic-light.scss`);
 fs.copyFileSync('tokens/theme-terrazzo/core.scss', `${distDir}/theme-terrazzo/core.scss`);
+fs.copyFileSync('tokens/theme-terrazzo/theme-colors.scss', `${distDir}/theme-terrazzo/theme-colors.scss`);
 
 // Icon Fonts
 fs.mkdirSync(`${distDir}/icon-fonts`);

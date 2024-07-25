@@ -15,8 +15,8 @@ Tokens are categorized by the foundational style that’s applied.
 |**color**    |Defines fills for backgrounds, text, icons, and borders |`color-background-default`| Included |
 |**radius**   |Defines border radii for surfaced  for backgrounds, text, icons, and borders |`border-radius-xs`| Included |
 |**spacing**  |Defines scalable padding and margin units for grids and layouts  |`space-xl`| Included |
-|**font**     |Defines typography attributes like font families, weights, sizes, and line height |`font-size-label`| Future |
-|**border**   |Defines stroke widths, styles, and radiuses  |`border-style-dashed`| Future |
+|**font**     |Defines typography attributes like font families, weights, sizes, and line height |`font-size-label`| Included |
+|**border**   |Defines stroke widths, styles, and radiuses  |`border-style-dashed`| Included |
 |**size**     |Defines other reusable values for heights, widths, and breakpoints  |`size-70`| Future |
 |**shadow**   |Defines box shadow properties like offsets, blur, and color |`shadow-error`| Future |
 |**motion**   |Defines animations during certain interaction states  |`motion-ease`| Future |
@@ -54,7 +54,7 @@ Sass files for the tokens are provided as CSS variables. We may provide other fo
 To use the components:
 
 1. Take the core and semantic tokens from [/ids-foundation](https://github.com/infor-design/ids-foundation/tree/main/tokens/theme-soho). View [component tokens](https://github.com/infor-design/enterprise-wc/tree/main/src/themes/default) in `@infor-design/enterprise-wc`.
-2. Use the [npm package](https://www.npmjs.com/package/ids-foundation).
+2. Use the [`npm` package](https://www.npmjs.com/package/ids-foundation).
 3. Or additionally note that the web component theme css files contain the tokens, so if you are using those you can just start using the tokens.
 
 #### Design
