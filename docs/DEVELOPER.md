@@ -10,13 +10,16 @@
 6. Copy the JSON file to the tokens/theme-soho folder and call it figma-export-tokens.json (name used in the scripts)
 7. Select all text and format the JSON
 8. Run `node scripts/generate-tokens.mjs` and use output
+9. Look at the designs at https://www.figma.com/design/vZbJ659UdOMYr7pm86qT0r/Tokenizing-Soho-components?node-id=7563-988&m=dev#821025933 and map the tokens to the css as defined in the designs
 
 ## Designs with Tokens
 
 Newest:
 https://www.figma.com/file/7xMSXwCpK3eq4uGqkDDDav/%5BIDS%5D-Design-Tokens?type=design&node-id=16-646&mode=design&t=HyMBBDpSqYNqIHGk-0
 
-Explorations (Newer):
+https://www.figma.com/design/vZbJ659UdOMYr7pm86qT0r/Tokenizing-Soho-components?node-id=7563-988&m=dev#821025933
+
+Explorations:
 https://www.figma.com/file/vZbJ659UdOMYr7pm86qT0r/Design-System%3A-V5?node-id=16%3A646&mode=dev
 
 Older Version:

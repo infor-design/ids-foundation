@@ -25,6 +25,18 @@ const fixValue = (value) => {
   if (String(value).includes('{space.')) value = value.replaceAll('{space.', 'var(--ids-space-').replaceAll('}', ')').replaceAll('.', '-');
   if (String(value).includes('{border.')) value = value.replaceAll('{border.', 'var(--ids-border-').replaceAll('}', ')').replaceAll('.', '-');
   if (String(value).includes('{radius.')) value = value.replaceAll('{radius.', 'var(--ids-radius-').replaceAll('}', ')').replaceAll('.', '-');
+  if (String(value).includes('{font.size.')) value = value.replaceAll('{font.size.', 'var(--ids-font-size-').replaceAll('}', ')').replaceAll('.', '-');
+  if (String(value).includes('{opacity.')) value = value.replaceAll('{opacity.', 'var(--ids-opacity-').replaceAll('}', ')').replaceAll('.', '-');
+
+  if (String(value).includes('{font.family.sans}')) value = value.replaceAll('{font.family.sans}', 'var(--ids-font-family-sans)');
+  if (String(value).includes('{font.family.sans}')) value = value.replaceAll('{font.family.sans}', 'var(--ids-font-family-sans)');
+  if (String(value).includes('{font.weight.regular}')) value = value.replaceAll('{font.weight.regular}', 'var(--ids-font-weight-regular)');
+  if (String(value).includes('{font.weight.semibold}')) value = value.replaceAll('{font.weight.semibold}', 'var(--ids-font-weight-semibold)');
+  if (String(value).includes('{font.weight.bold}')) value = value.replaceAll('{font.weight.bold}', 'var(--ids-font-weight-bold)');
+
+  if (String(value).includes('Source Sans Pro')) {
+    value = 'source sans pro, -apple-system, helvetica, arial';
+  }
   return value;
 };
 
@@ -56,9 +68,19 @@ const extractSection = (sectionName, sectionToken, title, addUnit, levels) => {
 // Core Tokens - Soho
 cnt = 0;
 let coreTokenContents = ':root {\r\n';
-coreTokenContents += extractSection(json[2]._Core.modes.Soho.border.radius, '--ids-border-radius', 'Border radii', 'px', 1);
-coreTokenContents += extractSection(json[2]._Core.modes.Soho.space, '--ids-space', 'Spacing', 'px', 1);
-coreTokenContents += extractSection(json[2]._Core.modes.Soho.color, '--ids-color', 'Colors', '', 2);
+coreTokenContents += extractSection(json[2].Core.modes.SoHo.color, '--ids-color', 'Colors', '', 2);
+coreTokenContents += extractSection(json[2].Core.modes.SoHo.breakpoint, '--ids-breakpoint', 'Breakpoints', 'px', 1);
+coreTokenContents += extractSection(json[2].Core.modes.SoHo.border.radius, '--ids-border-radius', 'Border radii', 'px', 1);
+coreTokenContents += extractSection(json[2].Core.modes.SoHo.border.width, '--ids-border-width', 'Border width', 'px', 1);
+coreTokenContents += extractSection(json[2].Core.modes.SoHo.cursor, '--ids-cursor', 'Cursors', '', 1);
+coreTokenContents += extractSection(json[2].Core.modes.SoHo.font.family, '--ids-font-family', 'Font family', '', 1);
+coreTokenContents += extractSection(json[2].Core.modes.SoHo.font['line-height'], '--ids-font-line-height', 'Font size', 'px', 1);
+coreTokenContents += extractSection(json[2].Core.modes.SoHo.font.size, '--ids-font-size', 'Font size', 'px', 1);
+coreTokenContents += extractSection(json[2].Core.modes.SoHo.font.uppercase, '--ids-font-uppercase', 'Font uppercase', '', 1);
+coreTokenContents += extractSection(json[2].Core.modes.SoHo.font.weight, '--ids-font-weight', 'Font weight', '', 1);
+coreTokenContents += extractSection(json[2].Core.modes.SoHo.opacity, '--ids-opacity', 'Opacity', '', 1);
+coreTokenContents += extractSection(json[2].Core.modes.SoHo.space, '--ids-space', 'Spacing', 'px', 1);
+coreTokenContents += extractSection(json[2].Core.modes.SoHo['z-index'], '--ids-z-index', 'Z Index', '', 1);
 coreTokenContents += '}\r\n';
 
 console.log(`tokens/theme-soho/core.scss ${cnt} tokens`);
@@ -67,9 +89,19 @@ fs.writeFileSync('tokens/theme-soho/core.scss', coreTokenContents);
 // Core Tokens - Terrazzo
 cnt = 0;
 coreTokenContents = ':root {\r\n';
-coreTokenContents += extractSection(json[2]._Core.modes.Terrazzo.border.radius, '--ids-radius', 'Border radii', 'px', 1);
-coreTokenContents += extractSection(json[2]._Core.modes.Terrazzo.space, '--ids-spacing', 'Spacing', 'px', 1);
-coreTokenContents += extractSection(json[2]._Core.modes.Terrazzo.color, '--ids-color', 'Colors', '', 2);
+coreTokenContents += extractSection(json[2].Core.modes.Terrazzo.color, '--ids-color', 'Colors', '', 2);
+coreTokenContents += extractSection(json[2].Core.modes.Terrazzo.breakpoint, '--ids-breakpoint', 'Breakpoints', 'px', 1);
+coreTokenContents += extractSection(json[2].Core.modes.Terrazzo.border.radius, '--ids-border-radius', 'Border radii', 'px', 1);
+coreTokenContents += extractSection(json[2].Core.modes.Terrazzo.border.width, '--ids-border-width', 'Border width', 'px', 1);
+coreTokenContents += extractSection(json[2].Core.modes.Terrazzo.cursor, '--ids-cursor', 'Cursors', '', 1);
+coreTokenContents += extractSection(json[2].Core.modes.Terrazzo.font.family, '--ids-font-family', 'Font family', '', 1);
+coreTokenContents += extractSection(json[2].Core.modes.Terrazzo.font['line-height'], '--ids-font-line-height', 'Font size', 'px', 1);
+coreTokenContents += extractSection(json[2].Core.modes.Terrazzo.font.size, '--ids-font-size', 'Font size', 'px', 1);
+coreTokenContents += extractSection(json[2].Core.modes.Terrazzo.font.uppercase, '--ids-font-uppercase', 'Font uppercase', '', 1);
+coreTokenContents += extractSection(json[2].Core.modes.Terrazzo.font.weight, '--ids-font-weight', 'Font weight', '', 1);
+coreTokenContents += extractSection(json[2].Core.modes.Terrazzo.opacity, '--ids-opacity', 'Opacity', '', 1);
+coreTokenContents += extractSection(json[2].Core.modes.Terrazzo.space, '--ids-space', 'Spacing', 'px', 1);
+coreTokenContents += extractSection(json[2].Core.modes.Terrazzo['z-index'], '--ids-z-index', 'Z Index', '', 1);
 coreTokenContents += '}\r\n';
 
 console.log(`tokens/theme-terrazzo/core.scss ${cnt} tokens`);
@@ -78,95 +110,78 @@ fs.writeFileSync('tokens/theme-terrazzo/core.scss', coreTokenContents);
 // Theme Tokens - Soho
 cnt = 0;
 let themeTokenContents = ':root {\r\n';
-themeTokenContents += extractSection(json[1]._Theme.modes.Soho.color, '--ids-color', 'Theme colors', '', 2);
+themeTokenContents += extractSection(json[1].Theme.modes.Default.color.theme, '--ids-color-theme', 'Default theme colors', '', 1);
 themeTokenContents += '}\r\n';
 
 console.log(`tokens/theme-soho/theme-colors.scss ${cnt} tokens`);
 fs.writeFileSync('tokens/theme-soho/theme-colors.scss', themeTokenContents);
 
-// Semantic Tokens - Soho
-let extraSemanticTokensByTheme = (themeName, fileName) => {
-  cnt = 0;
-  // Colors
-  let semanticTokenContents = ':root {\r\n';
-  semanticTokenContents += '  // Surface colors\r\n';
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.background, '--ids-color-background', '', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.foreground, '--ids-color-foreground', '', '', 2);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.border, '--ids-color-border', '', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.action, '--ids-color-action', '', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.success, '--ids-color-success', '', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.caution, '--ids-color-caution', '', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.warning, '--ids-color-warning', '', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.error, '--ids-color-error', '', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.info, '--ids-color-info', '', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.action, '--ids-color-action', '', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.theme, '--ids-color-theme', '', '', 1);
+// Theme Tokens - Terrazzo
+cnt = 0;
+themeTokenContents = ':root {\r\n';
+themeTokenContents += extractSection(json[1].Theme.modes.IndustryA.color.theme, '--ids-color-theme-industry-a', 'Industry A theme colors', '', 1);
+themeTokenContents += extractSection(json[1].Theme.modes.IndustryB.color.theme, '--ids-color-theme-industry-b', 'Industry A theme colors', '', 1);
+themeTokenContents += '}\r\n';
 
-  semanticTokenContents += '  // Accent colors\r\n';
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.blue, '--ids-color-accent-blue', '', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.green, '--ids-color-accent-green', '', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.gray, '--ids-color-accent-gray', '', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.orange, '--ids-color-accent-orange', '', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.purple, '--ids-color-accent-purple', '', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.red, '--ids-color-accent-red', '', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.teal, '--ids-color-accent-teal', '', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.yellow, '--ids-color-accent-yellow', '', '', 1);
-  semanticTokenContents += '  // Chart Colors\r\n';
-  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color['dataviz'].accent, '--ids-dataviz-color-accent', '', '', 2);
-  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color['dataviz'].sequential, '--ids-dataviz-color-sequential', '', '', 1);
-  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color['dataviz'].density, '--ids-dataviz-color-density', '', '', 1);
-
-  // Radius and Spacing
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].border.radius, '--ids-border-radius', 'Radii', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].space, '--ids-spacing', 'Space', '', 1);
-  semanticTokenContents += '}\r\n';
-
-  console.log(`tokens/theme-soho/${fileName} ${cnt} tokens`);
-  fs.writeFileSync(`tokens/theme-soho/${fileName}`, semanticTokenContents);
-};
-
-extraSemanticTokensByTheme('Light', 'semantic-light.scss');
-extraSemanticTokensByTheme('Dark', 'semantic-dark.scss');
-extraSemanticTokensByTheme('High Contrast', 'semantic-contrast.scss');
+console.log(`tokens/theme-terrazzo/theme-colors.scss ${cnt} tokens`);
+fs.writeFileSync('tokens/theme-terrazzo/theme-colors.scss', themeTokenContents);
 
 // Semantic Tokens - Soho
-extraSemanticTokensByTheme = (themeName, fileName) => {
+const extraSemanticTokensByTheme = (themeName, fileName) => {
   cnt = 0;
   // Colors
   let semanticTokenContents = ':root {\r\n';
 
-  semanticTokenContents += '  // Surface colors\r\n';
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.background, '--ids-color-background', '', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.foreground, '--ids-color-foreground', '', '', 2);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.border, '--ids-color-border', '', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.action, '--ids-color-action', '', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.success, '--ids-color-success', '', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.caution, '--ids-color-caution', '', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.warning, '--ids-color-warning', '', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.error, '--ids-color-error', '', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.info, '--ids-color-info', '', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.action, '--ids-color-action', '', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.theme, '--ids-color-theme', '', '', 1);
-
   semanticTokenContents += '  // Accent colors\r\n';
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.blue, '--ids-color-accent-blue', '', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.green, '--ids-color-accent-green', '', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.gray, '--ids-color-accent-gray', '', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.orange, '--ids-color-accent-orange', '', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.purple, '--ids-color-accent-purple', '', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.red, '--ids-color-accent-red', '', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.teal, '--ids-color-accent-teal', '', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].color.accent.yellow, '--ids-color-accent-yellow', '', '', 1);
+  semanticTokenContents += extractSection(json[0].Color.modes[themeName].color.accent.blue, '--ids-color-accent-blue', '', '', 1);
+  semanticTokenContents += extractSection(json[0].Color.modes[themeName].color.accent.green, '--ids-color-accent-green', '', '', 1);
+  semanticTokenContents += extractSection(json[0].Color.modes[themeName].color.accent.neutral, '--ids-color-accent-neutral', '', '', 1);
+  semanticTokenContents += extractSection(json[0].Color.modes[themeName].color.accent.orange, '--ids-color-accent-orange', '', '', 1);
+  semanticTokenContents += extractSection(json[0].Color.modes[themeName].color.accent.purple, '--ids-color-accent-purple', '', '', 1);
+  semanticTokenContents += extractSection(json[0].Color.modes[themeName].color.accent.red, '--ids-color-accent-red', '', '', 1);
+  semanticTokenContents += extractSection(json[0].Color.modes[themeName].color.accent.teal, '--ids-color-accent-teal', '', '', 1);
+  semanticTokenContents += extractSection(json[0].Color.modes[themeName].color.accent.yellow, '--ids-color-accent-yellow', '', '', 1);
+
+  semanticTokenContents += '  // Surface colors\r\n';
+  semanticTokenContents += extractSection(json[0].Color.modes[themeName].color.action, '--ids-color-action', '', '', 1);
+  semanticTokenContents += extractSection(json[0].Color.modes[themeName].color.background, '--ids-color-background', '', '', 1);
+  semanticTokenContents += extractSection(json[0].Color.modes[themeName].color.border, '--ids-color-border', '', '', 1);
+  semanticTokenContents += extractSection(json[0].Color.modes[themeName].color.foreground, '--ids-color-foreground', '', '', 2);
+  semanticTokenContents += extractSection(json[0].Color.modes[themeName].color.success, '--ids-color-success', '', '', 1);
+  semanticTokenContents += extractSection(json[0].Color.modes[themeName].color.caution, '--ids-color-caution', '', '', 1);
+  semanticTokenContents += extractSection(json[0].Color.modes[themeName].color.warning, '--ids-color-warning', '', '', 1);
+  semanticTokenContents += extractSection(json[0].Color.modes[themeName].color.error, '--ids-color-error', '', '', 1);
+  semanticTokenContents += extractSection(json[0].Color.modes[themeName].color.info, '--ids-color-info', '', '', 1);
+  semanticTokenContents += extractSection(json[0].Color.modes[themeName].color.action, '--ids-color-action', '', '', 1);
+  semanticTokenContents += extractSection(json[0].Color.modes[themeName].color.theme, '--ids-color-theme', '', '', 1);
+  semanticTokenContents += extractSection(json[0].Color.modes[themeName].transparent, '--ids-color-transparent', '', '', 1);
+
   semanticTokenContents += '  // Chart Colors\r\n';
-  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color['dataviz'].accent, '--ids-dataviz-color-accent', '', '', 2);
-  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color['dataviz'].sequential, '--ids-dataviz-color-sequential', '', '', 1);
-  semanticTokenContents += extractSection(json[4]['Data Viz'].modes[themeName].color['dataviz'].density, '--ids-dataviz-color-density', '', '', 1);
+  semanticTokenContents += extractSection(json[3]['Data viz'].modes[themeName].color['dataviz'].accent, '--ids-dataviz-color-accent', '', '', 2);
+  semanticTokenContents += extractSection(json[3]['Data viz'].modes[themeName].color['dataviz'].default, '--ids-dataviz-color-default', '', '', 1);
+  semanticTokenContents += extractSection(json[3]['Data viz'].modes[themeName].color['dataviz'].density, '--ids-dataviz-color-density', '', '', 1);
+  semanticTokenContents += extractSection(json[3]['Data viz'].modes[themeName].color['dataviz'].negative, '--ids-dataviz-color-negative', '', '', 1);
+  semanticTokenContents += extractSection(json[3]['Data viz'].modes[themeName].color['dataviz'].neutral, '--ids-dataviz-color-neutral', '', '', 1);
+  semanticTokenContents += extractSection(json[3]['Data viz'].modes[themeName].color['dataviz'].positive, '--ids-dataviz-color-positive', '', '', 1);
+  semanticTokenContents += extractSection(json[3]['Data viz'].modes[themeName].color['dataviz'].secondary, '--ids-dataviz-color-secondary', '', '', 1);
+  semanticTokenContents += extractSection(json[3]['Data viz'].modes[themeName].color['dataviz'].sequential, '--ids-dataviz-color-sequential', '', '', 1);
 
-  // Radius and Spacing
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].border.radius, '--ids-border-radius', 'Radii', '', 1);
-  semanticTokenContents += extractSection(json[0].Semantic.modes[themeName].space, '--ids-space', 'Space', '', 1);
+  // Border and Spacing
+  semanticTokenContents += extractSection(json[4].Space.modes.Value.space, '--ids-spacing', 'Space', '', 1);
+  semanticTokenContents += extractSection(json[5].Border.modes.Value.border.radius, '--ids-border-radius', 'Radii', '', 1);
+  semanticTokenContents += extractSection(json[5].Border.modes.Value.border.width, '--ids-border-width', 'Border Width', '', 1);
+
+  // Fonts
+  semanticTokenContents += extractSection(json[6].Font.modes.Default.font.family.default, '--ids-font-family-default', 'Font Family', '', 1);
+  semanticTokenContents += extractSection(json[6].Font.modes.Default.font.weight, '--ids-font-weight', 'Font weight', '', 1);
+
+  // Font Sizes
+  semanticTokenContents += extractSection(json[6].Font.modes.Default.font.size, '--ids-font-size', 'Font size', '', 1);
+
+  // Opacity
+  semanticTokenContents += extractSection(json[7].Opacity.modes['Mode 1'].opacity, '--ids-opacity', 'Opacity', '', 1);
+
   semanticTokenContents += '}\r\n';
-
   console.log(`tokens/theme-soho/${fileName} ${cnt} tokens`);
   fs.writeFileSync(`tokens/theme-soho/${fileName}`, semanticTokenContents);
 };

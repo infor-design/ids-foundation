@@ -1,5 +1,17 @@
 # What's New with Ids Foundations
 
+## v1.1.0
+
+- `[Tokens]` Updated yellow values ([2471](https://github.com/infor-design/enterprise/issues/2471))
+- `[Tokens]` Added color-action-strongest to support links ([2471](https://github.com/infor-design/enterprise/issues/2471))
+- `[Tokens]` Renamed color-gray to color-neutral and accent-gray to accent-neutral ([2471](https://github.com/infor-design/enterprise/issues/2471))
+- `[Tokens]` Added core tokens: z-index and cursors ([2471](https://github.com/infor-design/enterprise/issues/2471))
+- `[Tokens]` Added font tokens to core/semantic - and created groups of family/weight/size for general CSS + Figma use ([2471](https://github.com/infor-design/enterprise/issues/2471))
+- `[Tokens]` Moved breakpoint tokens to core tokens ([2471](https://github.com/infor-design/enterprise/issues/2471))
+- `[Tokens]` Added color-black-00 as value for --color-transparent  ([2471](https://github.com/infor-design/enterprise/issues/2471))
+- `[Tokens]` Added opacity tokens to core/semantic for disabled states ([2471](https://github.com/infor-design/enterprise/issues/2471))
+- `[Tokens]` Added border-width tokens to core/semantic for strokes (not yet applied to components) ([2471](https://github.com/infor-design/enterprise/issues/2471))
+
 ## v1.0.4
 
 ## v1.0.4 Features
@@ -16,7 +28,7 @@
 
 ## v1.0.2 Features
 
-- `[General]` Added new separated file to the docs, added new updated dataviz tokens. ([1680](https://github.com/infor-design/enterprise/issues/1680))
+- `[General]` Added new separated file to the docs, added new updated `dataviz` tokens. ([1680](https://github.com/infor-design/enterprise/issues/1680))
 
 ## v1.0.1
 
