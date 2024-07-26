@@ -29,7 +29,6 @@ const fixValue = (value) => {
   if (String(value).includes('{opacity.')) value = value.replaceAll('{opacity.', 'var(--ids-opacity-').replaceAll('}', ')').replaceAll('.', '-');
 
   if (String(value).includes('{font.family.sans}')) value = value.replaceAll('{font.family.sans}', 'var(--ids-font-family-sans)');
-  if (String(value).includes('{font.family.sans}')) value = value.replaceAll('{font.family.sans}', 'var(--ids-font-family-sans)');
   if (String(value).includes('{font.weight.regular}')) value = value.replaceAll('{font.weight.regular}', 'var(--ids-font-weight-regular)');
   if (String(value).includes('{font.weight.semibold}')) value = value.replaceAll('{font.weight.semibold}', 'var(--ids-font-weight-semibold)');
   if (String(value).includes('{font.weight.bold}')) value = value.replaceAll('{font.weight.bold}', 'var(--ids-font-weight-bold)');
