@@ -13,7 +13,7 @@ Tokens are categorized by the foundational style that’s applied.
 | Token       |                               |Example         |Status         |
 |-------------|-------------------------------|----------------|----------------|
 |**color**    |Defines fills for backgrounds, text, icons, and borders |`color-background-default`| Included |
-|**radius**   |Defines border radii for surfaced  for backgrounds, text, icons, and borders |`border-radius-xs`| Included |
+|**radius**   |Defines border radii for backgrounds, text, icons, and borders |`border-radius-xs`| Included |
 |**space**  |Defines scalable padding and margin units for grids and layouts  |`space-xl`| Included |
 |**font**     |Defines typography attributes like font families, weights, sizes, and line height |`font-size-label`| Included |
 |**border**   |Defines stroke widths, styles, and radiuses  |`border-style-dashed`| Included |

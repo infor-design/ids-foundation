@@ -142,7 +142,7 @@ const extraSemanticTokensByTheme = (themeName, fileName) => {
   semanticTokenContents += extractSection(json[0].Color.modes[themeName].color.accent.teal, '--ids-color-accent-teal', '', '', 1);
   semanticTokenContents += extractSection(json[0].Color.modes[themeName].color.accent.yellow, '--ids-color-accent-yellow', '', '', 1);
 
-  semanticTokenContents += '  // Surface colors\r\n';
+  semanticTokenContents += '  // Background and Action colors\r\n';
   semanticTokenContents += extractSection(json[0].Color.modes[themeName].color.action, '--ids-color-action', '', '', 1);
   semanticTokenContents += extractSection(json[0].Color.modes[themeName].color.background, '--ids-color-background', '', '', 1);
   semanticTokenContents += extractSection(json[0].Color.modes[themeName].color.border, '--ids-color-border', '', '', 1);

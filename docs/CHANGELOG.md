@@ -11,6 +11,8 @@
 - `[Tokens]` Added color-black-00 as value for --color-transparent  ([2471](https://github.com/infor-design/enterprise/issues/2471))
 - `[Tokens]` Added opacity tokens to core/semantic for disabled states ([2471](https://github.com/infor-design/enterprise/issues/2471))
 - `[Tokens]` Added border-width tokens to core/semantic for strokes (not yet applied to components) ([2471](https://github.com/infor-design/enterprise/issues/2471))
+- `[Tokens]` Renamed tokens like xxxxl to 5xl for better readability.  ([2471](https://github.com/infor-design/enterprise/issues/2471))
+
 
 ## v1.0.4
 
