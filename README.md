@@ -14,7 +14,7 @@ Tokens are categorized by the foundational style that’s applied.
 |-------------|-------------------------------|----------------|----------------|
 |**color**    |Defines fills for backgrounds, text, icons, and borders |`color-background-default`| Included |
 |**radius**   |Defines border radii for surfaced  for backgrounds, text, icons, and borders |`border-radius-xs`| Included |
-|**spacing**  |Defines scalable padding and margin units for grids and layouts  |`space-xl`| Included |
+|**space**  |Defines scalable padding and margin units for grids and layouts  |`space-xl`| Included |
 |**font**     |Defines typography attributes like font families, weights, sizes, and line height |`font-size-label`| Included |
 |**border**   |Defines stroke widths, styles, and radiuses  |`border-style-dashed`| Included |
 |**size**     |Defines other reusable values for heights, widths, and breakpoints  |`size-70`| Future |
@@ -23,7 +23,7 @@ Tokens are categorized by the foundational style that’s applied.
 
 ### Mapped Components
 
-Only Atoms are mapped presently in the code and only for spacing, radius, and color.
+Only Atoms are mapped presently in the code and only for space, radius, and color.
 
 - Avatar (Images)
 - Buttons

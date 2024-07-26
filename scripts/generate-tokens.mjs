@@ -21,7 +21,7 @@ const fixValue = (value) => {
     value = value.replaceAll(', 100)', ', 1)');
   }
 
-  if (String(value).includes('{spacing.')) value = value.replaceAll('{spacing.', 'var(--ids-spacing-').replaceAll('}', ')').replaceAll('.', '-');
+  if (String(value).includes('{space.')) value = value.replaceAll('{space.', 'var(--ids-space-').replaceAll('}', ')').replaceAll('.', '-');
   if (String(value).includes('{space.')) value = value.replaceAll('{space.', 'var(--ids-space-').replaceAll('}', ')').replaceAll('.', '-');
   if (String(value).includes('{border.')) value = value.replaceAll('{border.', 'var(--ids-border-').replaceAll('}', ')').replaceAll('.', '-');
   if (String(value).includes('{radius.')) value = value.replaceAll('{radius.', 'var(--ids-radius-').replaceAll('}', ')').replaceAll('.', '-');
@@ -79,7 +79,7 @@ coreTokenContents += extractSection(json[2].Core.modes.SoHo.font.size, '--ids-fo
 coreTokenContents += extractSection(json[2].Core.modes.SoHo.font.uppercase, '--ids-font-uppercase', 'Font uppercase', '', 1);
 coreTokenContents += extractSection(json[2].Core.modes.SoHo.font.weight, '--ids-font-weight', 'Font weight', '', 1);
 coreTokenContents += extractSection(json[2].Core.modes.SoHo.opacity, '--ids-opacity', 'Opacity', '', 1);
-coreTokenContents += extractSection(json[2].Core.modes.SoHo.space, '--ids-space', 'Spacing', 'px', 1);
+coreTokenContents += extractSection(json[2].Core.modes.SoHo.space, '--ids-space', 'Space', 'px', 1);
 coreTokenContents += extractSection(json[2].Core.modes.SoHo['z-index'], '--ids-z-index', 'Z Index', '', 1);
 coreTokenContents += '}\r\n';
 
@@ -100,7 +100,7 @@ coreTokenContents += extractSection(json[2].Core.modes.Terrazzo.font.size, '--id
 coreTokenContents += extractSection(json[2].Core.modes.Terrazzo.font.uppercase, '--ids-font-uppercase', 'Font uppercase', '', 1);
 coreTokenContents += extractSection(json[2].Core.modes.Terrazzo.font.weight, '--ids-font-weight', 'Font weight', '', 1);
 coreTokenContents += extractSection(json[2].Core.modes.Terrazzo.opacity, '--ids-opacity', 'Opacity', '', 1);
-coreTokenContents += extractSection(json[2].Core.modes.Terrazzo.space, '--ids-space', 'Spacing', 'px', 1);
+coreTokenContents += extractSection(json[2].Core.modes.Terrazzo.space, '--ids-space', 'Space', 'px', 1);
 coreTokenContents += extractSection(json[2].Core.modes.Terrazzo['z-index'], '--ids-z-index', 'Z Index', '', 1);
 coreTokenContents += '}\r\n';
 
@@ -166,8 +166,8 @@ const extraSemanticTokensByTheme = (themeName, fileName) => {
   semanticTokenContents += extractSection(json[3]['Data viz'].modes[themeName].color['dataviz'].secondary, '--ids-dataviz-color-secondary', '', '', 1);
   semanticTokenContents += extractSection(json[3]['Data viz'].modes[themeName].color['dataviz'].sequential, '--ids-dataviz-color-sequential', '', '', 1);
 
-  // Border and Spacing
-  semanticTokenContents += extractSection(json[4].Space.modes.Value.space, '--ids-spacing', 'Space', '', 1);
+  // Border and Space
+  semanticTokenContents += extractSection(json[4].Space.modes.Value.space, '--ids-space', 'Space', '', 1);
   semanticTokenContents += extractSection(json[5].Border.modes.Value.border.radius, '--ids-border-radius', 'Radii', '', 1);
   semanticTokenContents += extractSection(json[5].Border.modes.Value.border.width, '--ids-border-width', 'Border Width', '', 1);
 
