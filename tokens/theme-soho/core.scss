@@ -136,15 +136,17 @@
   --ids-cursor-resize-y: ns-resize;
   // Font family
   --ids-font-family-sans: source sans pro, -apple-system, helvetica, arial;
-  --ids-font-family-mono: source code pro, monospace;
-  --ids-font-family-ar: 'Mada', source sans pro, -apple-system, helvetica, arial;
-  --ids-font-family-he: 'Assistant', source sans pro, -apple-system, helvetica, arial;
-  --ids-font-family-hi: 'Noto Sans', source sans pro, -apple-system, helvetica, arial;
-  --ids-font-family-ja: 'Noto Sans JP', source sans pro, -apple-system, helvetica, arial;
-  --ids-font-family-ko: 'Noto Sans KR', source sans pro, -apple-system, helvetica, arial;
-  --ids-font-family-th: 'Noto Sans Thai', source sans pro, -apple-system, helvetica, arial;
-  --ids-font-family-zh-hans: 'Noto Sans SC', source sans pro, -apple-system, helvetica, arial;
-  --ids-font-family-zh-hant: 'Noto Sans TC', source sans pro, -apple-system, helvetica, arial;
+  --ids-font-family-mono: source code pro;
+  --ids-font-family-ar: 'Mada';
+  --ids-font-family-he: 'Assistant';
+  --ids-font-family-hi: 'Noto Sans';
+  --ids-font-family-ja: 'Noto Sans JP';
+  --ids-font-family-ko: 'Noto Sans KR';
+  --ids-font-family-th: 'Noto Sans Thai';
+  --ids-font-family-zh-hans: 'Noto Sans SC';
+  --ids-font-family-zh-hant: 'Noto Sans TC';
+  --ids-font-family-system-sans: -apple-system, helvetica, arial;
+  --ids-font-family-system-mono: monospace;
   // Font size
   --ids-font-line-height-10: 13px;
   --ids-font-line-height-20: 15px;
@@ -174,6 +176,7 @@
   // Font uppercase
   --ids-font-uppercase: uppercase;
   // Font weight
+  --ids-font-weight-light: light;
   --ids-font-weight-regular: regular;
   --ids-font-weight-semibold: semibold;
   --ids-font-weight-bold: bold;

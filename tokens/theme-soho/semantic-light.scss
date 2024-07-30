@@ -156,17 +156,17 @@
   --ids-dataviz-color-sequential-09: var(--ids-color-red-80);
   // Space
   --ids-space-none: var(--ids-space-00);
-  --ids-space-xxxxs: var(--ids-space-01);
-  --ids-space-xxxs: var(--ids-space-02);
-  --ids-space-xxs: var(--ids-space-04);
+  --ids-space-4xs: var(--ids-space-01);
+  --ids-space-3xs: var(--ids-space-02);
+  --ids-space-2xs: var(--ids-space-04);
   --ids-space-xs: var(--ids-space-08);
   --ids-space-sm: var(--ids-space-16);
   --ids-space-md: var(--ids-space-24);
   --ids-space-lg: var(--ids-space-32);
   --ids-space-xl: var(--ids-space-40);
-  --ids-space-xxl: var(--ids-space-48);
-  --ids-space-xxxl: var(--ids-space-56);
-  --ids-space-xxxxl: var(--ids-space-72);
+  --ids-space-2xl: var(--ids-space-48);
+  --ids-space-3xl: var(--ids-space-56);
+  --ids-space-4xl: var(--ids-space-72);
   // Radii
   --ids-border-radius-none: var(--ids-border-radius-00);
   --ids-border-radius-xxs: var(--ids-border-radius-02);
@@ -184,20 +184,21 @@
   // Font weight
   --ids-font-weight-default: var(--ids-font-weight-regular);
   --ids-font-weight-strong: var(--ids-font-weight-semibold);
+  --ids-font-weight-stronger: var(--ids-font-weight-bold);
   // Font size
   --ids-font-size-default: var(--ids-font-size-sm);
-  --ids-font-size-xxxs: var(--ids-font-size-10);
-  --ids-font-size-xxs: var(--ids-font-size-20);
-  --ids-font-size-xs: var(--ids-font-size-30);
-  --ids-font-size-sm: var(--ids-font-size-40);
-  --ids-font-size-md: var(--ids-font-size-50);
-  --ids-font-size-lg: var(--ids-font-size-60);
+  --ids-font-size-6xl: var(--ids-font-size-120);
+  --ids-font-size-5xl: var(--ids-font-size-110);
+  --ids-font-size-4xl: var(--ids-font-size-100);
+  --ids-font-size-3xl: var(--ids-font-size-90);
+  --ids-font-size-2xl: var(--ids-font-size-80);
   --ids-font-size-xl: var(--ids-font-size-70);
-  --ids-font-size-xxl: var(--ids-font-size-80);
-  --ids-font-size-xxxl: var(--ids-font-size-90);
-  --ids-font-size-xxxxl: var(--ids-font-size-100);
-  --ids-font-size-xxxxxl: var(--ids-font-size-110);
-  --ids-font-size-xxxxxxl: var(--ids-font-size-120);
+  --ids-font-size-lg: var(--ids-font-size-60);
+  --ids-font-size-md: var(--ids-font-size-50);
+  --ids-font-size-sm: var(--ids-font-size-40);
+  --ids-font-size-xs: var(--ids-font-size-30);
+  --ids-font-size-2xs: var(--ids-font-size-20);
+  --ids-font-size-3xs: var(--ids-font-size-10);
   // Opacity
   --ids-opacity-disabled: var(--ids-opacity-40);
 }

@@ -153,7 +153,7 @@ const extraSemanticTokensByTheme = (themeName, fileName) => {
   semanticTokenContents += extractSection(json[0].Color.modes[themeName].color.info, '--ids-color-info', '', '', 1);
   semanticTokenContents += extractSection(json[0].Color.modes[themeName].color.action, '--ids-color-action', '', '', 1);
   semanticTokenContents += extractSection(json[0].Color.modes[themeName].color.theme, '--ids-color-theme', '', '', 1);
-  semanticTokenContents += extractSection(json[0].Color.modes[themeName].transparent, '--ids-color-transparent', '', '', 1);
+  semanticTokenContents += extractSection(json[0].Color.modes[themeName].color.transparent, '--ids-color-transparent', '', '', 1);
 
   semanticTokenContents += '  // Chart Colors\r\n';
   semanticTokenContents += extractSection(json[3]['Data viz'].modes[themeName].color['dataviz'].accent, '--ids-dataviz-color-accent', '', '', 2);

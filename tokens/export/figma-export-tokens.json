@@ -3,16 +3,16 @@
     "Color": {
       "modes": {
         "Light": {
-          "transparent": {
-            "$scopes": [
-              "ALL_SCOPES"
-            ],
-            "$type": "color",
-            "$libraryName": "",
-            "$collectionName": "Core",
-            "$value": "{color.black.00}"
-          },
           "color": {
+            "transparent": {
+              "$scopes": [
+                "ALL_SCOPES"
+              ],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Core",
+              "$value": "{color.black.00}"
+            },
             "background": {
               "default": {
                 "$scopes": [
@@ -940,16 +940,16 @@
           }
         },
         "Dark": {
-          "transparent": {
-            "$scopes": [
-              "ALL_SCOPES"
-            ],
-            "$type": "color",
-            "$libraryName": "",
-            "$collectionName": "Core",
-            "$value": "{color.black.00}"
-          },
           "color": {
+            "transparent": {
+              "$scopes": [
+                "ALL_SCOPES"
+              ],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Core",
+              "$value": "{color.black.00}"
+            },
             "background": {
               "default": {
                 "$scopes": [
@@ -1877,16 +1877,16 @@
           }
         },
         "High Contrast": {
-          "transparent": {
-            "$scopes": [
-              "ALL_SCOPES"
-            ],
-            "$type": "color",
-            "$libraryName": "",
-            "$collectionName": "Core",
-            "$value": "{color.black.00}"
-          },
           "color": {
+            "transparent": {
+              "$scopes": [
+                "ALL_SCOPES"
+              ],
+              "$type": "color",
+              "$libraryName": "",
+              "$collectionName": "Core",
+              "$value": "{color.black.00}"
+            },
             "background": {
               "default": {
                 "$scopes": [
@@ -3456,189 +3456,159 @@
           "font": {
             "uppercase": {
               "$scopes": [
-                "ALL_SCOPES"
+                "FONT_STYLE"
               ],
               "$type": "string",
               "$value": "uppercase"
             },
             "family": {
               "sans": {
-                "$scopes": [
-                  "FONT_FAMILY"
-                ],
                 "$type": "string",
                 "$value": "Source Sans Pro"
               },
               "mono": {
-                "$scopes": [
-                  "FONT_FAMILY"
-                ],
                 "$type": "string",
-                "$value": "source code pro, monospace"
+                "$value": "source code pro"
               },
               "ar": {
                 "$codeSyntax": {
                   "WEB": "'Mada', source sans pro, -apple-system, helvetica, arial;"
                 },
-                "$scopes": [
-                  "FONT_FAMILY"
-                ],
                 "$type": "string",
-                "$value": "'Mada', source sans pro, -apple-system, helvetica, arial"
+                "$value": "'Mada'"
               },
               "he": {
-                "$scopes": [
-                  "FONT_FAMILY"
-                ],
                 "$type": "string",
-                "$value": "'Assistant', source sans pro, -apple-system, helvetica, arial"
+                "$value": "'Assistant'"
               },
               "hi": {
-                "$scopes": [
-                  "FONT_FAMILY"
-                ],
                 "$type": "string",
-                "$value": "'Noto Sans', source sans pro, -apple-system, helvetica, arial"
+                "$value": "'Noto Sans'"
               },
               "ja": {
-                "$scopes": [
-                  "FONT_FAMILY"
-                ],
                 "$type": "string",
-                "$value": "'Noto Sans JP', source sans pro, -apple-system, helvetica, arial"
+                "$value": "'Noto Sans JP'"
               },
               "ko": {
-                "$scopes": [
-                  "FONT_FAMILY"
-                ],
                 "$type": "string",
-                "$value": "'Noto Sans KR', source sans pro, -apple-system, helvetica, arial"
+                "$value": "'Noto Sans KR'"
               },
               "th": {
-                "$scopes": [
-                  "FONT_FAMILY"
-                ],
                 "$type": "string",
-                "$value": "'Noto Sans Thai', source sans pro, -apple-system, helvetica, arial"
+                "$value": "'Noto Sans Thai'"
               },
               "zh-hans": {
-                "$scopes": [
-                  "FONT_FAMILY"
-                ],
                 "$type": "string",
-                "$value": "'Noto Sans SC', source sans pro, -apple-system, helvetica, arial"
+                "$value": "'Noto Sans SC'"
               },
               "zh-hant": {
-                "$scopes": [
-                  "FONT_FAMILY"
-                ],
                 "$type": "string",
-                "$value": "'Noto Sans TC', source sans pro, -apple-system, helvetica, arial"
+                "$value": "'Noto Sans TC'"
+              },
+              "system-sans": {
+                "$type": "string",
+                "$value": "-apple-system, helvetica, arial"
+              },
+              "system-mono": {
+                "$type": "string",
+                "$value": "monospace"
               }
             },
             "size": {
               "10": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "FONT_SIZE"
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 10
               },
               "20": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "FONT_SIZE"
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 12
               },
               "30": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "FONT_SIZE"
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 14
               },
               "40": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "FONT_SIZE"
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 16
               },
               "50": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "FONT_SIZE"
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 20
               },
               "60": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "FONT_SIZE"
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 24
               },
               "70": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "FONT_SIZE"
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 28
               },
               "80": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "FONT_SIZE"
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 32
               },
               "90": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "FONT_SIZE"
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 40
               },
               "100": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "FONT_SIZE"
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 48
               },
               "110": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "FONT_SIZE"
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 60
               },
               "120": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "FONT_SIZE"
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 72
               }
             },
             "weight": {
+              "light": {
+                "$scopes": [
+                  "FONT_STYLE"
+                ],
+                "$type": "string",
+                "$value": "light"
+              },
               "regular": {
-                "$codeSyntax": {
-                  "WEB": "400"
-                },
                 "$scopes": [
                   "FONT_STYLE"
                 ],
@@ -3669,132 +3639,96 @@
             "line-height": {
               "10": {
                 "$scopes": [
-                  "LETTER_SPACING",
-                  "LINE_HEIGHT",
                   "FONT_VARIATIONS",
-                  "FONT_SIZE",
-                  "FONT_WEIGHT"
+                  "LINE_HEIGHT"
                 ],
                 "$type": "float",
                 "$value": 13
               },
               "20": {
                 "$scopes": [
-                  "LETTER_SPACING",
-                  "LINE_HEIGHT",
                   "FONT_VARIATIONS",
-                  "FONT_SIZE",
-                  "FONT_WEIGHT"
+                  "LINE_HEIGHT"
                 ],
                 "$type": "float",
                 "$value": 15
               },
               "30": {
                 "$scopes": [
-                  "LETTER_SPACING",
-                  "LINE_HEIGHT",
                   "FONT_VARIATIONS",
-                  "FONT_SIZE",
-                  "FONT_WEIGHT"
+                  "LINE_HEIGHT"
                 ],
                 "$type": "float",
                 "$value": 18
               },
               "40": {
                 "$scopes": [
-                  "LETTER_SPACING",
-                  "LINE_HEIGHT",
                   "FONT_VARIATIONS",
-                  "FONT_SIZE",
-                  "FONT_WEIGHT"
+                  "LINE_HEIGHT"
                 ],
                 "$type": "float",
                 "$value": 20
               },
               "50": {
                 "$scopes": [
-                  "LETTER_SPACING",
-                  "LINE_HEIGHT",
                   "FONT_VARIATIONS",
-                  "FONT_SIZE",
-                  "FONT_WEIGHT"
+                  "LINE_HEIGHT"
                 ],
                 "$type": "float",
                 "$value": 25
               },
               "60": {
                 "$scopes": [
-                  "LETTER_SPACING",
-                  "LINE_HEIGHT",
                   "FONT_VARIATIONS",
-                  "FONT_SIZE",
-                  "FONT_WEIGHT"
+                  "LINE_HEIGHT"
                 ],
                 "$type": "float",
                 "$value": 30
               },
               "70": {
                 "$scopes": [
-                  "LETTER_SPACING",
-                  "LINE_HEIGHT",
                   "FONT_VARIATIONS",
-                  "FONT_SIZE",
-                  "FONT_WEIGHT"
+                  "LINE_HEIGHT"
                 ],
                 "$type": "float",
                 "$value": 35
               },
               "80": {
                 "$scopes": [
-                  "LETTER_SPACING",
-                  "LINE_HEIGHT",
                   "FONT_VARIATIONS",
-                  "FONT_SIZE",
-                  "FONT_WEIGHT"
+                  "LINE_HEIGHT"
                 ],
                 "$type": "float",
                 "$value": 40
               },
               "90": {
                 "$scopes": [
-                  "LETTER_SPACING",
-                  "LINE_HEIGHT",
                   "FONT_VARIATIONS",
-                  "FONT_SIZE",
-                  "FONT_WEIGHT"
+                  "LINE_HEIGHT"
                 ],
                 "$type": "float",
                 "$value": 50
               },
               "100": {
                 "$scopes": [
-                  "LETTER_SPACING",
-                  "LINE_HEIGHT",
                   "FONT_VARIATIONS",
-                  "FONT_SIZE",
-                  "FONT_WEIGHT"
+                  "LINE_HEIGHT"
                 ],
                 "$type": "float",
                 "$value": 60
               },
               "110": {
                 "$scopes": [
-                  "LETTER_SPACING",
-                  "LINE_HEIGHT",
                   "FONT_VARIATIONS",
-                  "FONT_SIZE",
-                  "FONT_WEIGHT"
+                  "LINE_HEIGHT"
                 ],
                 "$type": "float",
                 "$value": 75
               },
               "120": {
                 "$scopes": [
-                  "LETTER_SPACING",
-                  "LINE_HEIGHT",
                   "FONT_VARIATIONS",
-                  "FONT_SIZE",
-                  "FONT_WEIGHT"
+                  "LINE_HEIGHT"
                 ],
                 "$type": "float",
                 "$value": 91
@@ -4085,93 +4019,54 @@
               "$value": 700
             },
             "120": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "float",
               "$value": 1000
             },
             "130": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "float",
               "$value": 1010
             },
             "140": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "float",
               "$value": 1015
             },
             "150": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "float",
               "$value": 1020
             },
             "160": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "float",
               "$value": 3000
             },
             "170": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "float",
               "$value": 4000
             },
             "180": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "float",
               "$value": 4500
             },
             "190": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "float",
               "$value": 6000
             },
             "200": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "float",
               "$value": 7000
             },
             "210": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "float",
               "$value": 8000
             },
             "220": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "float",
               "$value": 9000
             },
             "230": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "float",
               "$value": 10000
             },
             "240": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "float",
               "$value": 10020
             }
@@ -4204,58 +4099,34 @@
           },
           "cursor": {
             "default": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "string",
               "$value": "default"
             },
             "grabbing": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "string",
               "$value": "grabbing"
             },
             "move": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "string",
               "$value": "move"
             },
             "text": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "string",
               "$value": "text"
             },
             "pointer": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "string",
               "$value": "pointer"
             },
             "resize": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "string",
               "$value": "col-resize"
             },
             "resize-x": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "string",
               "$value": "ew-resize"
             },
             "resize-y": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "string",
               "$value": "ns-resize"
             }
@@ -4694,189 +4565,159 @@
           "font": {
             "uppercase": {
               "$scopes": [
-                "ALL_SCOPES"
+                "FONT_STYLE"
               ],
               "$type": "string",
               "$value": "uppercase"
             },
             "family": {
               "sans": {
-                "$scopes": [
-                  "FONT_FAMILY"
-                ],
                 "$type": "string",
-                "$value": "Inter"
+                "$value": "Source Sans Pro"
               },
               "mono": {
-                "$scopes": [
-                  "FONT_FAMILY"
-                ],
                 "$type": "string",
-                "$value": "source code pro, monospace"
+                "$value": "source code pro"
               },
               "ar": {
                 "$codeSyntax": {
                   "WEB": "'Mada', source sans pro, -apple-system, helvetica, arial;"
                 },
-                "$scopes": [
-                  "FONT_FAMILY"
-                ],
                 "$type": "string",
-                "$value": "'Mada', inter, -apple-system, helvetica, arial; "
+                "$value": "'Mada'"
               },
               "he": {
-                "$scopes": [
-                  "FONT_FAMILY"
-                ],
                 "$type": "string",
-                "$value": "'Assistant', inter, -apple-system, helvetica, arial"
+                "$value": "'Assistant'"
               },
               "hi": {
-                "$scopes": [
-                  "FONT_FAMILY"
-                ],
                 "$type": "string",
-                "$value": "'Noto Sans', inter, -apple-system, helvetica, arial"
+                "$value": "'Noto Sans'"
               },
               "ja": {
-                "$scopes": [
-                  "FONT_FAMILY"
-                ],
                 "$type": "string",
-                "$value": "'Noto Sans JP', inter, -apple-system, helvetica, arial"
+                "$value": "'Noto Sans JP'"
               },
               "ko": {
-                "$scopes": [
-                  "FONT_FAMILY"
-                ],
                 "$type": "string",
-                "$value": "'Noto Sans KR', inter, -apple-system, helvetica, arial"
+                "$value": "'Noto Sans KR'"
               },
               "th": {
-                "$scopes": [
-                  "FONT_FAMILY"
-                ],
                 "$type": "string",
-                "$value": "'Noto Sans Thai', inter, -apple-system, helvetica, arial"
+                "$value": "'Noto Sans Thai'"
               },
               "zh-hans": {
-                "$scopes": [
-                  "FONT_FAMILY"
-                ],
                 "$type": "string",
-                "$value": "'Noto Sans SC', inter, -apple-system, helvetica, arial"
+                "$value": "'Noto Sans SC'"
               },
               "zh-hant": {
-                "$scopes": [
-                  "FONT_FAMILY"
-                ],
                 "$type": "string",
-                "$value": "'Noto Sans TC', inter, -apple-system, helvetica, arial"
+                "$value": "'Noto Sans TC'"
+              },
+              "system-sans": {
+                "$type": "string",
+                "$value": "-apple-system, helvetica, arial"
+              },
+              "system-mono": {
+                "$type": "string",
+                "$value": "monospace"
               }
             },
             "size": {
               "10": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "FONT_SIZE"
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 12
               },
               "20": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "FONT_SIZE"
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 12
               },
               "30": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "FONT_SIZE"
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 14
               },
               "40": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "FONT_SIZE"
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 14
               },
               "50": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "FONT_SIZE"
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 16
               },
               "60": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "FONT_SIZE"
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 16
               },
               "70": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "FONT_SIZE"
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 20
               },
               "80": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "FONT_SIZE"
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 20
               },
               "90": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "FONT_SIZE"
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 20
               },
               "100": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "FONT_SIZE"
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 20
               },
               "110": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "FONT_SIZE"
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 20
               },
               "120": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "FONT_SIZE"
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 20
               }
             },
             "weight": {
+              "light": {
+                "$scopes": [
+                  "FONT_STYLE"
+                ],
+                "$type": "string",
+                "$value": "light"
+              },
               "regular": {
-                "$codeSyntax": {
-                  "WEB": "400"
-                },
                 "$scopes": [
                   "FONT_STYLE"
                 ],
@@ -4907,132 +4748,96 @@
             "line-height": {
               "10": {
                 "$scopes": [
-                  "LETTER_SPACING",
-                  "LINE_HEIGHT",
                   "FONT_VARIATIONS",
-                  "FONT_SIZE",
-                  "FONT_WEIGHT"
+                  "LINE_HEIGHT"
                 ],
                 "$type": "float",
                 "$value": 16
               },
               "20": {
                 "$scopes": [
-                  "LETTER_SPACING",
-                  "LINE_HEIGHT",
                   "FONT_VARIATIONS",
-                  "FONT_SIZE",
-                  "FONT_WEIGHT"
+                  "LINE_HEIGHT"
                 ],
                 "$type": "float",
                 "$value": 16
               },
               "30": {
                 "$scopes": [
-                  "LETTER_SPACING",
-                  "LINE_HEIGHT",
                   "FONT_VARIATIONS",
-                  "FONT_SIZE",
-                  "FONT_WEIGHT"
+                  "LINE_HEIGHT"
                 ],
                 "$type": "float",
                 "$value": 18
               },
               "40": {
                 "$scopes": [
-                  "LETTER_SPACING",
-                  "LINE_HEIGHT",
                   "FONT_VARIATIONS",
-                  "FONT_SIZE",
-                  "FONT_WEIGHT"
+                  "LINE_HEIGHT"
                 ],
                 "$type": "float",
                 "$value": 18
               },
               "50": {
                 "$scopes": [
-                  "LETTER_SPACING",
-                  "LINE_HEIGHT",
                   "FONT_VARIATIONS",
-                  "FONT_SIZE",
-                  "FONT_WEIGHT"
+                  "LINE_HEIGHT"
                 ],
                 "$type": "float",
                 "$value": 24
               },
               "60": {
                 "$scopes": [
-                  "LETTER_SPACING",
-                  "LINE_HEIGHT",
                   "FONT_VARIATIONS",
-                  "FONT_SIZE",
-                  "FONT_WEIGHT"
+                  "LINE_HEIGHT"
                 ],
                 "$type": "float",
                 "$value": 24
               },
               "70": {
                 "$scopes": [
-                  "LETTER_SPACING",
-                  "LINE_HEIGHT",
                   "FONT_VARIATIONS",
-                  "FONT_SIZE",
-                  "FONT_WEIGHT"
+                  "LINE_HEIGHT"
                 ],
                 "$type": "float",
                 "$value": 32
               },
               "80": {
                 "$scopes": [
-                  "LETTER_SPACING",
-                  "LINE_HEIGHT",
                   "FONT_VARIATIONS",
-                  "FONT_SIZE",
-                  "FONT_WEIGHT"
+                  "LINE_HEIGHT"
                 ],
                 "$type": "float",
                 "$value": 32
               },
               "90": {
                 "$scopes": [
-                  "LETTER_SPACING",
-                  "LINE_HEIGHT",
                   "FONT_VARIATIONS",
-                  "FONT_SIZE",
-                  "FONT_WEIGHT"
+                  "LINE_HEIGHT"
                 ],
                 "$type": "float",
                 "$value": 32
               },
               "100": {
                 "$scopes": [
-                  "LETTER_SPACING",
-                  "LINE_HEIGHT",
                   "FONT_VARIATIONS",
-                  "FONT_SIZE",
-                  "FONT_WEIGHT"
+                  "LINE_HEIGHT"
                 ],
                 "$type": "float",
                 "$value": 32
               },
               "110": {
                 "$scopes": [
-                  "LETTER_SPACING",
-                  "LINE_HEIGHT",
                   "FONT_VARIATIONS",
-                  "FONT_SIZE",
-                  "FONT_WEIGHT"
+                  "LINE_HEIGHT"
                 ],
                 "$type": "float",
                 "$value": 32
               },
               "120": {
                 "$scopes": [
-                  "LETTER_SPACING",
-                  "LINE_HEIGHT",
                   "FONT_VARIATIONS",
-                  "FONT_SIZE",
-                  "FONT_WEIGHT"
+                  "LINE_HEIGHT"
                 ],
                 "$type": "float",
                 "$value": 32
@@ -5323,93 +5128,54 @@
               "$value": 700
             },
             "120": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "float",
               "$value": 1000
             },
             "130": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "float",
               "$value": 1010
             },
             "140": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "float",
               "$value": 1015
             },
             "150": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "float",
               "$value": 1020
             },
             "160": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "float",
               "$value": 3000
             },
             "170": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "float",
               "$value": 4000
             },
             "180": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "float",
               "$value": 4500
             },
             "190": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "float",
               "$value": 6000
             },
             "200": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "float",
               "$value": 7000
             },
             "210": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "float",
               "$value": 8000
             },
             "220": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "float",
               "$value": 9000
             },
             "230": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "float",
               "$value": 10000
             },
             "240": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "float",
               "$value": 10020
             }
@@ -5442,58 +5208,34 @@
           },
           "cursor": {
             "default": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "string",
               "$value": "default"
             },
             "grabbing": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "string",
               "$value": "grabbing"
             },
             "move": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "string",
               "$value": "move"
             },
             "text": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "string",
               "$value": "text"
             },
             "pointer": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "string",
               "$value": "pointer"
             },
             "resize": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "string",
               "$value": "col-resize"
             },
             "resize-x": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "string",
               "$value": "ew-resize"
             },
             "resize-y": {
-              "$scopes": [
-                "ALL_SCOPES"
-              ],
               "$type": "string",
               "$value": "ns-resize"
             }
@@ -7088,7 +6830,7 @@
               "$collectionName": "Core",
               "$value": "{space.00}"
             },
-            "xxxxs": {
+            "4xs": {
               "$scopes": [
                 "GAP"
               ],
@@ -7097,7 +6839,7 @@
               "$collectionName": "Core",
               "$value": "{space.01}"
             },
-            "xxxs": {
+            "3xs": {
               "$scopes": [
                 "GAP"
               ],
@@ -7106,7 +6848,7 @@
               "$collectionName": "Core",
               "$value": "{space.02}"
             },
-            "xxs": {
+            "2xs": {
               "$scopes": [
                 "GAP"
               ],
@@ -7160,7 +6902,7 @@
               "$collectionName": "Core",
               "$value": "{space.40}"
             },
-            "xxl": {
+            "2xl": {
               "$scopes": [
                 "GAP"
               ],
@@ -7169,7 +6911,7 @@
               "$collectionName": "Core",
               "$value": "{space.48}"
             },
-            "xxxl": {
+            "3xl": {
               "$scopes": [
                 "GAP"
               ],
@@ -7178,7 +6920,7 @@
               "$collectionName": "Core",
               "$value": "{space.56}"
             },
-            "xxxxl": {
+            "4xl": {
               "$scopes": [
                 "GAP"
               ],
@@ -7301,6 +7043,26 @@
       "modes": {
         "Default": {
           "font": {
+            "family": {
+              "default": {
+                "$scopes": [
+                  "FONT_FAMILY"
+                ],
+                "$type": "string",
+                "$libraryName": "",
+                "$collectionName": "Core",
+                "$value": "{font.family.sans}"
+              },
+              "code": {
+                "$scopes": [
+                  "FONT_FAMILY"
+                ],
+                "$type": "string",
+                "$libraryName": "",
+                "$collectionName": "Core",
+                "$value": "{font.family.mono}"
+              }
+            },
             "size": {
               "default": {
                 "$scopes": [
@@ -7311,59 +7073,50 @@
                 "$collectionName": "Font",
                 "$value": "{font.size.sm}"
               },
-              "xxxs": {
+              "6xl": {
                 "$scopes": [
                   "FONT_SIZE"
                 ],
                 "$type": "float",
                 "$libraryName": "",
                 "$collectionName": "Core",
-                "$value": "{font.size.10}"
+                "$value": "{font.size.120}"
               },
-              "xxs": {
+              "5xl": {
                 "$scopes": [
                   "FONT_SIZE"
                 ],
                 "$type": "float",
                 "$libraryName": "",
                 "$collectionName": "Core",
-                "$value": "{font.size.20}"
+                "$value": "{font.size.110}"
               },
-              "xs": {
+              "4xl": {
                 "$scopes": [
                   "FONT_SIZE"
                 ],
                 "$type": "float",
                 "$libraryName": "",
                 "$collectionName": "Core",
-                "$value": "{font.size.30}"
+                "$value": "{font.size.100}"
               },
-              "sm": {
+              "3xl": {
                 "$scopes": [
                   "FONT_SIZE"
                 ],
                 "$type": "float",
                 "$libraryName": "",
                 "$collectionName": "Core",
-                "$value": "{font.size.40}"
+                "$value": "{font.size.90}"
               },
-              "md": {
+              "2xl": {
                 "$scopes": [
                   "FONT_SIZE"
                 ],
                 "$type": "float",
                 "$libraryName": "",
                 "$collectionName": "Core",
-                "$value": "{font.size.50}"
-              },
-              "lg": {
-                "$scopes": [
-                  "FONT_SIZE"
-                ],
-                "$type": "float",
-                "$libraryName": "",
-                "$collectionName": "Core",
-                "$value": "{font.size.60}"
+                "$value": "{font.size.80}"
               },
               "xl": {
                 "$scopes": [
@@ -7374,61 +7127,59 @@
                 "$collectionName": "Core",
                 "$value": "{font.size.70}"
               },
-              "xxl": {
+              "lg": {
                 "$scopes": [
                   "FONT_SIZE"
                 ],
                 "$type": "float",
                 "$libraryName": "",
                 "$collectionName": "Core",
-                "$value": "{font.size.80}"
+                "$value": "{font.size.60}"
               },
-              "xxxl": {
+              "md": {
                 "$scopes": [
                   "FONT_SIZE"
                 ],
                 "$type": "float",
                 "$libraryName": "",
                 "$collectionName": "Core",
-                "$value": "{font.size.90}"
+                "$value": "{font.size.50}"
               },
-              "xxxxl": {
+              "sm": {
                 "$scopes": [
                   "FONT_SIZE"
                 ],
                 "$type": "float",
                 "$libraryName": "",
                 "$collectionName": "Core",
-                "$value": "{font.size.100}"
+                "$value": "{font.size.40}"
               },
-              "xxxxxl": {
+              "xs": {
                 "$scopes": [
                   "FONT_SIZE"
                 ],
                 "$type": "float",
                 "$libraryName": "",
                 "$collectionName": "Core",
-                "$value": "{font.size.110}"
+                "$value": "{font.size.30}"
               },
-              "xxxxxxl": {
+              "2xs": {
                 "$scopes": [
                   "FONT_SIZE"
                 ],
                 "$type": "float",
                 "$libraryName": "",
                 "$collectionName": "Core",
-                "$value": "{font.size.120}"
-              }
-            },
-            "family": {
-              "default": {
+                "$value": "{font.size.20}"
+              },
+              "3xs": {
                 "$scopes": [
-                  "FONT_FAMILY"
+                  "FONT_SIZE"
                 ],
-                "$type": "string",
+                "$type": "float",
                 "$libraryName": "",
                 "$collectionName": "Core",
-                "$value": "{font.family.sans}"
+                "$value": "{font.size.10}"
               }
             },
             "weight": {
@@ -7449,6 +7200,15 @@
                 "$libraryName": "",
                 "$collectionName": "Core",
                 "$value": "{font.weight.semibold}"
+              },
+              "stronger": {
+                "$scopes": [
+                  "FONT_STYLE"
+                ],
+                "$type": "string",
+                "$libraryName": "",
+                "$collectionName": "Core",
+                "$value": "{font.weight.bold}"
               }
             }
           }
@@ -7462,9 +7222,6 @@
         "Mode 1": {
           "opacity": {
             "disabled": {
-              "$codeSyntax": {
-                "WEB": "var(--opacity-40)"
-              },
               "$scopes": [
                 "OPACITY"
               ],
