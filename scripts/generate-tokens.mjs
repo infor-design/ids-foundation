@@ -34,7 +34,7 @@ const fixValue = (value) => {
   if (String(value).includes('{font.weight.bold}')) value = value.replaceAll('{font.weight.bold}', 'var(--ids-font-weight-bold)');
 
   if (String(value).includes('Source Sans Pro')) {
-    value = 'source sans pro, -apple-system, helvetica, arial';
+    value = 'source sans pro';
   }
   return value;
 };
