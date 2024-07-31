@@ -16,9 +16,9 @@
             "background": {
               "default": {
                 "$scopes": [
-                  "EFFECT_COLOR",
+                  "FRAME_FILL",
                   "SHAPE_FILL",
-                  "FRAME_FILL"
+                  "EFFECT_COLOR"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -27,9 +27,9 @@
               },
               "elevated": {
                 "$scopes": [
-                  "EFFECT_COLOR",
+                  "FRAME_FILL",
                   "SHAPE_FILL",
-                  "FRAME_FILL"
+                  "EFFECT_COLOR"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -50,10 +50,10 @@
               "default": {
                 "default": {
                   "$scopes": [
-                    "STROKE_COLOR",
-                    "TEXT_FILL",
+                    "FRAME_FILL",
                     "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "TEXT_FILL",
+                    "STROKE_COLOR"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -62,10 +62,10 @@
                 },
                 "secondary": {
                   "$scopes": [
-                    "STROKE_COLOR",
-                    "TEXT_FILL",
+                    "FRAME_FILL",
                     "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "TEXT_FILL",
+                    "STROKE_COLOR"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -74,10 +74,10 @@
                 },
                 "tertiary": {
                   "$scopes": [
-                    "STROKE_COLOR",
-                    "TEXT_FILL",
+                    "FRAME_FILL",
                     "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "TEXT_FILL",
+                    "STROKE_COLOR"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -97,8 +97,8 @@
               "light": {
                 "default": {
                   "$scopes": [
-                    "STROKE_COLOR",
-                    "ALL_FILLS"
+                    "ALL_FILLS",
+                    "STROKE_COLOR"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -107,8 +107,8 @@
                 },
                 "secondary": {
                   "$scopes": [
-                    "STROKE_COLOR",
-                    "ALL_FILLS"
+                    "ALL_FILLS",
+                    "STROKE_COLOR"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -117,8 +117,8 @@
                 },
                 "tertiary": {
                   "$scopes": [
-                    "STROKE_COLOR",
-                    "ALL_FILLS"
+                    "ALL_FILLS",
+                    "STROKE_COLOR"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -953,9 +953,9 @@
             "background": {
               "default": {
                 "$scopes": [
-                  "EFFECT_COLOR",
+                  "FRAME_FILL",
                   "SHAPE_FILL",
-                  "FRAME_FILL"
+                  "EFFECT_COLOR"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -964,9 +964,9 @@
               },
               "elevated": {
                 "$scopes": [
-                  "EFFECT_COLOR",
+                  "FRAME_FILL",
                   "SHAPE_FILL",
-                  "FRAME_FILL"
+                  "EFFECT_COLOR"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -987,10 +987,10 @@
               "default": {
                 "default": {
                   "$scopes": [
-                    "STROKE_COLOR",
-                    "TEXT_FILL",
+                    "FRAME_FILL",
                     "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "TEXT_FILL",
+                    "STROKE_COLOR"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -999,10 +999,10 @@
                 },
                 "secondary": {
                   "$scopes": [
-                    "STROKE_COLOR",
-                    "TEXT_FILL",
+                    "FRAME_FILL",
                     "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "TEXT_FILL",
+                    "STROKE_COLOR"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -1011,10 +1011,10 @@
                 },
                 "tertiary": {
                   "$scopes": [
-                    "STROKE_COLOR",
-                    "TEXT_FILL",
+                    "FRAME_FILL",
                     "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "TEXT_FILL",
+                    "STROKE_COLOR"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -1034,8 +1034,8 @@
               "light": {
                 "default": {
                   "$scopes": [
-                    "STROKE_COLOR",
-                    "ALL_FILLS"
+                    "ALL_FILLS",
+                    "STROKE_COLOR"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -1044,8 +1044,8 @@
                 },
                 "secondary": {
                   "$scopes": [
-                    "STROKE_COLOR",
-                    "ALL_FILLS"
+                    "ALL_FILLS",
+                    "STROKE_COLOR"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -1054,8 +1054,8 @@
                 },
                 "tertiary": {
                   "$scopes": [
-                    "STROKE_COLOR",
-                    "ALL_FILLS"
+                    "ALL_FILLS",
+                    "STROKE_COLOR"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -1890,9 +1890,9 @@
             "background": {
               "default": {
                 "$scopes": [
-                  "EFFECT_COLOR",
+                  "FRAME_FILL",
                   "SHAPE_FILL",
-                  "FRAME_FILL"
+                  "EFFECT_COLOR"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -1901,9 +1901,9 @@
               },
               "elevated": {
                 "$scopes": [
-                  "EFFECT_COLOR",
+                  "FRAME_FILL",
                   "SHAPE_FILL",
-                  "FRAME_FILL"
+                  "EFFECT_COLOR"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -1924,10 +1924,10 @@
               "default": {
                 "default": {
                   "$scopes": [
-                    "STROKE_COLOR",
-                    "TEXT_FILL",
+                    "FRAME_FILL",
                     "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "TEXT_FILL",
+                    "STROKE_COLOR"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -1936,10 +1936,10 @@
                 },
                 "secondary": {
                   "$scopes": [
-                    "STROKE_COLOR",
-                    "TEXT_FILL",
+                    "FRAME_FILL",
                     "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "TEXT_FILL",
+                    "STROKE_COLOR"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -1948,10 +1948,10 @@
                 },
                 "tertiary": {
                   "$scopes": [
-                    "STROKE_COLOR",
-                    "TEXT_FILL",
+                    "FRAME_FILL",
                     "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "TEXT_FILL",
+                    "STROKE_COLOR"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -1971,8 +1971,8 @@
               "light": {
                 "default": {
                   "$scopes": [
-                    "STROKE_COLOR",
-                    "ALL_FILLS"
+                    "ALL_FILLS",
+                    "STROKE_COLOR"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -1981,8 +1981,8 @@
                 },
                 "secondary": {
                   "$scopes": [
-                    "STROKE_COLOR",
-                    "ALL_FILLS"
+                    "ALL_FILLS",
+                    "STROKE_COLOR"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -1991,8 +1991,8 @@
                 },
                 "tertiary": {
                   "$scopes": [
-                    "STROKE_COLOR",
-                    "ALL_FILLS"
+                    "ALL_FILLS",
+                    "STROKE_COLOR"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -3639,96 +3639,96 @@
             "line-height": {
               "10": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "LINE_HEIGHT"
+                  "LINE_HEIGHT",
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 13
               },
               "20": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "LINE_HEIGHT"
+                  "LINE_HEIGHT",
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 15
               },
               "30": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "LINE_HEIGHT"
+                  "LINE_HEIGHT",
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 18
               },
               "40": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "LINE_HEIGHT"
+                  "LINE_HEIGHT",
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 20
               },
               "50": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "LINE_HEIGHT"
+                  "LINE_HEIGHT",
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 25
               },
               "60": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "LINE_HEIGHT"
+                  "LINE_HEIGHT",
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 30
               },
               "70": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "LINE_HEIGHT"
+                  "LINE_HEIGHT",
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 35
               },
               "80": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "LINE_HEIGHT"
+                  "LINE_HEIGHT",
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 40
               },
               "90": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "LINE_HEIGHT"
+                  "LINE_HEIGHT",
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 50
               },
               "100": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "LINE_HEIGHT"
+                  "LINE_HEIGHT",
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 60
               },
               "110": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "LINE_HEIGHT"
+                  "LINE_HEIGHT",
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 75
               },
               "120": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "LINE_HEIGHT"
+                  "LINE_HEIGHT",
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 91
@@ -4748,96 +4748,96 @@
             "line-height": {
               "10": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "LINE_HEIGHT"
+                  "LINE_HEIGHT",
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 16
               },
               "20": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "LINE_HEIGHT"
+                  "LINE_HEIGHT",
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 16
               },
               "30": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "LINE_HEIGHT"
+                  "LINE_HEIGHT",
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 18
               },
               "40": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "LINE_HEIGHT"
+                  "LINE_HEIGHT",
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 18
               },
               "50": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "LINE_HEIGHT"
+                  "LINE_HEIGHT",
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 24
               },
               "60": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "LINE_HEIGHT"
+                  "LINE_HEIGHT",
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 24
               },
               "70": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "LINE_HEIGHT"
+                  "LINE_HEIGHT",
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 32
               },
               "80": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "LINE_HEIGHT"
+                  "LINE_HEIGHT",
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 32
               },
               "90": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "LINE_HEIGHT"
+                  "LINE_HEIGHT",
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 32
               },
               "100": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "LINE_HEIGHT"
+                  "LINE_HEIGHT",
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 32
               },
               "110": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "LINE_HEIGHT"
+                  "LINE_HEIGHT",
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 32
               },
               "120": {
                 "$scopes": [
-                  "FONT_VARIATIONS",
-                  "LINE_HEIGHT"
+                  "LINE_HEIGHT",
+                  "FONT_VARIATIONS"
                 ],
                 "$type": "float",
                 "$value": 32
@@ -5252,8 +5252,8 @@
             "dataviz": {
               "default": {
                 "$scopes": [
-                  "SHAPE_FILL",
-                  "FRAME_FILL"
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -5262,8 +5262,8 @@
               },
               "secondary": {
                 "$scopes": [
-                  "SHAPE_FILL",
-                  "FRAME_FILL"
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -5272,8 +5272,8 @@
               },
               "positive": {
                 "$scopes": [
-                  "SHAPE_FILL",
-                  "FRAME_FILL"
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -5282,8 +5282,8 @@
               },
               "neutral": {
                 "$scopes": [
-                  "SHAPE_FILL",
-                  "FRAME_FILL"
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -5292,8 +5292,8 @@
               },
               "negative": {
                 "$scopes": [
-                  "SHAPE_FILL",
-                  "FRAME_FILL"
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -5303,8 +5303,8 @@
               "sequential": {
                 "10": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5313,8 +5313,8 @@
                 },
                 "11": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5323,8 +5323,8 @@
                 },
                 "12": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5333,8 +5333,8 @@
                 },
                 "13": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5343,8 +5343,8 @@
                 },
                 "14": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5353,8 +5353,8 @@
                 },
                 "15": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5363,8 +5363,8 @@
                 },
                 "16": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5373,8 +5373,8 @@
                 },
                 "17": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5383,8 +5383,8 @@
                 },
                 "18": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5393,8 +5393,8 @@
                 },
                 "19": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5403,8 +5403,8 @@
                 },
                 "20": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5413,8 +5413,8 @@
                 },
                 "01": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5423,8 +5423,8 @@
                 },
                 "02": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5433,8 +5433,8 @@
                 },
                 "03": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5443,8 +5443,8 @@
                 },
                 "04": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5453,8 +5453,8 @@
                 },
                 "05": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5463,8 +5463,8 @@
                 },
                 "06": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5473,8 +5473,8 @@
                 },
                 "07": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5483,8 +5483,8 @@
                 },
                 "08": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5493,8 +5493,8 @@
                 },
                 "09": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5505,8 +5505,8 @@
               "density": {
                 "10": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5515,8 +5515,8 @@
                 },
                 "20": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5525,8 +5525,8 @@
                 },
                 "30": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5535,8 +5535,8 @@
                 },
                 "40": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5545,8 +5545,8 @@
                 },
                 "50": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5555,8 +5555,8 @@
                 },
                 "60": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5565,8 +5565,8 @@
                 },
                 "70": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5575,8 +5575,8 @@
                 },
                 "80": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5585,8 +5585,8 @@
                 },
                 "90": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5595,8 +5595,8 @@
                 },
                 "100": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5608,8 +5608,8 @@
                 "blue": {
                   "01": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -5618,8 +5618,8 @@
                   },
                   "02": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -5628,8 +5628,8 @@
                   },
                   "03": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -5640,8 +5640,8 @@
                 "neutral": {
                   "01": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -5650,8 +5650,8 @@
                   },
                   "02": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -5660,8 +5660,8 @@
                   },
                   "03": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -5672,8 +5672,8 @@
                 "green": {
                   "01": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -5682,8 +5682,8 @@
                   },
                   "02": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -5692,8 +5692,8 @@
                   },
                   "03": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -5704,8 +5704,8 @@
                 "purple": {
                   "01": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -5714,8 +5714,8 @@
                   },
                   "02": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -5724,8 +5724,8 @@
                   },
                   "03": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -5736,8 +5736,8 @@
                 "teal": {
                   "01": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -5746,8 +5746,8 @@
                   },
                   "02": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -5756,8 +5756,8 @@
                   },
                   "03": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -5774,8 +5774,8 @@
             "dataviz": {
               "default": {
                 "$scopes": [
-                  "SHAPE_FILL",
-                  "FRAME_FILL"
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -5784,8 +5784,8 @@
               },
               "secondary": {
                 "$scopes": [
-                  "SHAPE_FILL",
-                  "FRAME_FILL"
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -5794,8 +5794,8 @@
               },
               "positive": {
                 "$scopes": [
-                  "SHAPE_FILL",
-                  "FRAME_FILL"
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -5804,8 +5804,8 @@
               },
               "neutral": {
                 "$scopes": [
-                  "SHAPE_FILL",
-                  "FRAME_FILL"
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -5814,8 +5814,8 @@
               },
               "negative": {
                 "$scopes": [
-                  "SHAPE_FILL",
-                  "FRAME_FILL"
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -5825,8 +5825,8 @@
               "sequential": {
                 "10": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5835,8 +5835,8 @@
                 },
                 "11": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5845,8 +5845,8 @@
                 },
                 "12": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5855,8 +5855,8 @@
                 },
                 "13": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5865,8 +5865,8 @@
                 },
                 "14": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5875,8 +5875,8 @@
                 },
                 "15": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5885,8 +5885,8 @@
                 },
                 "16": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5895,8 +5895,8 @@
                 },
                 "17": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5905,8 +5905,8 @@
                 },
                 "18": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5915,8 +5915,8 @@
                 },
                 "19": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5925,8 +5925,8 @@
                 },
                 "20": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5935,8 +5935,8 @@
                 },
                 "01": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5945,8 +5945,8 @@
                 },
                 "02": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5955,8 +5955,8 @@
                 },
                 "03": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5965,8 +5965,8 @@
                 },
                 "04": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5975,8 +5975,8 @@
                 },
                 "05": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5985,8 +5985,8 @@
                 },
                 "06": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -5995,8 +5995,8 @@
                 },
                 "07": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6005,8 +6005,8 @@
                 },
                 "08": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6015,8 +6015,8 @@
                 },
                 "09": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6027,8 +6027,8 @@
               "density": {
                 "10": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6037,8 +6037,8 @@
                 },
                 "20": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6047,8 +6047,8 @@
                 },
                 "30": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6057,8 +6057,8 @@
                 },
                 "40": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6067,8 +6067,8 @@
                 },
                 "50": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6077,8 +6077,8 @@
                 },
                 "60": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6087,8 +6087,8 @@
                 },
                 "70": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6097,8 +6097,8 @@
                 },
                 "80": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6107,8 +6107,8 @@
                 },
                 "90": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6117,8 +6117,8 @@
                 },
                 "100": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6130,8 +6130,8 @@
                 "blue": {
                   "01": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -6140,8 +6140,8 @@
                   },
                   "02": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -6150,8 +6150,8 @@
                   },
                   "03": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -6162,8 +6162,8 @@
                 "neutral": {
                   "01": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -6172,8 +6172,8 @@
                   },
                   "02": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -6182,8 +6182,8 @@
                   },
                   "03": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -6194,8 +6194,8 @@
                 "green": {
                   "01": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -6204,8 +6204,8 @@
                   },
                   "02": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -6214,8 +6214,8 @@
                   },
                   "03": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -6226,8 +6226,8 @@
                 "purple": {
                   "01": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -6236,8 +6236,8 @@
                   },
                   "02": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -6246,8 +6246,8 @@
                   },
                   "03": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -6258,8 +6258,8 @@
                 "teal": {
                   "01": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -6268,8 +6268,8 @@
                   },
                   "02": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -6278,8 +6278,8 @@
                   },
                   "03": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -6296,8 +6296,8 @@
             "dataviz": {
               "default": {
                 "$scopes": [
-                  "SHAPE_FILL",
-                  "FRAME_FILL"
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -6306,8 +6306,8 @@
               },
               "secondary": {
                 "$scopes": [
-                  "SHAPE_FILL",
-                  "FRAME_FILL"
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -6316,8 +6316,8 @@
               },
               "positive": {
                 "$scopes": [
-                  "SHAPE_FILL",
-                  "FRAME_FILL"
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -6326,8 +6326,8 @@
               },
               "neutral": {
                 "$scopes": [
-                  "SHAPE_FILL",
-                  "FRAME_FILL"
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -6336,8 +6336,8 @@
               },
               "negative": {
                 "$scopes": [
-                  "SHAPE_FILL",
-                  "FRAME_FILL"
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
                 ],
                 "$type": "color",
                 "$libraryName": "",
@@ -6347,8 +6347,8 @@
               "sequential": {
                 "10": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6357,8 +6357,8 @@
                 },
                 "11": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6367,8 +6367,8 @@
                 },
                 "12": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6377,8 +6377,8 @@
                 },
                 "13": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6387,8 +6387,8 @@
                 },
                 "14": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6397,8 +6397,8 @@
                 },
                 "15": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6407,8 +6407,8 @@
                 },
                 "16": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6417,8 +6417,8 @@
                 },
                 "17": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6427,8 +6427,8 @@
                 },
                 "18": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6437,8 +6437,8 @@
                 },
                 "19": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6447,8 +6447,8 @@
                 },
                 "20": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6457,8 +6457,8 @@
                 },
                 "01": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6467,8 +6467,8 @@
                 },
                 "02": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6477,8 +6477,8 @@
                 },
                 "03": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6487,8 +6487,8 @@
                 },
                 "04": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6497,8 +6497,8 @@
                 },
                 "05": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6507,8 +6507,8 @@
                 },
                 "06": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6517,8 +6517,8 @@
                 },
                 "07": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6527,8 +6527,8 @@
                 },
                 "08": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6537,8 +6537,8 @@
                 },
                 "09": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6549,8 +6549,8 @@
               "density": {
                 "10": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6559,8 +6559,8 @@
                 },
                 "20": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6569,8 +6569,8 @@
                 },
                 "30": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6579,8 +6579,8 @@
                 },
                 "40": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6589,8 +6589,8 @@
                 },
                 "50": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6599,8 +6599,8 @@
                 },
                 "60": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6609,8 +6609,8 @@
                 },
                 "70": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6619,8 +6619,8 @@
                 },
                 "80": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6629,8 +6629,8 @@
                 },
                 "90": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6639,8 +6639,8 @@
                 },
                 "100": {
                   "$scopes": [
-                    "SHAPE_FILL",
-                    "FRAME_FILL"
+                    "FRAME_FILL",
+                    "SHAPE_FILL"
                   ],
                   "$type": "color",
                   "$libraryName": "",
@@ -6652,8 +6652,8 @@
                 "blue": {
                   "01": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -6662,8 +6662,8 @@
                   },
                   "02": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -6672,8 +6672,8 @@
                   },
                   "03": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -6684,8 +6684,8 @@
                 "neutral": {
                   "01": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -6694,8 +6694,8 @@
                   },
                   "02": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -6704,8 +6704,8 @@
                   },
                   "03": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -6716,8 +6716,8 @@
                 "green": {
                   "01": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -6726,8 +6726,8 @@
                   },
                   "02": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -6736,8 +6736,8 @@
                   },
                   "03": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -6748,8 +6748,8 @@
                 "purple": {
                   "01": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -6758,8 +6758,8 @@
                   },
                   "02": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -6768,8 +6768,8 @@
                   },
                   "03": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -6780,8 +6780,8 @@
                 "teal": {
                   "01": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -6790,8 +6790,8 @@
                   },
                   "02": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -6800,8 +6800,8 @@
                   },
                   "03": {
                     "$scopes": [
-                      "SHAPE_FILL",
-                      "FRAME_FILL"
+                      "FRAME_FILL",
+                      "SHAPE_FILL"
                     ],
                     "$type": "color",
                     "$libraryName": "",
@@ -6949,7 +6949,7 @@
                 "$collectionName": "Core",
                 "$value": "{border.radius.00}"
               },
-              "xxs": {
+              "2xs": {
                 "$scopes": [
                   "CORNER_RADIUS"
                 ],
