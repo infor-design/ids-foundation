@@ -1,12 +1,12 @@
 import * as fs from 'fs';
 
-console.log('Generating tokens ...');
+console.info('Generating tokens ...');
 
 const file = fs.readFileSync('tokens/export/figma-export-tokens.json');
 const json = JSON.parse(file);
 let cnt = 0;
 
-const fixValue = (value) => {
+const fixValue = (value, tokenInfo) => {
   if (String(value).includes('{color.')) value = value.replaceAll('{color.', 'var(--ids-color-').replaceAll('}', ')').replaceAll('.', '-');
   if (String(value).includes('rgba')) {
     value = value.replaceAll(', 10)', ', 0.1)');
@@ -36,6 +36,10 @@ const fixValue = (value) => {
   if (String(value).includes('Source Sans Pro')) {
     value = 'source sans pro';
   }
+
+  if (String(value) === '40' && tokenInfo === '--ids-opacity-40') {
+    value = '0.4';
+  }
   return value;
 };
 
@@ -51,7 +55,7 @@ const extractSection = (sectionName, sectionToken, title, addUnit, levels) => {
         contents += `  ${sectionToken}: ${fixValue(core[1])}${addUnit || ''};\r\n`;
         continue;
       }
-      contents += `  ${sectionToken}-${core[0]}: ${fixValue(core[1].$value)}${addUnit || ''};\r\n`;
+      contents += `  ${sectionToken}-${core[0]}: ${fixValue(core[1].$value, `${sectionToken}-${core[0]}`)}${addUnit || ''};\r\n`;
       cnt++;
     } else {
       for (const inner of Object.entries(core[1])) {
@@ -82,7 +86,7 @@ coreTokenContents += extractSection(json[2].Core.modes.SoHo.space, '--ids-space'
 coreTokenContents += extractSection(json[2].Core.modes.SoHo['z-index'], '--ids-z-index', 'Z Index', '', 1);
 coreTokenContents += '}\r\n';
 
-console.log(`tokens/theme-soho/core.scss ${cnt} tokens`);
+console.info(`tokens/theme-soho/core.scss ${cnt} tokens`);
 fs.writeFileSync('tokens/theme-soho/core.scss', coreTokenContents);
 
 // Core Tokens - Terrazzo
@@ -103,7 +107,7 @@ coreTokenContents += extractSection(json[2].Core.modes.Terrazzo.space, '--ids-sp
 coreTokenContents += extractSection(json[2].Core.modes.Terrazzo['z-index'], '--ids-z-index', 'Z Index', '', 1);
 coreTokenContents += '}\r\n';
 
-console.log(`tokens/theme-terrazzo/core.scss ${cnt} tokens`);
+console.info(`tokens/theme-terrazzo/core.scss ${cnt} tokens`);
 fs.writeFileSync('tokens/theme-terrazzo/core.scss', coreTokenContents);
 
 // Theme Tokens - Soho
@@ -112,7 +116,7 @@ let themeTokenContents = ':root {\r\n';
 themeTokenContents += extractSection(json[1].Theme.modes.Default.color.theme, '--ids-color-theme', 'Default theme colors', '', 1);
 themeTokenContents += '}\r\n';
 
-console.log(`tokens/theme-soho/theme-colors.scss ${cnt} tokens`);
+console.info(`tokens/theme-soho/theme-colors.scss ${cnt} tokens`);
 fs.writeFileSync('tokens/theme-soho/theme-colors.scss', themeTokenContents);
 
 // Theme Tokens - Terrazzo
@@ -122,7 +126,7 @@ themeTokenContents += extractSection(json[1].Theme.modes.IndustryA.color.theme, 
 themeTokenContents += extractSection(json[1].Theme.modes.IndustryB.color.theme, '--ids-color-theme-industry-b', 'Industry A theme colors', '', 1);
 themeTokenContents += '}\r\n';
 
-console.log(`tokens/theme-terrazzo/theme-colors.scss ${cnt} tokens`);
+console.info(`tokens/theme-terrazzo/theme-colors.scss ${cnt} tokens`);
 fs.writeFileSync('tokens/theme-terrazzo/theme-colors.scss', themeTokenContents);
 
 // Semantic Tokens - Soho
@@ -181,7 +185,7 @@ const extraSemanticTokensByTheme = (themeName, fileName) => {
   semanticTokenContents += extractSection(json[7].Opacity.modes['Mode 1'].opacity, '--ids-opacity', 'Opacity', '', 1);
 
   semanticTokenContents += '}\r\n';
-  console.log(`tokens/theme-soho/${fileName} ${cnt} tokens`);
+  console.info(`tokens/theme-soho/${fileName} ${cnt} tokens`);
   fs.writeFileSync(`tokens/theme-soho/${fileName}`, semanticTokenContents);
 };
 
