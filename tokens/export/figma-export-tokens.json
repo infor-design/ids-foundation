@@ -7016,7 +7016,7 @@
             "width": {
               "none": {
                 "$scopes": [
-                  "ALL_SCOPES"
+                  "STROKE_FLOAT"
                 ],
                 "$type": "float",
                 "$libraryName": "",
@@ -7025,7 +7025,7 @@
               },
               "sm": {
                 "$scopes": [
-                  "ALL_SCOPES"
+                  "STROKE_FLOAT"
                 ],
                 "$type": "float",
                 "$libraryName": "",

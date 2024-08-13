@@ -10,13 +10,23 @@ fs.copyFileSync('release.json', `${distDir}/package.json`);
 // Tokens
 fs.mkdirSync(`${distDir}/theme-soho`);
 fs.mkdirSync(`${distDir}/theme-terrazzo`);
-fs.copyFileSync('tokens/theme-soho/core.scss', `${distDir}/theme-soho/core.scss`);
-fs.copyFileSync('tokens/theme-soho/theme-colors.scss', `${distDir}/theme-soho/theme-colors.scss`);
-fs.copyFileSync('tokens/theme-soho/semantic-contrast.scss', `${distDir}/theme-soho/semantic-contrast.scss`);
-fs.copyFileSync('tokens/theme-soho/semantic-dark.scss', `${distDir}/theme-soho/semantic-dark.scss`);
-fs.copyFileSync('tokens/theme-soho/semantic-light.scss', `${distDir}/theme-soho/semantic-light.scss`);
-fs.copyFileSync('tokens/theme-terrazzo/core.scss', `${distDir}/theme-terrazzo/core.scss`);
-fs.copyFileSync('tokens/theme-terrazzo/theme-colors.scss', `${distDir}/theme-terrazzo/theme-colors.scss`);
+fs.mkdirSync(`${distDir}/theme-soho/scss`);
+fs.mkdirSync(`${distDir}/theme-terrazzo/scss`);
+fs.mkdirSync(`${distDir}/theme-soho/css`);
+fs.mkdirSync(`${distDir}/theme-terrazzo/css`);
+fs.copyFileSync('tokens/theme-soho/scss/core.scss', `${distDir}/theme-soho/scss/core.scss`);
+fs.copyFileSync('tokens/theme-soho/scss/theme-colors.scss', `${distDir}/theme-soho/scss/theme-colors.scss`);
+fs.copyFileSync('tokens/theme-soho/scss/semantic-contrast.scss', `${distDir}/theme-soho/scss/semantic-contrast.scss`);
+fs.copyFileSync('tokens/theme-soho/scss/semantic-dark.scss', `${distDir}/theme-soho/scss/semantic-dark.scss`);
+fs.copyFileSync('tokens/theme-soho/scss/semantic-light.scss', `${distDir}/theme-soho/scss/semantic-light.scss`);
+fs.copyFileSync('tokens/theme-terrazzo/scss/core.scss', `${distDir}/theme-terrazzo/scss/core.scss`);
+fs.copyFileSync('tokens/theme-terrazzo/scss/theme-colors.scss', `${distDir}/theme-terrazzo/scss/theme-colors.scss`);
+fs.copyFileSync('tokens/theme-terrazzo/css/ids-theme-tokens-default-light.css', `${distDir}/theme-terrazzo/css/ids-theme-tokens-default-light.css`);
+fs.copyFileSync('tokens/theme-terrazzo/css/ids-theme-tokens-default-contrast.css', `${distDir}/theme-terrazzo/css/ids-theme-tokens-default-contrast.css`);
+fs.copyFileSync('tokens/theme-terrazzo/css/ids-theme-tokens-default-dark.css', `${distDir}/theme-terrazzo/css/ids-theme-tokens-default-dark.css`);
+fs.copyFileSync('tokens/theme-soho/css/ids-theme-tokens-default-light.css', `${distDir}/theme-soho/css/ids-theme-tokens-default-light.css`);
+fs.copyFileSync('tokens/theme-soho/css/ids-theme-tokens-default-contrast.css', `${distDir}/theme-soho/css/ids-theme-tokens-default-contrast.css`);
+fs.copyFileSync('tokens/theme-soho/css/ids-theme-tokens-default-dark.css', `${distDir}/theme-soho/css/ids-theme-tokens-default-dark.css`);
 
 // Icon Fonts
 fs.mkdirSync(`${distDir}/icon-fonts`);
