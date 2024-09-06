@@ -21,30 +21,6 @@ Tokens are categorized by the foundational style that’s applied.
 |**shadow**   |Defines box shadow properties like offsets, blur, and color |`shadow-error`| Future |
 |**motion**   |Defines animations during certain interaction states  |`motion-ease`| Future |
 
-### Mapped Components
-
-Only Atoms are mapped presently in the code and only for space, radius, and color.
-
-- Avatar (Images)
-- Buttons
-- Badge
-- Card
-- Checkbox
-- Image
-- Input
-- Stats
-- Link
-- Popup
-- Progress Indicator
-- Radios
-- Separator
-- Splitter
-- Tab
-- Tag
-- Text Area
-- Toast
-- Tooltip
-
 ### Using the Tokens
 
 #### Code
