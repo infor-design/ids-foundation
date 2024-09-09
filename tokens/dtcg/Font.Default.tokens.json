@@ -1,0 +1,74 @@
+{
+  "font": {
+    "size": {
+      "default": {
+        "$type": "dimension",
+        "$value": "{font.size.sm}"
+      },
+      "xxxs": {
+        "$type": "dimension",
+        "$value": "{font.size.10}"
+      },
+      "xxs": {
+        "$type": "dimension",
+        "$value": "{font.size.20}"
+      },
+      "xs": {
+        "$type": "dimension",
+        "$value": "{font.size.30}"
+      },
+      "sm": {
+        "$type": "dimension",
+        "$value": "{font.size.40}"
+      },
+      "md": {
+        "$type": "dimension",
+        "$value": "{font.size.50}"
+      },
+      "lg": {
+        "$type": "dimension",
+        "$value": "{font.size.60}"
+      },
+      "xl": {
+        "$type": "dimension",
+        "$value": "{font.size.70}"
+      },
+      "xxl": {
+        "$type": "dimension",
+        "$value": "{font.size.80}"
+      },
+      "xxxl": {
+        "$type": "dimension",
+        "$value": "{font.size.90}"
+      },
+      "xxxxl": {
+        "$type": "dimension",
+        "$value": "{font.size.100}"
+      },
+      "xxxxxl": {
+        "$type": "dimension",
+        "$value": "{font.size.110}"
+      },
+      "xxxxxxl": {
+        "$type": "dimension",
+        "$value": "{font.size.120}"
+      }
+    },
+    "family": {
+      "default": {
+        "$type": "string",
+        "$value": "{font.family.sans}"
+      }
+    },
+    "weight": {
+      "default": {
+        "$type": "string",
+        "$value": "{font.weight.regular}"
+      },
+      "strong": {
+        "$type": "string",
+        "$value": "{font.weight.semibold}"
+      }
+    }
+  }
+}

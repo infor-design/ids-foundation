@@ -1,0 +1,55 @@
+{
+  "color-background-ai": {
+    "-default": {
+      "$type": "gradient",
+      "$value": {
+        "type": "linear",
+        "angle": 146.13,
+        "stops": [
+          {
+            "color": "#254a92",
+            "position": 0.12
+          },
+          {
+            "color": "#10b7a6",
+            "position": 0.93
+          }
+        ]
+      }
+    },
+    "-hover": {
+      "$type": "gradient",
+      "$value": {
+        "type": "linear",
+        "angle": 146.13,
+        "stops": [
+          {
+            "color": "#1a3362",
+            "position": 0.12
+          },
+          {
+            "color": "#0b9789",
+            "position": 0.93
+          }
+        ]
+      }
+    },
+    "-active": {
+      "$type": "gradient",
+      "$value": {
+        "type": "linear",
+        "angle": 146.13,
+        "stops": [
+          {
+            "color": "#0b9789",
+            "position": 0
+          },
+          {
+            "color": "#1a3362",
+            "position": 1
+          }
+        ]
+      }
+    }
+  }
+}

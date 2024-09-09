@@ -1,0 +1,479 @@
+{
+  "transparent": {
+    "$type": "color",
+    "$value": "{color.black.00}",
+    "$description": "Transparent fill for any element."
+  },
+  "color": {
+    "background": {
+      "default": {
+        "$type": "color",
+        "$value": "{color.neutral.100}",
+        "$description": "Default background color for containers and surfaces."
+      },
+      "elevated": {
+        "$type": "color",
+        "$value": "{color.neutral.90}",
+        "$description": "Background color for containers and surfaces that sit on elements styled by color-background-default."
+      },
+      "dark": {
+        "$type": "color",
+        "$value": "{color.neutral.80}",
+        "$description": "Default background color for containers and surfaces that remain dark in all modes."
+      }
+    },
+    "foreground": {
+      "default": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.white.100}",
+          "$description": "Default text and icon color."
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{color.white.80}",
+          "$description": "Secondary text and icon color."
+        },
+        "tertiary": {
+          "$type": "color",
+          "$value": "{color.white.60}",
+          "$description": "Tertiary text and icon color."
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{color.white.40}",
+          "$description": "Disabled text and icon color."
+        }
+      },
+      "light": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.white.100}",
+          "$description": "Default text and icon color that remains light in all modes."
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{color.white.80}",
+          "$description": "Secondary text and icon color that remains light in all modes."
+        },
+        "tertiary": {
+          "$type": "color",
+          "$value": "{color.white.60}",
+          "$description": "Tertiary text and icon color that remains light in all modes."
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{color.white.40}",
+          "$description": "Disabled text and icon color that remains light in all modes."
+        }
+      },
+      "dark": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.black.100}",
+          "$description": "Default text and icon color that remains dark in all modes."
+        }
+      }
+    },
+    "border": {
+      "default": {
+        "$type": "color",
+        "$value": "{color.neutral.40}",
+        "$description": "Default border color."
+      },
+      "weaker": {
+        "$type": "color",
+        "$value": "{color.neutral.80}",
+        "$description": "Weaker border color."
+      },
+      "weak": {
+        "$type": "color",
+        "$value": "{color.neutral.60}",
+        "$description": "Weak border color."
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{color.white.100}",
+        "$description": "Strong border color."
+      },
+      "light": {
+        "$type": "color",
+        "$value": "{color.white.100}",
+        "$description": "Default border color that remains light in all modes."
+      }
+    },
+    "action": {
+      "weakest": {
+        "$type": "color",
+        "$value": "{color.blue.100}",
+        "$description": "Weakest interactive status color, used in buttons and links."
+      },
+      "weaker": {
+        "$type": "color",
+        "$value": "{color.blue.90}",
+        "$description": "Weaker interactive status color, used in buttons and links."
+      },
+      "default": {
+        "$type": "color",
+        "$value": "{color.blue.50}",
+        "$description": "Default interactive status color, used in buttons and links."
+      },
+      "stronger": {
+        "$type": "color",
+        "$value": "{color.blue.40}",
+        "$description": "Stronger interactive status color, used in buttons and links."
+      },
+      "strongest": {
+        "$type": "color",
+        "$value": "{color.blue.20}",
+        "$description": "Strongest interactive status color, used in links."
+      }
+    },
+    "success": {
+      "weak": {
+        "$type": "color",
+        "$value": "{color.green.100}",
+        "$description": "Weak success status color."
+      },
+      "default": {
+        "$type": "color",
+        "$value": "{color.green.50}",
+        "$description": "Default success status color."
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{color.green.40}",
+        "$description": "Strong success status color."
+      },
+      "stronger": {
+        "$type": "color",
+        "$value": "{color.green.10}",
+        "$description": "Stronger success status color."
+      }
+    },
+    "caution": {
+      "weak": {
+        "$type": "color",
+        "$value": "{color.yellow.100}",
+        "$description": "Weak caution status color."
+      },
+      "default": {
+        "$type": "color",
+        "$value": "{color.yellow.50}",
+        "$description": "Default caution status color."
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{color.yellow.40}",
+        "$description": "Strong caution status color."
+      },
+      "stronger": {
+        "$type": "color",
+        "$value": "{color.yellow.10}",
+        "$description": "Stronger caution status color."
+      }
+    },
+    "warning": {
+      "weak": {
+        "$type": "color",
+        "$value": "{color.orange.100}",
+        "$description": "Weak warning status color."
+      },
+      "default": {
+        "$type": "color",
+        "$value": "{color.orange.50}",
+        "$description": "Default warning status color."
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{color.orange.40}",
+        "$description": "Strong warning status color."
+      },
+      "stronger": {
+        "$type": "color",
+        "$value": "{color.orange.10}",
+        "$description": "Stronger warning status color."
+      }
+    },
+    "error": {
+      "weak": {
+        "$type": "color",
+        "$value": "{color.red.100}",
+        "$description": "Weak error status color."
+      },
+      "default": {
+        "$type": "color",
+        "$value": "{color.red.50}",
+        "$description": "Default error status color."
+      },
+      "stronger": {
+        "$type": "color",
+        "$value": "{color.red.40}",
+        "$description": "Stronger error status color."
+      },
+      "strongest": {
+        "$type": "color",
+        "$value": "{color.red.10}",
+        "$description": "Strongest error status color."
+      }
+    },
+    "info": {
+      "weak": {
+        "$type": "color",
+        "$value": "{color.blue.100}",
+        "$description": "Weak informational status color."
+      },
+      "default": {
+        "$type": "color",
+        "$value": "{color.blue.50}",
+        "$description": "Default informational status color."
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{color.blue.40}",
+        "$description": "Strong informational status color."
+      },
+      "stronger": {
+        "$type": "color",
+        "$value": "{color.blue.10}",
+        "$description": "Stronger informational status color."
+      }
+    },
+    "theme": {
+      "weakest": {
+        "$type": "color",
+        "$value": "{color.theme.10}"
+      },
+      "weaker": {
+        "$type": "color",
+        "$value": "{color.theme.40}"
+      },
+      "strong": {
+        "$type": "color",
+        "$value": "{color.theme.50}"
+      },
+      "stronger": {
+        "$type": "color",
+        "$value": "{color.theme.30}"
+      },
+      "strongest": {
+        "$type": "color",
+        "$value": "{color.theme.10}"
+      }
+    },
+    "accent": {
+      "neutral": {
+        "weakest": {
+          "$type": "color",
+          "$value": "{color.neutral.90}"
+        },
+        "weaker": {
+          "$type": "color",
+          "$value": "{color.neutral.80}"
+        },
+        "weak": {
+          "$type": "color",
+          "$value": "{color.neutral.60}"
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{color.neutral.50}"
+        },
+        "strong": {
+          "$type": "color",
+          "$value": "{color.neutral.40}"
+        },
+        "stronger": {
+          "$type": "color",
+          "$value": "{color.neutral.20}"
+        },
+        "strongest": {
+          "$type": "color",
+          "$value": "{color.neutral.10}"
+        }
+      },
+      "blue": {
+        "weakest": {
+          "$type": "color",
+          "$value": "{color.blue.100}"
+        },
+        "weaker": {
+          "$type": "color",
+          "$value": "{color.blue.90}"
+        },
+        "weak": {
+          "$type": "color",
+          "$value": "{color.blue.70}"
+        },
+        "strong": {
+          "$type": "color",
+          "$value": "{color.blue.50}"
+        },
+        "stronger": {
+          "$type": "color",
+          "$value": "{color.blue.30}"
+        },
+        "strongest": {
+          "$type": "color",
+          "$value": "{color.blue.10}"
+        }
+      },
+      "green": {
+        "weakest": {
+          "$type": "color",
+          "$value": "{color.green.100}"
+        },
+        "weaker": {
+          "$type": "color",
+          "$value": "{color.green.90}"
+        },
+        "weak": {
+          "$type": "color",
+          "$value": "{color.green.70}"
+        },
+        "strong": {
+          "$type": "color",
+          "$value": "{color.green.50}"
+        },
+        "stronger": {
+          "$type": "color",
+          "$value": "{color.green.30}"
+        },
+        "strongest": {
+          "$type": "color",
+          "$value": "{color.green.10}"
+        }
+      },
+      "orange": {
+        "weakest": {
+          "$type": "color",
+          "$value": "{color.orange.100}"
+        },
+        "weaker": {
+          "$type": "color",
+          "$value": "{color.orange.90}"
+        },
+        "weak": {
+          "$type": "color",
+          "$value": "{color.orange.70}"
+        },
+        "strong": {
+          "$type": "color",
+          "$value": "{color.orange.50}"
+        },
+        "stronger": {
+          "$type": "color",
+          "$value": "{color.orange.30}"
+        },
+        "strongest": {
+          "$type": "color",
+          "$value": "{color.orange.10}"
+        }
+      },
+      "purple": {
+        "weakest": {
+          "$type": "color",
+          "$value": "{color.purple.100}"
+        },
+        "weaker": {
+          "$type": "color",
+          "$value": "{color.purple.90}"
+        },
+        "weak": {
+          "$type": "color",
+          "$value": "{color.purple.70}"
+        },
+        "strong": {
+          "$type": "color",
+          "$value": "{color.purple.60}"
+        },
+        "stronger": {
+          "$type": "color",
+          "$value": "{color.purple.30}"
+        },
+        "strongest": {
+          "$type": "color",
+          "$value": "{color.purple.10}"
+        }
+      },
+      "red": {
+        "weakest": {
+          "$type": "color",
+          "$value": "{color.red.100}"
+        },
+        "weaker": {
+          "$type": "color",
+          "$value": "{color.red.90}"
+        },
+        "weak": {
+          "$type": "color",
+          "$value": "{color.red.70}"
+        },
+        "strong": {
+          "$type": "color",
+          "$value": "{color.red.60}"
+        },
+        "stronger": {
+          "$type": "color",
+          "$value": "{color.red.30}"
+        },
+        "strongest": {
+          "$type": "color",
+          "$value": "{color.red.10}"
+        }
+      },
+      "teal": {
+        "weakest": {
+          "$type": "color",
+          "$value": "{color.teal.100}"
+        },
+        "weaker": {
+          "$type": "color",
+          "$value": "{color.teal.90}"
+        },
+        "weak": {
+          "$type": "color",
+          "$value": "{color.teal.70}"
+        },
+        "strong": {
+          "$type": "color",
+          "$value": "{color.teal.40}"
+        },
+        "stronger": {
+          "$type": "color",
+          "$value": "{color.teal.30}"
+        },
+        "strongest": {
+          "$type": "color",
+          "$value": "{color.teal.10}"
+        }
+      },
+      "yellow": {
+        "weakest": {
+          "$type": "color",
+          "$value": "{color.yellow.100}"
+        },
+        "weaker": {
+          "$type": "color",
+          "$value": "{color.yellow.90}"
+        },
+        "weak": {
+          "$type": "color",
+          "$value": "{color.yellow.70}"
+        },
+        "strong": {
+          "$type": "color",
+          "$value": "{color.yellow.50}"
+        },
+        "stronger": {
+          "$type": "color",
+          "$value": "{color.yellow.30}"
+        },
+        "strongest": {
+          "$type": "color",
+          "$value": "{color.yellow.10}"
+        }
+      }
+    }
+  }
+}

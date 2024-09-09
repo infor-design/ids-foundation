@@ -1,0 +1,52 @@
+{
+  "space": {
+    "none": {
+      "$type": "dimension",
+      "$value": "{space.00}"
+    },
+    "xxxxs": {
+      "$type": "dimension",
+      "$value": "{space.01}"
+    },
+    "xxxs": {
+      "$type": "dimension",
+      "$value": "{space.02}"
+    },
+    "xxs": {
+      "$type": "dimension",
+      "$value": "{space.04}"
+    },
+    "xs": {
+      "$type": "dimension",
+      "$value": "{space.08}"
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": "{space.16}"
+    },
+    "md": {
+      "$type": "dimension",
+      "$value": "{space.24}"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "{space.32}"
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "{space.40}"
+    },
+    "xxl": {
+      "$type": "dimension",
+      "$value": "{space.48}"
+    },
+    "xxxl": {
+      "$type": "dimension",
+      "$value": "{space.56}"
+    },
+    "xxxxl": {
+      "$type": "dimension",
+      "$value": "{space.72}"
+    }
+  }
+}

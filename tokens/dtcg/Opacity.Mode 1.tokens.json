@@ -1,0 +1,8 @@
+{
+  "opacity": {
+    "disabled": {
+      "$type": "dimension",
+      "$value": "{opacity.40}"
+    }
+  }
+}

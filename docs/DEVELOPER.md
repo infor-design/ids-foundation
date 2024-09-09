@@ -11,6 +11,7 @@
 7. Select all text and format the JSON
 8. Run `node scripts/generate-tokens.mjs` and use output
 9. Look at the designs at https://www.figma.com/design/vZbJ659UdOMYr7pm86qT0r/Tokenizing-Soho-components?node-id=7563-988&m=dev#821025933 and map the tokens to the css as defined in the designs
+10. Go to https://www.figma.com/community/plugin/1263743870981744253/design-tokens-manager and click "Open In" and then "Ids Design Tokens". Click "Run", then "Download". Copy contents to tokens/dtcg. Note: Later will use just this export as the source.
 
 ## Designs with Tokens
 

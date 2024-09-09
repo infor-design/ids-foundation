@@ -1,0 +1,90 @@
+{
+  "name": "Design Tokens",
+  "collections": {
+    "Color": {
+      "modes": {
+        "Light": [
+          "Color.Light.tokens.json"
+        ],
+        "Dark": [
+          "Color.Dark.tokens.json"
+        ],
+        "High Contrast": [
+          "Color.High Contrast.tokens.json"
+        ]
+      }
+    },
+    "Theme": {
+      "modes": {
+        "Default": [
+          "Theme.Default.tokens.json"
+        ],
+        "IndustryA": [
+          "Theme.IndustryA.tokens.json"
+        ],
+        "IndustryB": [
+          "Theme.IndustryB.tokens.json"
+        ]
+      }
+    },
+    "Core": {
+      "modes": {
+        "SoHo": [
+          "Core.SoHo.tokens.json"
+        ],
+        "Terrazzo": [
+          "Core.Terrazzo.tokens.json"
+        ]
+      }
+    },
+    "Data viz": {
+      "modes": {
+        "Light": [
+          "Data viz.Light.tokens.json"
+        ],
+        "Dark": [
+          "Data viz.Dark.tokens.json"
+        ],
+        "High Contrast": [
+          "Data viz.High Contrast.tokens.json"
+        ]
+      }
+    },
+    "Space": {
+      "modes": {
+        "Value": [
+          "Space.Value.tokens.json"
+        ]
+      }
+    },
+    "Border": {
+      "modes": {
+        "Value": [
+          "Border.Value.tokens.json"
+        ]
+      }
+    },
+    "Font": {
+      "modes": {
+        "Default": [
+          "Font.Default.tokens.json"
+        ]
+      }
+    },
+    "Opacity": {
+      "modes": {
+        "Mode 1": [
+          "Opacity.Mode 1.tokens.json"
+        ]
+      }
+    }
+  },
+  "styles": {
+    "text": [
+      "text.styles.tokens.json"
+    ],
+    "color": [
+      "color.styles.tokens.json"
+    ]
+  }
+}
