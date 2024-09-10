@@ -176,14 +176,14 @@ const extraSemanticTokensByTheme = (themeName, themeRoot, fileName, coreTokens) 
   semanticTokenContents += extractSection(json[0].Color.modes[themeName].color.transparent, '--ids-color-transparent', '', '', 1);
 
   semanticTokenContents += '  // Chart Colors\r\n';
-  semanticTokenContents += extractSection(json[3]['Data viz'].modes[themeName].color['dataviz'].accent, '--ids-dataviz-color-accent', '', '', 2);
-  semanticTokenContents += extractSection(json[3]['Data viz'].modes[themeName].color['dataviz'].default, '--ids-dataviz-color-default', '', '', 1);
-  semanticTokenContents += extractSection(json[3]['Data viz'].modes[themeName].color['dataviz'].density, '--ids-dataviz-color-density', '', '', 1);
-  semanticTokenContents += extractSection(json[3]['Data viz'].modes[themeName].color['dataviz'].negative, '--ids-dataviz-color-negative', '', '', 1);
-  semanticTokenContents += extractSection(json[3]['Data viz'].modes[themeName].color['dataviz'].neutral, '--ids-dataviz-color-neutral', '', '', 1);
-  semanticTokenContents += extractSection(json[3]['Data viz'].modes[themeName].color['dataviz'].positive, '--ids-dataviz-color-positive', '', '', 1);
-  semanticTokenContents += extractSection(json[3]['Data viz'].modes[themeName].color['dataviz'].secondary, '--ids-dataviz-color-secondary', '', '', 1);
-  semanticTokenContents += extractSection(json[3]['Data viz'].modes[themeName].color['dataviz'].sequential, '--ids-dataviz-color-sequential', '', '', 1);
+  semanticTokenContents += extractSection(json[3]['Data viz'].modes[themeName].color['dataviz'].accent, '--ids-color-dataviz-accent', '', '', 2);
+  semanticTokenContents += extractSection(json[3]['Data viz'].modes[themeName].color['dataviz'].default, '--ids-color-dataviz-default', '', '', 1);
+  semanticTokenContents += extractSection(json[3]['Data viz'].modes[themeName].color['dataviz'].density, '--ids-color-dataviz-density', '', '', 1);
+  semanticTokenContents += extractSection(json[3]['Data viz'].modes[themeName].color['dataviz'].negative, '--ids-color-dataviz-negative', '', '', 1);
+  semanticTokenContents += extractSection(json[3]['Data viz'].modes[themeName].color['dataviz'].neutral, '--ids-color-dataviz-neutral', '', '', 1);
+  semanticTokenContents += extractSection(json[3]['Data viz'].modes[themeName].color['dataviz'].positive, '--ids-color-dataviz-positive', '', '', 1);
+  semanticTokenContents += extractSection(json[3]['Data viz'].modes[themeName].color['dataviz'].secondary, '--ids-color-dataviz-secondary', '', '', 1);
+  semanticTokenContents += extractSection(json[3]['Data viz'].modes[themeName].color['dataviz'].sequential, '--ids-color-dataviz-sequential', '', '', 1);
 
   // Border and Space
   semanticTokenContents += extractSection(json[4].Space.modes.Value.space, '--ids-space', 'Space', '', 1);
