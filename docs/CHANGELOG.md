@@ -1,5 +1,9 @@
 # What's New with Ids Foundations
 
+## v1.2.0
+
+- `[Icons]` Added new icon export dump with several new icons like `user-remove`. ([#4814](https://inforwiki.atlassian.net/browse/IDS-4814)
+
 ## v1.1.1
 
 - `[Tokens]` Added export in DTCG format with descriptions. Later this will be the primary export. For now its for testing and getting the values out of JSON. Note that it includes descriptions. ([4461](https://inforwiki.atlassian.net/browse/IDS-4461))
