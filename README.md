@@ -1,5 +1,8 @@
 # Overview
 
+> [!IMPORTANT]
+> This repo has been moved to [Oxford/Gitlab](https://oxford.awsdev.infor.com/infor-design/ids-foundation)
+
 Contains base tokens, semantic tokens, font files and foundational assets for IDS.
 
 ## Design Tokens
