@@ -1,6 +1,6 @@
 # Using Source Sans Pro for Infor Design System
 
-To read more about how to use Source Sans in IDS, see our [typography page](https://github.com/infor-design/enterprise/blob/main/src/components/typography/readme.md).
+To read more about how to use Source Sans in IDS, see our [typography page](https://oxford.awsdev.infor.com/infor-design/enterprise/-/blob/main/src/components/typography/readme.md?ref_type=heads).
 
 ## Source Sans Pro
 
@@ -16,7 +16,7 @@ c) because some countries google links may be banned
 
 For this reason we recommend you serve the files with your application. All the needed fonts can be found in this folder
 
-1. Serve all the `woff2` files in a folder on the server thats available to the app. These fonts can use caching if possible. Note that there are a lot of files because Source Sans is not available in some languages so alternatives are used as noted on [this page](https://github.com/infor-design/enterprise/blob/main/src/components/typography/_typography-new.scss#L6)
+1. Serve all the `woff2` files in a folder on the server thats available to the app. These fonts can use caching if possible. Note that there are a lot of files because Source Sans is not available in some languages so alternatives are used as noted on [this page](https://oxford.awsdev.infor.com/infor-design/enterprise/-/blob/main/src/components/typography/_typography-new.scss?ref_type=heads#L6)
 
 1. The OFL.txt is the license
 1. The README.md is this file
